@@ -3,13 +3,13 @@
 export async function scanPage(browser, url, { wait = 2500, scroll = true } = {}) {
   const ctx = await browser.newContext({ locale: "sl-SI" });
   const page = await ctx.newPage();
-  const jsons = [], rscs = [];
+  const jsons = [], rscs = [], meta = [];
   page.on("response", async (r) => {
     try {
       if (!r.ok()) return;
       const ct = r.headers()["content-type"] || "";
-      if (ct.includes("json")) jsons.push(await r.json());
-      else if (ct.includes("text/x-component")) rscs.push(await r.text());
+      if (ct.includes("json")) { const t = await r.text(); meta.push({ url: r.url().slice(0, 200), ct: "json", size: t.length, head: t.slice(0, 350) }); jsons.push(JSON.parse(t)); }
+      else if (ct.includes("text/x-component")) { const t = await r.text(); meta.push({ url: r.url().slice(0, 200), ct: "rsc", size: t.length, head: t.slice(0, 350) }); rscs.push(t); }
     } catch {}
   });
   try {
@@ -22,6 +22,6 @@ export async function scanPage(browser, url, { wait = 2500, scroll = true } = {}
     const html = await page.content();
     const text = await page.evaluate(() => document.body.innerText);
     const shot = await page.screenshot();
-    return { url, status, html, text, jsons, rscs, shot };
+    return { url, status, html, text, jsons, rscs, meta: meta.slice(0, 20), shot };
   } finally { await ctx.close(); }
 }

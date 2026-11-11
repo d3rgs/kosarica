@@ -42,12 +42,13 @@ jobs:
           path: scraper/debug
           if-no-files-found: ignore
       - name: Shrani podatke
-        if: github.event.inputs.mode != 'probe'
         run: |
+          mkdir -p data/debug
+          [ -f scraper/debug/probe-report.json ] && cp scraper/debug/probe-report.json data/debug/probe-report.json || true
           git config user.name "kosarica-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data
-          git diff --staged --quiet || (git commit -m "Osvežitev cen $(date -u +%F)" && git push)
+          git diff --staged --quiet || (git commit -m "Osvežitev podatkov $(date -u +%F)" && git push)
   deploy:
     needs: collect
     if: ${{ always() && needs.collect.result != 'failure' && needs.collect.result != 'cancelled' }}

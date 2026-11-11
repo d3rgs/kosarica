@@ -1,4 +1,5 @@
 import { toNum, parsePack } from "./normalize.mjs";
+import { cleanName } from "./clean.mjs";
 const pick = (o, keys) => { for (const k of keys) { const v = o[k]; if (v !== undefined && v !== null && v !== "") return v; } };
 const num = (v) => { if (v && typeof v === "object") v = pick(v, ["value", "amount", "current", "regular", "min", "gross"]); return toNum(v); };
 export function walk(x, cb, d = 0) {
@@ -58,7 +59,9 @@ export function fromRsc(text) {
   }
   return out;
 }
-// Hevristika za strežniško izrisane strani: ime, količina in cena v zaporednih vrsticah.
+// Hevristika za strani, ki ime, količino in ceno izrišejo v zaporednih vrsticah. Vrstice vmesnika (Dodaj, Razvrsti po ...) preskoči.
+const PRICE_ONLY = /^\d{1,4}[.,]\d{2}\s?€$/;
+const isPackLine = (s) => /^[\d(]/.test(s) && s.length < 40 && (parsePack(s) || /€\s?\/|eur\//i.test(s));
 export function fromText(text) {
   const L = String(text).split("\n").map((s) => s.trim()).filter(Boolean), out = [];
   for (let i = 0; i < L.length; i++) {
@@ -67,12 +70,12 @@ export function fromText(text) {
     let pack = null; const names = [];
     for (let j = i - 1; j >= Math.max(0, i - 6) && names.length < 2; j--) {
       const s = L[j];
-      if (/^\d{1,4}[.,]\d{2}\s?€$/.test(s)) break;
-      if (!pack && /€/.test(s) && parsePack(s)) { pack = parsePack(s); continue; }
-      if (!pack && s.length < 30 && parsePack(s)) { pack = parsePack(s); continue; }
-      if (/[A-Za-zČŠŽčšž]{3}/.test(s) && !/€/.test(s)) names.unshift(s);
+      if (PRICE_ONLY.test(s)) break;
+      if (isPackLine(s)) { if (!pack) pack = parsePack(s); continue; }
+      const c = cleanName(s);
+      if (c && /[A-Za-zČŠŽčšž]{3}/.test(c) && !/€/.test(c)) names.unshift(c);
     }
-    if (names.length) out.push({ name: names.join(" "), price: parseFloat(m[1].replace(",", ".")), packText: pack ? `${pack.amount} ${pack.unit}` : undefined });
+    if (names.length) out.push({ name: names.join(" "), price: parseFloat(m[1].replace(",", ".")), packText: pack ? pack.label : undefined });
   }
   return out;
 }
@@ -84,5 +87,6 @@ export function harvestAll({ html = "", text = "", jsons = [], rscs = [] }) {
     ...fromText(text).map((x) => ({ ...x, via: "text" })),
   ];
   const seen = new Set();
-  return all.filter((x) => { const k = (x.ean || x.sku || x.name.toLowerCase()) + "|" + x.price; if (seen.has(k)) return false; seen.add(k); return true; });
+  all.forEach((x) => { x.name = cleanName(x.name); });
+  return all.filter((x) => x.name).filter((x) => { const k = (x.ean || x.sku || x.name.toLowerCase()) + "|" + x.price; if (seen.has(k)) return false; seen.add(k); return true; });
 }

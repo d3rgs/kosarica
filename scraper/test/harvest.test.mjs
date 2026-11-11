@@ -18,6 +18,11 @@ test("besedilo (hevristika, fixture je ocena oblike)", () => {
   assert.equal(r.length, 2); assert.equal(r[0].price, 4.99); assert.match(r[0].name, /mleto meso/); assert.equal(r[0].packText, "500 g");
   assert.equal(r[1].price, 0.79);
 });
+test("besedilo: vrstice vmesnika in imena s količino se ne zamenjajo s pakiranjem", () => {
+  const t = 'Rezultati za "banane"\nRazvrsti po:\nDodaj BIO BANANE, TEHTANO, ENOTA 500G\n0,95 €\nNi na voljo MLETO MESO MEŠANO, OBLAK, 1KG\n9,99 €\n';
+  const r = fromText(t);
+  assert.equal(r.length, 2); assert.equal(r[0].name, "BIO BANANE, TEHTANO, ENOTA 500G"); assert.equal(r[0].price, 0.95); assert.equal(r[1].name, "MLETO MESO MEŠANO, OBLAK, 1KG");
+});
 test("podvojeni zapisi", () => {
   assert.equal(harvestAll({ jsons: [{ a: [{ name: "Test izdelek", price: 1 }, { name: "Test izdelek", price: 1 }] }] }).length, 1);
 });
