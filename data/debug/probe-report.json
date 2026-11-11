@@ -1,0 +1,858 @@
+[
+ {
+  "store": "Hofer",
+  "url": "https://www.hofer.si/izdelki/mleko-mlecni-izdelki-in-jajca/k/1588161418378170",
+  "status": 200,
+  "jsonResponses": 8,
+  "rscResponses": 0,
+  "jsonLd": 0,
+  "candidates": 112,
+  "matched": 0,
+  "sample": [],
+  "textHead": "Preskočite na vsebino\nTrenutna trgovina:\n1230, Domžale\nPomoč in kontakt\nHoT HOFER telekom\n\n(odpre se v novem zavihku)\n\nIskanje\nHOFER trgovine\nAktualni letaki\nMoj seznam\nAktualni letaki\nHOFER trgovine\nPosebna ponudba\nAktualni letaki\nIzbrani izdelki po kategorijah\nAktualni projekti\nStoritve\nTrajnost\nDomov\nMleko, mlečni izdelki in jajca\nMleko, mlečni izdelki in jajca\n\n56 Rezultati\n\nRazvrsti in filtriraj\nTO NI AKCIJA\n\nMILSANI\n\nTopljeni sir\n\n400 g\n\n(6,00 €/1 kg)\n\n2,40 €\nTO NI AKCIJA\n\nMILSANI\n\nIrsko maslo\n\n250 g\n\n(7,56 €/1 kg)\n\n1,89 €\nTO NI AKCIJA\n\nMILSANI\n\nSir gavda\n\n450 g\n\n(6,24 €/1 kg)\n\n2,81 €\nTO",
+  "responses": [
+   {
+    "url": "https://cdn.cookielaw.org/consent/2d294fd7-1229-44e1-8287-6ff2efa37d36/2d294fd7-1229-44e1-8287-6ff2efa37d36.json",
+    "ct": "json",
+    "size": 4607,
+    "head": "{\"CookieSPAEnabled\":false,\"CookieSameSiteNoneEnabled\":true,\"CookieV2CSPEnabled\":false,\"MultiVariantTestingEnabled\":false,\"UseV2\":true,\"MobileSDK\":false,\"SkipGeolocation\":true,\"ScriptType\":\"PRODUCTION\",\"Version\":\"202508.1.0\",\"OptanonDataJSON\":\"2d294fd7-1229-44e1-8287-6ff2efa37d36\",\"GeolocationUrl\":\"https://geolocation.onetrust.com/cookieconsentpub/v"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/consent/2d294fd7-1229-44e1-8287-6ff2efa37d36/019a5de1-b90f-701d-a5ac-630b2a0cf35f/sl.json",
+    "ct": "json",
+    "size": 110712,
+    "head": "{\"DomainData\":{\"pclifeSpanYr\":\"leto\",\"pclifeSpanYrs\":\"Let\",\"pclifeSpanSecs\":\"Nekaj sekund\",\"pclifeSpanWk\":\"teden\",\"pclifeSpanWks\":\"Tednov\",\"pccontinueWithoutAcceptText\":\"Nadaljuj brez sprejemanja\",\"pccloseButtonType\":\"Icon\",\"MainText\":\"Nastavitve\",\"MainInfoText\":\"<p>Na spletni strain podjetja HOFER obdelujemo vaše osebne podatke z uporabo piškotkov"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202508.1.0/assets/otCenterRounded.json",
+    "ct": "json",
+    "size": 10557,
+    "head": "\n            {\n                \"name\": \"otCenterRounded\",\n                \"html\": \"PGRpdiBpZD0ib25ldHJ1c3QtYmFubmVyLXNkayIgY2xhc3M9Im90Q2VudGVyUm91bmRlZCI+PGRpdiBjbGFzcz0ib3Qtc2RrLWNvbnRhaW5lciIgcm9sZT0iZGlhbG9nIj48ZGl2IGNsYXNzPSJvdC1zZGstcm93Ij48ZGl2IGlkPSJvbmV0cnVzdC1ncm91cC1jb250YWluZXIiIGNsYXNzPSJvdC1zZGstdHdlbHZlIG90LXNkay1jb2x1bW5zIj48ZGl2IGl"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202508.1.0/assets/v2/otPcCenter.json",
+    "ct": "json",
+    "size": 66689,
+    "head": "\n        {\n            \"name\": \"otPcCenter\",\n            \"html\": \"PGRpdiBpZD0ib25ldHJ1c3QtcGMtc2RrIiBjbGFzcz0ib3RQY0NlbnRlciBvdC1oaWRlIG90LWZhZGUtaW4iPjxkaXYgcm9sZT0iZGlhbG9nIiBhcmlhLW1vZGFsPSJ0cnVlIj48IS0tIENsb3NlIEJ1dHRvbiAtLT48ZGl2IGNsYXNzPSJvdC1wYy1oZWFkZXIiPjwhLS0gTG9nbyBUYWcgLS0+PGRpdiBjbGFzcz0ib3QtcGMtbG9nbyIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJD"
+   },
+   {
+    "url": "https://www.hofer.si/_i18n/e2e1039c/sl/messages.json",
+    "ct": "json",
+    "size": 9,
+    "head": "{\"sl\":{}}"
+   },
+   {
+    "url": "https://asl.api.hofer.si/commerce/v2/product-category-tree?serviceType=walk-in&servicePoint=I032",
+    "ct": "json",
+    "size": 7098,
+    "head": "{\"data\":[{\"key\":\"1588161418378360\",\"order\":48,\"thumbnail\":null,\"name\":\"Vse spu\\u0161\\u010dene cene\",\"urlSlugText\":\"vse-spuscene-cene\",\"urlSlugTextAlternatives\":{\"sl-SI\":\"vse-spuscene-cene\"},\"children\":[]},{\"key\":\"1588161418378530\",\"order\":47,\"thumbnail\":null,\"name\":\"Pregled posebne ponudbe\",\"urlSlugText\":\"pregled-posebne-ponudbe\",\"urlSlugTextAltern"
+   },
+   {
+    "url": "https://www.hofer.si/_nuxt/builds/meta/7bec1efd-36ba-4213-b648-88b18b12ca5f.json",
+    "ct": "json",
+    "size": 88,
+    "head": "{\"id\":\"7bec1efd-36ba-4213-b648-88b18b12ca5f\",\"timestamp\":1793627672011,\"prerendered\":[]}"
+   },
+   {
+    "url": "https://asl.api.hofer.si/commerce/v3/product-search?currency=EUR&serviceType=walk-in&categoryKey=1588161418378170&limit=60&offset=0&sort=relevance&servicePoint=I032",
+    "ct": "json",
+    "size": 88226,
+    "head": "{\"meta\":{\"spellingSuggestion\":null,\"pinned\":[],\"keywordRedirect\":null,\"pagination\":{\"offset\":0,\"limit\":60,\"totalCount\":56},\"debug\":null,\"facets\":[{\"name\":\"category-tree\",\"localizedName\":\"Kategorija\",\"docCount\":56,\"activeValue\":[],\"config\":{\"parameterName\":\"categoryTree\",\"type\":\"value\",\"isMultiValue\":true,\"componentName\":\"category-tree\",\"component\":"
+   }
+  ]
+ },
+ {
+  "store": "Hofer",
+  "url": "https://www.hofer.si/izdelki/meso-mesni-izdelki-in-ribe/k/1588161418378160",
+  "status": 200,
+  "jsonResponses": 8,
+  "rscResponses": 0,
+  "jsonLd": 0,
+  "candidates": 46,
+  "matched": 1,
+  "sample": [
+   "Goveje mleto meso: OKUS PODEŽELJA Sveže goveje mleto meso 1 kg 4.99 €"
+  ],
+  "textHead": "Preskočite na vsebino\nTrenutna trgovina:\n1230, Domžale\nPomoč in kontakt\nHoT HOFER telekom\n\n(odpre se v novem zavihku)\n\nIskanje\nHOFER trgovine\nAktualni letaki\nMoj seznam\nAktualni letaki\nHOFER trgovine\nPosebna ponudba\nAktualni letaki\nIzbrani izdelki po kategorijah\nAktualni projekti\nStoritve\nTrajnost\nDomov\nMeso, mesni izdelki in ribe\nMeso, mesni izdelki in ribe\n\n23 Rezultati\n\nRazvrsti in filtriraj\nna voljo od 9. 11. 2026\n\nGOLDEN SEAFOOD\n\nKuhane bele tigraste kozice\n\n500 g\n\n(12,44 €/1 kg)\n\n6,22 €\n\nIL TAGLIERE DEL RE\n\nPršut z manj maščobe\n\n100 g\n\n(19,30 €/1 kg)\n\n1,93 €\nTO NI AKCIJA\n\nPiščančje prsi\n",
+  "responses": [
+   {
+    "url": "https://cdn.cookielaw.org/consent/2d294fd7-1229-44e1-8287-6ff2efa37d36/2d294fd7-1229-44e1-8287-6ff2efa37d36.json",
+    "ct": "json",
+    "size": 4607,
+    "head": "{\"CookieSPAEnabled\":false,\"CookieSameSiteNoneEnabled\":true,\"CookieV2CSPEnabled\":false,\"MultiVariantTestingEnabled\":false,\"UseV2\":true,\"MobileSDK\":false,\"SkipGeolocation\":true,\"ScriptType\":\"PRODUCTION\",\"Version\":\"202508.1.0\",\"OptanonDataJSON\":\"2d294fd7-1229-44e1-8287-6ff2efa37d36\",\"GeolocationUrl\":\"https://geolocation.onetrust.com/cookieconsentpub/v"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/consent/2d294fd7-1229-44e1-8287-6ff2efa37d36/019a5de1-b90f-701d-a5ac-630b2a0cf35f/sl.json",
+    "ct": "json",
+    "size": 110712,
+    "head": "{\"DomainData\":{\"pclifeSpanYr\":\"leto\",\"pclifeSpanYrs\":\"Let\",\"pclifeSpanSecs\":\"Nekaj sekund\",\"pclifeSpanWk\":\"teden\",\"pclifeSpanWks\":\"Tednov\",\"pccontinueWithoutAcceptText\":\"Nadaljuj brez sprejemanja\",\"pccloseButtonType\":\"Icon\",\"MainText\":\"Nastavitve\",\"MainInfoText\":\"<p>Na spletni strain podjetja HOFER obdelujemo vaše osebne podatke z uporabo piškotkov"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202508.1.0/assets/v2/otPcCenter.json",
+    "ct": "json",
+    "size": 66689,
+    "head": "\n        {\n            \"name\": \"otPcCenter\",\n            \"html\": \"PGRpdiBpZD0ib25ldHJ1c3QtcGMtc2RrIiBjbGFzcz0ib3RQY0NlbnRlciBvdC1oaWRlIG90LWZhZGUtaW4iPjxkaXYgcm9sZT0iZGlhbG9nIiBhcmlhLW1vZGFsPSJ0cnVlIj48IS0tIENsb3NlIEJ1dHRvbiAtLT48ZGl2IGNsYXNzPSJvdC1wYy1oZWFkZXIiPjwhLS0gTG9nbyBUYWcgLS0+PGRpdiBjbGFzcz0ib3QtcGMtbG9nbyIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJD"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202508.1.0/assets/otCenterRounded.json",
+    "ct": "json",
+    "size": 10557,
+    "head": "\n            {\n                \"name\": \"otCenterRounded\",\n                \"html\": \"PGRpdiBpZD0ib25ldHJ1c3QtYmFubmVyLXNkayIgY2xhc3M9Im90Q2VudGVyUm91bmRlZCI+PGRpdiBjbGFzcz0ib3Qtc2RrLWNvbnRhaW5lciIgcm9sZT0iZGlhbG9nIj48ZGl2IGNsYXNzPSJvdC1zZGstcm93Ij48ZGl2IGlkPSJvbmV0cnVzdC1ncm91cC1jb250YWluZXIiIGNsYXNzPSJvdC1zZGstdHdlbHZlIG90LXNkay1jb2x1bW5zIj48ZGl2IGl"
+   },
+   {
+    "url": "https://www.hofer.si/_i18n/e2e1039c/sl/messages.json",
+    "ct": "json",
+    "size": 9,
+    "head": "{\"sl\":{}}"
+   },
+   {
+    "url": "https://asl.api.hofer.si/commerce/v2/product-category-tree?serviceType=walk-in&servicePoint=I032",
+    "ct": "json",
+    "size": 7098,
+    "head": "{\"data\":[{\"key\":\"1588161418378360\",\"order\":48,\"thumbnail\":null,\"name\":\"Vse spu\\u0161\\u010dene cene\",\"urlSlugText\":\"vse-spuscene-cene\",\"urlSlugTextAlternatives\":{\"sl-SI\":\"vse-spuscene-cene\"},\"children\":[]},{\"key\":\"1588161418378530\",\"order\":47,\"thumbnail\":null,\"name\":\"Pregled posebne ponudbe\",\"urlSlugText\":\"pregled-posebne-ponudbe\",\"urlSlugTextAltern"
+   },
+   {
+    "url": "https://asl.api.hofer.si/commerce/v3/product-search?currency=EUR&serviceType=walk-in&categoryKey=1588161418378160&limit=60&offset=0&sort=relevance&servicePoint=I032",
+    "ct": "json",
+    "size": 39796,
+    "head": "{\"meta\":{\"spellingSuggestion\":null,\"pinned\":[],\"keywordRedirect\":null,\"pagination\":{\"offset\":0,\"limit\":60,\"totalCount\":23},\"debug\":null,\"facets\":[{\"name\":\"category-tree\",\"localizedName\":\"Kategorija\",\"docCount\":23,\"activeValue\":[],\"config\":{\"parameterName\":\"categoryTree\",\"type\":\"value\",\"isMultiValue\":true,\"componentName\":\"category-tree\",\"component\":"
+   },
+   {
+    "url": "https://www.hofer.si/_nuxt/builds/meta/7bec1efd-36ba-4213-b648-88b18b12ca5f.json",
+    "ct": "json",
+    "size": 88,
+    "head": "{\"id\":\"7bec1efd-36ba-4213-b648-88b18b12ca5f\",\"timestamp\":1793627672011,\"prerendered\":[]}"
+   }
+  ]
+ },
+ {
+  "store": "Hofer",
+  "url": "https://www.hofer.si/izdelki/pekovski-izdelki-namazi-in-kosmici/k/1588161418378180",
+  "status": 200,
+  "jsonResponses": 8,
+  "rscResponses": 0,
+  "jsonLd": 0,
+  "candidates": 112,
+  "matched": 2,
+  "sample": [
+   "Ovseni kosmiči: BIO Ovseni kosmiči brez glutena, grobo mleti 1 kg 2.09 €",
+   "Ovseni kosmiči: BIO Ovseni kosmiči brez glutena, fino mleti 1 kg 2.09 €"
+  ],
+  "textHead": "Preskočite na vsebino\nTrenutna trgovina:\n1230, Domžale\nPomoč in kontakt\nHoT HOFER telekom\n\n(odpre se v novem zavihku)\n\nIskanje\nHOFER trgovine\nAktualni letaki\nMoj seznam\nAktualni letaki\nHOFER trgovine\nPosebna ponudba\nAktualni letaki\nIzbrani izdelki po kategorijah\nAktualni projekti\nStoritve\nTrajnost\nDomov\nPekovski izdelki, namazi in kosmiči\nPekovski izdelki, namazi in kosmiči\n\n56 Rezultati\n\nRazvrsti in filtriraj\nna voljo od 9. 11. 2026\n\nGOURMET FINEST CUISINE\n\nPandoro s pistacijevo kremo\n\n750 g\n\n(6,65 €/1 kg)\n\n4,99 €\nTO NI AKCIJA\n\nBELLASAN\n\nMargarina\n\n250 g\n\n(2,36 €/1 kg)\n\n0,59 €\nna voljo od 26.",
+  "responses": [
+   {
+    "url": "https://cdn.cookielaw.org/consent/2d294fd7-1229-44e1-8287-6ff2efa37d36/2d294fd7-1229-44e1-8287-6ff2efa37d36.json",
+    "ct": "json",
+    "size": 4607,
+    "head": "{\"CookieSPAEnabled\":false,\"CookieSameSiteNoneEnabled\":true,\"CookieV2CSPEnabled\":false,\"MultiVariantTestingEnabled\":false,\"UseV2\":true,\"MobileSDK\":false,\"SkipGeolocation\":true,\"ScriptType\":\"PRODUCTION\",\"Version\":\"202508.1.0\",\"OptanonDataJSON\":\"2d294fd7-1229-44e1-8287-6ff2efa37d36\",\"GeolocationUrl\":\"https://geolocation.onetrust.com/cookieconsentpub/v"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/consent/2d294fd7-1229-44e1-8287-6ff2efa37d36/019a5de1-b90f-701d-a5ac-630b2a0cf35f/sl.json",
+    "ct": "json",
+    "size": 110712,
+    "head": "{\"DomainData\":{\"pclifeSpanYr\":\"leto\",\"pclifeSpanYrs\":\"Let\",\"pclifeSpanSecs\":\"Nekaj sekund\",\"pclifeSpanWk\":\"teden\",\"pclifeSpanWks\":\"Tednov\",\"pccontinueWithoutAcceptText\":\"Nadaljuj brez sprejemanja\",\"pccloseButtonType\":\"Icon\",\"MainText\":\"Nastavitve\",\"MainInfoText\":\"<p>Na spletni strain podjetja HOFER obdelujemo vaše osebne podatke z uporabo piškotkov"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202508.1.0/assets/otCenterRounded.json",
+    "ct": "json",
+    "size": 10557,
+    "head": "\n            {\n                \"name\": \"otCenterRounded\",\n                \"html\": \"PGRpdiBpZD0ib25ldHJ1c3QtYmFubmVyLXNkayIgY2xhc3M9Im90Q2VudGVyUm91bmRlZCI+PGRpdiBjbGFzcz0ib3Qtc2RrLWNvbnRhaW5lciIgcm9sZT0iZGlhbG9nIj48ZGl2IGNsYXNzPSJvdC1zZGstcm93Ij48ZGl2IGlkPSJvbmV0cnVzdC1ncm91cC1jb250YWluZXIiIGNsYXNzPSJvdC1zZGstdHdlbHZlIG90LXNkay1jb2x1bW5zIj48ZGl2IGl"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202508.1.0/assets/v2/otPcCenter.json",
+    "ct": "json",
+    "size": 66689,
+    "head": "\n        {\n            \"name\": \"otPcCenter\",\n            \"html\": \"PGRpdiBpZD0ib25ldHJ1c3QtcGMtc2RrIiBjbGFzcz0ib3RQY0NlbnRlciBvdC1oaWRlIG90LWZhZGUtaW4iPjxkaXYgcm9sZT0iZGlhbG9nIiBhcmlhLW1vZGFsPSJ0cnVlIj48IS0tIENsb3NlIEJ1dHRvbiAtLT48ZGl2IGNsYXNzPSJvdC1wYy1oZWFkZXIiPjwhLS0gTG9nbyBUYWcgLS0+PGRpdiBjbGFzcz0ib3QtcGMtbG9nbyIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJD"
+   },
+   {
+    "url": "https://www.hofer.si/_i18n/e2e1039c/sl/messages.json",
+    "ct": "json",
+    "size": 9,
+    "head": "{\"sl\":{}}"
+   },
+   {
+    "url": "https://asl.api.hofer.si/commerce/v2/product-category-tree?serviceType=walk-in&servicePoint=I032",
+    "ct": "json",
+    "size": 7098,
+    "head": "{\"data\":[{\"key\":\"1588161418378360\",\"order\":48,\"thumbnail\":null,\"name\":\"Vse spu\\u0161\\u010dene cene\",\"urlSlugText\":\"vse-spuscene-cene\",\"urlSlugTextAlternatives\":{\"sl-SI\":\"vse-spuscene-cene\"},\"children\":[]},{\"key\":\"1588161418378530\",\"order\":47,\"thumbnail\":null,\"name\":\"Pregled posebne ponudbe\",\"urlSlugText\":\"pregled-posebne-ponudbe\",\"urlSlugTextAltern"
+   },
+   {
+    "url": "https://asl.api.hofer.si/commerce/v3/product-search?currency=EUR&serviceType=walk-in&categoryKey=1588161418378180&limit=60&offset=0&sort=relevance&servicePoint=I032",
+    "ct": "json",
+    "size": 89842,
+    "head": "{\"meta\":{\"spellingSuggestion\":null,\"pinned\":[],\"keywordRedirect\":null,\"pagination\":{\"offset\":0,\"limit\":60,\"totalCount\":56},\"debug\":null,\"facets\":[{\"name\":\"category-tree\",\"localizedName\":\"Kategorija\",\"docCount\":56,\"activeValue\":[],\"config\":{\"parameterName\":\"categoryTree\",\"type\":\"value\",\"isMultiValue\":true,\"componentName\":\"category-tree\",\"component\":"
+   },
+   {
+    "url": "https://www.hofer.si/_nuxt/builds/meta/7bec1efd-36ba-4213-b648-88b18b12ca5f.json",
+    "ct": "json",
+    "size": 88,
+    "head": "{\"id\":\"7bec1efd-36ba-4213-b648-88b18b12ca5f\",\"timestamp\":1793627672011,\"prerendered\":[]}"
+   }
+  ]
+ },
+ {
+  "store": "Hofer",
+  "url": "https://www.hofer.si/izdelki/zamrznjeni-izdelki/k/1588161418378220",
+  "status": 200,
+  "jsonResponses": 8,
+  "rscResponses": 0,
+  "jsonLd": 0,
+  "candidates": 36,
+  "matched": 0,
+  "sample": [],
+  "textHead": "Preskočite na vsebino\nTrenutna trgovina:\n1230, Domžale\nPomoč in kontakt\nHoT HOFER telekom\n\n(odpre se v novem zavihku)\n\nIskanje\nHOFER trgovine\nAktualni letaki\nMoj seznam\nAktualni letaki\nHOFER trgovine\nPosebna ponudba\nAktualni letaki\nIzbrani izdelki po kategorijah\nAktualni projekti\nStoritve\nTrajnost\nDomov\nZamrznjeni izdelki\nZamrznjeni izdelki\n\n18 Rezultati\n\nRazvrsti in filtriraj\nna voljo od 9. 11. 2026\n\nGOLDEN SEAFOOD\n\nKuhane bele tigraste kozice\n\n500 g\n\n(12,44 €/1 kg)\n\n6,22 €\nTO NI AKCIJA\n\nPIZZ‘AH\n\nPica s salamo\n\n1,05 kg\n\n(3,60 €/1 kg)\n\n3,78 €\nTO NI AKCIJA\n\nALL SEASONS\n\nValovit krompirček\n\n1,49",
+  "responses": [
+   {
+    "url": "https://cdn.cookielaw.org/consent/2d294fd7-1229-44e1-8287-6ff2efa37d36/2d294fd7-1229-44e1-8287-6ff2efa37d36.json",
+    "ct": "json",
+    "size": 4607,
+    "head": "{\"CookieSPAEnabled\":false,\"CookieSameSiteNoneEnabled\":true,\"CookieV2CSPEnabled\":false,\"MultiVariantTestingEnabled\":false,\"UseV2\":true,\"MobileSDK\":false,\"SkipGeolocation\":true,\"ScriptType\":\"PRODUCTION\",\"Version\":\"202508.1.0\",\"OptanonDataJSON\":\"2d294fd7-1229-44e1-8287-6ff2efa37d36\",\"GeolocationUrl\":\"https://geolocation.onetrust.com/cookieconsentpub/v"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/consent/2d294fd7-1229-44e1-8287-6ff2efa37d36/019a5de1-b90f-701d-a5ac-630b2a0cf35f/sl.json",
+    "ct": "json",
+    "size": 110712,
+    "head": "{\"DomainData\":{\"pclifeSpanYr\":\"leto\",\"pclifeSpanYrs\":\"Let\",\"pclifeSpanSecs\":\"Nekaj sekund\",\"pclifeSpanWk\":\"teden\",\"pclifeSpanWks\":\"Tednov\",\"pccontinueWithoutAcceptText\":\"Nadaljuj brez sprejemanja\",\"pccloseButtonType\":\"Icon\",\"MainText\":\"Nastavitve\",\"MainInfoText\":\"<p>Na spletni strain podjetja HOFER obdelujemo vaše osebne podatke z uporabo piškotkov"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202508.1.0/assets/v2/otPcCenter.json",
+    "ct": "json",
+    "size": 66689,
+    "head": "\n        {\n            \"name\": \"otPcCenter\",\n            \"html\": \"PGRpdiBpZD0ib25ldHJ1c3QtcGMtc2RrIiBjbGFzcz0ib3RQY0NlbnRlciBvdC1oaWRlIG90LWZhZGUtaW4iPjxkaXYgcm9sZT0iZGlhbG9nIiBhcmlhLW1vZGFsPSJ0cnVlIj48IS0tIENsb3NlIEJ1dHRvbiAtLT48ZGl2IGNsYXNzPSJvdC1wYy1oZWFkZXIiPjwhLS0gTG9nbyBUYWcgLS0+PGRpdiBjbGFzcz0ib3QtcGMtbG9nbyIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJD"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202508.1.0/assets/otCenterRounded.json",
+    "ct": "json",
+    "size": 10557,
+    "head": "\n            {\n                \"name\": \"otCenterRounded\",\n                \"html\": \"PGRpdiBpZD0ib25ldHJ1c3QtYmFubmVyLXNkayIgY2xhc3M9Im90Q2VudGVyUm91bmRlZCI+PGRpdiBjbGFzcz0ib3Qtc2RrLWNvbnRhaW5lciIgcm9sZT0iZGlhbG9nIj48ZGl2IGNsYXNzPSJvdC1zZGstcm93Ij48ZGl2IGlkPSJvbmV0cnVzdC1ncm91cC1jb250YWluZXIiIGNsYXNzPSJvdC1zZGstdHdlbHZlIG90LXNkay1jb2x1bW5zIj48ZGl2IGl"
+   },
+   {
+    "url": "https://www.hofer.si/_i18n/e2e1039c/sl/messages.json",
+    "ct": "json",
+    "size": 9,
+    "head": "{\"sl\":{}}"
+   },
+   {
+    "url": "https://asl.api.hofer.si/commerce/v2/product-category-tree?serviceType=walk-in&servicePoint=I032",
+    "ct": "json",
+    "size": 7098,
+    "head": "{\"data\":[{\"key\":\"1588161418378360\",\"order\":48,\"thumbnail\":null,\"name\":\"Vse spu\\u0161\\u010dene cene\",\"urlSlugText\":\"vse-spuscene-cene\",\"urlSlugTextAlternatives\":{\"sl-SI\":\"vse-spuscene-cene\"},\"children\":[]},{\"key\":\"1588161418378530\",\"order\":47,\"thumbnail\":null,\"name\":\"Pregled posebne ponudbe\",\"urlSlugText\":\"pregled-posebne-ponudbe\",\"urlSlugTextAltern"
+   },
+   {
+    "url": "https://asl.api.hofer.si/commerce/v3/product-search?currency=EUR&serviceType=walk-in&categoryKey=1588161418378220&limit=60&offset=0&sort=relevance&servicePoint=I032",
+    "ct": "json",
+    "size": 28441,
+    "head": "{\"meta\":{\"spellingSuggestion\":null,\"pinned\":[],\"keywordRedirect\":null,\"pagination\":{\"offset\":0,\"limit\":60,\"totalCount\":18},\"debug\":null,\"facets\":[{\"name\":\"category-tree\",\"localizedName\":\"Kategorija\",\"docCount\":18,\"activeValue\":[],\"config\":{\"parameterName\":\"categoryTree\",\"type\":\"value\",\"isMultiValue\":true,\"componentName\":\"category-tree\",\"component\":"
+   },
+   {
+    "url": "https://www.hofer.si/_nuxt/builds/meta/7bec1efd-36ba-4213-b648-88b18b12ca5f.json",
+    "ct": "json",
+    "size": 88,
+    "head": "{\"id\":\"7bec1efd-36ba-4213-b648-88b18b12ca5f\",\"timestamp\":1793627672011,\"prerendered\":[]}"
+   }
+  ]
+ },
+ {
+  "store": "Mercator",
+  "url": "https://mercatoronline.si/brskaj#search=banane",
+  "status": 200,
+  "jsonResponses": 2,
+  "rscResponses": 0,
+  "jsonLd": 0,
+  "candidates": 17,
+  "matched": 5,
+  "sample": [
+   "Banane: V KOŠARICO Čokoladne bananice, Casali, 300 g 300 g 3.99 €",
+   "Banane: V KOŠARICO Čokoladne bananice, Casali, 150 g 150 g 2.19 €",
+   "Banane: V KOŠARICO Čokoladne bananice mini, Finesse, 150 g 150 g 1.19 €"
+  ],
+  "textHead": "   NADALJUJTE Z NAKUPOVANJEM\n\n\nVaša košarica je prazna\n Še 60,00 EUR do brezplačne dostave za fizične osebe\nZa popolno nakupovalno izkušnjo se prijavite v svoj profil\nPrijavite se\nRegistracija\nPrijavite se\n / \nRegistracija\n \n0\n Vsi Izdelki \nAkcijski katalogi\nCeneje vsak dan\nMercator znamke\nRadi imamo domače\n Recepti\nSpletna akcija\nSpletišča Mercator \n  VSI IZDELKI\nISKANJE\nbanane\n×\nKategorije\nMleko, jajca in mlečni izdelki\nJajca\nJajca\nKislo mleko, jogurti in mlečni napitki\nNavadni jogurti\nSadni jogurti\nKislo mleko in kefir\nOstali jogurti\nJogurti s proteini\nMaslo in mlečni namazi\nMaslo in maslen",
+  "responses": [
+   {
+    "url": "https://mercatoronline.si/products/browseProducts/getProducts?limit=100&offset=0&filterData%5Bsearch%5D=banane&from=0&_=1794400449181",
+    "ct": "json",
+    "size": 217628,
+    "head": "{\"products\":[{\"data\":{\"cinv\":\"16649957\",\"code\":\"00653884\",\"codewz\":\"653884\",\"name\":\"Banane\",\"unit_quantity\":\"1\",\"invoice_unit\":\"kg\",\"invoice_unit_type\":\"2\",\"average_weight\":0,\"normal_price\":0,\"current_price\":\"1.49\",\"pc30_price\":\"0.00\",\"price_per_unit\":1.49,\"price_per_unit_base\":\"1kg\",\"eko\":\"0\",\"has_recipes\":\"1\",\"brand_name\":\"S&Z BREZ BZ\",\"gtins\":[{"
+   },
+   {
+    "url": "https://mercatoronline.si/products/browseProducts/getProducts?limit=100&offset=1&filterData%5Bsearch%5D=banane&from=100&_=1794400449182",
+    "ct": "json",
+    "size": 31,
+    "head": "{\"products\":[],\"filterData\":[]}"
+   }
+  ]
+ },
+ {
+  "store": "Mercator",
+  "url": "https://mercatoronline.si/brskaj#search=mleko%201%2C5",
+  "status": 200,
+  "jsonResponses": 2,
+  "rscResponses": 0,
+  "jsonLd": 0,
+  "candidates": 1,
+  "matched": 0,
+  "sample": [],
+  "textHead": "   NADALJUJTE Z NAKUPOVANJEM\n\n\nVaša košarica je prazna\n Še 60,00 EUR do brezplačne dostave za fizične osebe\nZa popolno nakupovalno izkušnjo se prijavite v svoj profil\nPrijavite se\nRegistracija\nPrijavite se\n / \nRegistracija\n \n0\n Vsi Izdelki \nAkcijski katalogi\nCeneje vsak dan\nMercator znamke\nRadi imamo domače\n Recepti\nSpletna akcija\nSpletišča Mercator \n  VSI IZDELKI\nISKANJE\nmleko 1,5\n×\nKategorije\nMleko, jajca in mlečni izdelki\nJajca\nJajca\nKislo mleko, jogurti in mlečni napitki\nNavadni jogurti\nSadni jogurti\nKislo mleko in kefir\nOstali jogurti\nJogurti s proteini\nMaslo in mlečni namazi\nMaslo in mas",
+  "responses": [
+   {
+    "url": "https://mercatoronline.si/products/browseProducts/getProducts?limit=100&offset=0&filterData%5Bsearch%5D=mleko+1%252C5&from=0&_=1794400459675",
+    "ct": "json",
+    "size": 173747,
+    "head": "{\"products\":[{\"data\":{\"cinv\":\"18440656\",\"code\":\"00817636\",\"codewz\":\"817636\",\"name\":\"Mleko za za\\u0161\\u010dito pred soncem, v spreju, SPF 15, Olea, 200 ml\",\"unit_quantity\":\"200\",\"invoice_unit\":\"Kos\",\"invoice_unit_type\":\"1\",\"average_weight\":0,\"normal_price\":0,\"current_price\":\"5.39\",\"pc30_price\":\"0.00\",\"price_per_unit\":26.949999999999996,\"price_per_u"
+   },
+   {
+    "url": "https://mercatoronline.si/products/browseProducts/getProducts?limit=100&offset=1&filterData%5Bsearch%5D=mleko+1%252C5&from=100&_=1794400459676",
+    "ct": "json",
+    "size": 31,
+    "head": "{\"products\":[],\"filterData\":[]}"
+   }
+  ]
+ },
+ {
+  "store": "Mercator",
+  "url": "https://mercatoronline.si/brskaj#search=jajca",
+  "status": 200,
+  "jsonResponses": 2,
+  "rscResponses": 0,
+  "jsonLd": 0,
+  "candidates": 32,
+  "matched": 0,
+  "sample": [],
+  "textHead": "   NADALJUJTE Z NAKUPOVANJEM\n\n\nVaša košarica je prazna\n Še 60,00 EUR do brezplačne dostave za fizične osebe\nZa popolno nakupovalno izkušnjo se prijavite v svoj profil\nPrijavite se\nRegistracija\nPrijavite se\n / \nRegistracija\n \n0\n Vsi Izdelki \nAkcijski katalogi\nCeneje vsak dan\nMercator znamke\nRadi imamo domače\n Recepti\nSpletna akcija\nSpletišča Mercator \n  VSI IZDELKI\nISKANJE\njajca\n×\nKategorije\nMleko, jajca in mlečni izdelki\nJajca\nJajca\nKislo mleko, jogurti in mlečni napitki\nNavadni jogurti\nSadni jogurti\nKislo mleko in kefir\nOstali jogurti\nJogurti s proteini\nMaslo in mlečni namazi\nMaslo in masleni",
+  "responses": [
+   {
+    "url": "https://mercatoronline.si/products/browseProducts/getProducts?limit=100&offset=0&filterData%5Bsearch%5D=jajca&from=0&_=1794400470246",
+    "ct": "json",
+    "size": 257305,
+    "head": "{\"products\":[{\"data\":{\"cinv\":\"17961253\",\"code\":\"00396221\",\"codewz\":\"396221\",\"name\":\"Jajca L iz hlevske reje, Mercator, 10\\/1\",\"unit_quantity\":\"10\",\"invoice_unit\":\"Kos\",\"invoice_unit_type\":\"1\",\"average_weight\":0,\"normal_price\":0,\"current_price\":\"2.59\",\"pc30_price\":\"0.00\",\"price_per_unit\":0.259,\"price_per_unit_base\":\"kos\",\"eko\":\"0\",\"has_recipes\":\"1\","
+   },
+   {
+    "url": "https://mercatoronline.si/products/browseProducts/getProducts?limit=100&offset=1&filterData%5Bsearch%5D=jajca&from=100&_=1794400470247",
+    "ct": "json",
+    "size": 31,
+    "head": "{\"products\":[],\"filterData\":[]}"
+   }
+  ]
+ },
+ {
+  "store": "Mercator",
+  "url": "https://mercatoronline.si/",
+  "status": 200,
+  "jsonResponses": 0,
+  "rscResponses": 0,
+  "jsonLd": 0,
+  "candidates": 32,
+  "matched": 0,
+  "sample": [],
+  "textHead": "   NADALJUJTE Z NAKUPOVANJEM\n\n\nVaša košarica je prazna\n Še 60,00 EUR do brezplačne dostave za fizične osebe\nZa popolno nakupovalno izkušnjo se prijavite v svoj profil\nPrijavite se\nRegistracija\nPrijavite se\n / \nRegistracija\n \n0\n Vsi Izdelki \nAkcijski katalogi\nCeneje vsak dan\nMercator znamke\nRadi imamo domače\n Recepti\nSpletna akcija\nSpletišča Mercator \n1\n2\n3\n4\n5\ndostavljamo na 99% naslovov po sloveniji\nDodajte naslov za dostavo\nugodnosti pri vsakem nakupu s pika kartico\nSpoznajte vse Pika ugodnosti\nbrezplačna dostava nad 60,00 €\nOpravite spletni nakup\npriročno nakupovanje, ki vam prihrani čas\nSp",
+  "responses": []
+ },
+ {
+  "store": "SPAR",
+  "url": "https://online.spar.si/search?name=banane",
+  "status": 200,
+  "jsonResponses": 8,
+  "rscResponses": 1,
+  "jsonLd": 0,
+  "candidates": 50,
+  "matched": 7,
+  "sample": [
+   "Banane: Potrdi BANANE, TEHTANO, ENOTA 500G 500 g 0.75 €",
+   "Banane: BIO BANANE, SPAR NATUR*PUR, TEHTANO, ENOTA 500G 500 g 0.95 €",
+   "Banane: Zadnje enote ČOKOLADNE BANANE, CASALI, 110G 110 g 1.79 €"
+  ],
+  "textHead": "Potrdi\nPodrobnosti\nO piškotkih\nTa spletna stran vsebuje piškotke\nPiškotke uporabljamo za prilagoditev vsebin in oglasov, za zagotavljanje funkcij družbenih medijev in za analize našega prometa. Poleg tega delimo informacije o vaši uporabi našega mesta z našimi partnerji s področja družbenih medijev, oglaševanja in analitike, ki jih morda kombinirajo z drugimi informacijami, ki ste jim jih posredovali ali pa so jih zbrali skozi vašo uporabo njihovih storitev.\nIzbira soglasja\nZahtevano\nNastavitve\nStatistika\nTrženje\nZavrni\nDovoli izbor\nDovoli vse\nKategorije\nPozdravljeni Prijava\nMoj račun\nKošarica",
+  "responses": [
+   {
+    "url": "https://featureassets.org/v1/initialize?k=client-5yDL8raj5uXwpUd9QtTNF3EjLcwKfsRYDPCSKBRh34n&st=javascript-client&sv=3.32.0&t=1794400491850&sid=0af053d3-871a-4553-a209-66de3b56a89f&se=1",
+    "ct": "json",
+    "size": 4265,
+    "head": "{\"feature_gates\":{\"157899809\":{\"name\":\"157899809\",\"value\":true,\"rule_id\":\"2jPolJKZoKi3zVgmoS3PGH\",\"id_type\":\"userID\",\"secondary_exposures\":[]},\"176091143\":{\"name\":\"176091143\",\"value\":false,\"rule_id\":\"default\",\"id_type\":\"userID\",\"secondary_exposures\":[]},\"478617786\":{\"name\":\"478617786\",\"value\":false,\"rule_id\":\"default\",\"id_type\":\"userID\",\"secondary_"
+   },
+   {
+    "url": "https://online.spar.si/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+    "ct": "json",
+    "size": 2,
+    "head": "{}"
+   },
+   {
+    "url": "https://consentcdn.cookiebot.com/consentconfig/8469deed-84a0-4bc3-b688-ab63116a2a1b/settings.json",
+    "ct": "json",
+    "size": 608,
+    "head": "{\"widget\":{\"enabled\":false,\"position\":{\"position\":\"bottom-right\",\"distanceVerticalPx\":100,\"distanceHorizontalPx\":10},\"theme\":{\"closed\":{\"backgroundColor\":\"#FFFFFF\",\"foregroundColor\":\"#141414\"},\"opened\":{\"backgroundColor\":\"#ffffff\",\"foregroundColor\":\"#141414\",\"highlightColor\":\"#2f9f51\",\"shadeColor\":\"#EEEEEE\",\"changeBackgroundColor\":\"#2f9f51\",\"change"
+   },
+   {
+    "url": "https://prodregistryv2.org/v1/rgstr?k=client-5yDL8raj5uXwpUd9QtTNF3EjLcwKfsRYDPCSKBRh34n&st=javascript-client-react&sv=3.32.0&t=1794400492809&sid=0af053d3-871a-4553-a209-66de3b56a89f&ec=4&gz=1",
+    "ct": "json",
+    "size": 16,
+    "head": "{\"success\":true}"
+   },
+   {
+    "url": "https://online.spar.si/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+    "ct": "json",
+    "size": 2,
+    "head": "{}"
+   },
+   {
+    "url": "https://online.spar.si/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+    "ct": "json",
+    "size": 2,
+    "head": "{}"
+   },
+   {
+    "url": "https://prodregistryv2.org/v1/rgstr?k=client-5yDL8raj5uXwpUd9QtTNF3EjLcwKfsRYDPCSKBRh34n&st=javascript-client-react&sv=3.32.0&t=1794400493627&sid=0af053d3-871a-4553-a209-66de3b56a89f&ec=8&gz=1",
+    "ct": "json",
+    "size": 16,
+    "head": "{\"success\":true}"
+   },
+   {
+    "url": "https://online.spar.si/srede?_rsc=x2spl",
+    "ct": "rsc",
+    "size": 170,
+    "head": "0:[\"12cadfa9ebbc9b30001f2f10a4a3f7fea1f6f129\",[[\"children\",\"(ecommerce)\",\"children\",[\"slug\",\"srede\",\"d\"],[[\"slug\",\"srede\",\"d\"],{\"children\":[\"__PAGE__\",{}]}],null,null]]]\n"
+   },
+   {
+    "url": "https://deadpool.unified-jennet.instaleap.io/api/v3",
+    "ct": "json",
+    "size": 298842,
+    "head": "[{\"data\":{\"getCategory\":[{\"active\":true,\"boost\":1,\"hasChildren\":true,\"categoryNamesPath\":\"/SADJE IN ZELENJAVA\",\"isAvailableInHome\":true,\"level\":1,\"name\":\"SADJE IN ZELENJAVA\",\"path\":\"/S1\",\"reference\":\"S1\",\"slug\":\"sadje-in-zelenjava/S1\",\"photoUrl\":null,\"imageUrl\":\"https://cdn1.interspar.at/cachableservlets/uniqueIdentifierImage.dam/si/VjMtc2FkamUtaW4"
+   }
+  ]
+ },
+ {
+  "store": "SPAR",
+  "url": "https://online.spar.si/search?name=mleko%201%2C5",
+  "status": 200,
+  "jsonResponses": 8,
+  "rscResponses": 1,
+  "jsonLd": 0,
+  "candidates": 50,
+  "matched": 8,
+  "sample": [
+   "Mleko 1,5 %: ODLIČNA KAKOVOST TRAJNO MLEKO 1,5%, SPAR, 1L 1 l 0.89 €",
+   "Mleko 1,5 %: ALPSKO MLEKO 1,5% M.M., 6X1L 6 l 5.99 €",
+   "Mleko 1,5 %: ODLIČNA KAKOVOST TRAJNO MLEKO 1,5%, S-BUDGET, 1L 1 l 0.79 €"
+  ],
+  "textHead": "Potrdi\nPodrobnosti\nO piškotkih\nTa spletna stran vsebuje piškotke\nPiškotke uporabljamo za prilagoditev vsebin in oglasov, za zagotavljanje funkcij družbenih medijev in za analize našega prometa. Poleg tega delimo informacije o vaši uporabi našega mesta z našimi partnerji s področja družbenih medijev, oglaševanja in analitike, ki jih morda kombinirajo z drugimi informacijami, ki ste jim jih posredovali ali pa so jih zbrali skozi vašo uporabo njihovih storitev.\nIzbira soglasja\nZahtevano\nNastavitve\nStatistika\nTrženje\nZavrni\nDovoli izbor\nDovoli vse\nKategorije\nPozdravljeni Prijava\nMoj račun\nKošarica",
+  "responses": [
+   {
+    "url": "https://featureassets.org/v1/initialize?k=client-5yDL8raj5uXwpUd9QtTNF3EjLcwKfsRYDPCSKBRh34n&st=javascript-client&sv=3.32.0&t=1794400501759&sid=31451487-dcf2-4165-91e5-f29060e88542&se=1",
+    "ct": "json",
+    "size": 4265,
+    "head": "{\"feature_gates\":{\"157899809\":{\"name\":\"157899809\",\"value\":true,\"rule_id\":\"2jPolJKZoKi3zVgmoS3PGH\",\"id_type\":\"userID\",\"secondary_exposures\":[]},\"176091143\":{\"name\":\"176091143\",\"value\":false,\"rule_id\":\"default\",\"id_type\":\"userID\",\"secondary_exposures\":[]},\"478617786\":{\"name\":\"478617786\",\"value\":false,\"rule_id\":\"default\",\"id_type\":\"userID\",\"secondary_"
+   },
+   {
+    "url": "https://online.spar.si/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+    "ct": "json",
+    "size": 2,
+    "head": "{}"
+   },
+   {
+    "url": "https://consentcdn.cookiebot.com/consentconfig/8469deed-84a0-4bc3-b688-ab63116a2a1b/settings.json",
+    "ct": "json",
+    "size": 608,
+    "head": "{\"widget\":{\"enabled\":false,\"position\":{\"position\":\"bottom-right\",\"distanceVerticalPx\":100,\"distanceHorizontalPx\":10},\"theme\":{\"closed\":{\"backgroundColor\":\"#FFFFFF\",\"foregroundColor\":\"#141414\"},\"opened\":{\"backgroundColor\":\"#ffffff\",\"foregroundColor\":\"#141414\",\"highlightColor\":\"#2f9f51\",\"shadeColor\":\"#EEEEEE\",\"changeBackgroundColor\":\"#2f9f51\",\"change"
+   },
+   {
+    "url": "https://prodregistryv2.org/v1/rgstr?k=client-5yDL8raj5uXwpUd9QtTNF3EjLcwKfsRYDPCSKBRh34n&st=javascript-client-react&sv=3.32.0&t=1794400502744&sid=31451487-dcf2-4165-91e5-f29060e88542&ec=4&gz=1",
+    "ct": "json",
+    "size": 16,
+    "head": "{\"success\":true}"
+   },
+   {
+    "url": "https://online.spar.si/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+    "ct": "json",
+    "size": 2,
+    "head": "{}"
+   },
+   {
+    "url": "https://online.spar.si/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+    "ct": "json",
+    "size": 2,
+    "head": "{}"
+   },
+   {
+    "url": "https://prodregistryv2.org/v1/rgstr?k=client-5yDL8raj5uXwpUd9QtTNF3EjLcwKfsRYDPCSKBRh34n&st=javascript-client-react&sv=3.32.0&t=1794400503540&sid=31451487-dcf2-4165-91e5-f29060e88542&ec=8&gz=1",
+    "ct": "json",
+    "size": 16,
+    "head": "{\"success\":true}"
+   },
+   {
+    "url": "https://online.spar.si/srede?_rsc=x2spl",
+    "ct": "rsc",
+    "size": 170,
+    "head": "0:[\"12cadfa9ebbc9b30001f2f10a4a3f7fea1f6f129\",[[\"children\",\"(ecommerce)\",\"children\",[\"slug\",\"srede\",\"d\"],[[\"slug\",\"srede\",\"d\"],{\"children\":[\"__PAGE__\",{}]}],null,null]]]\n"
+   },
+   {
+    "url": "https://deadpool.unified-jennet.instaleap.io/api/v3",
+    "ct": "json",
+    "size": 298841,
+    "head": "[{\"data\":{\"getCategory\":[{\"active\":true,\"boost\":1,\"hasChildren\":true,\"categoryNamesPath\":\"/SADJE IN ZELENJAVA\",\"isAvailableInHome\":true,\"level\":1,\"name\":\"SADJE IN ZELENJAVA\",\"path\":\"/S1\",\"reference\":\"S1\",\"slug\":\"sadje-in-zelenjava/S1\",\"photoUrl\":null,\"imageUrl\":\"https://cdn1.interspar.at/cachableservlets/uniqueIdentifierImage.dam/si/VjMtc2FkamUtaW4"
+   }
+  ]
+ },
+ {
+  "store": "SPAR",
+  "url": "https://online.spar.si/search?name=jajca",
+  "status": 200,
+  "jsonResponses": 8,
+  "rscResponses": 1,
+  "jsonLd": 0,
+  "candidates": 50,
+  "matched": 0,
+  "sample": [],
+  "textHead": "Potrdi\nPodrobnosti\nO piškotkih\nTa spletna stran vsebuje piškotke\nPiškotke uporabljamo za prilagoditev vsebin in oglasov, za zagotavljanje funkcij družbenih medijev in za analize našega prometa. Poleg tega delimo informacije o vaši uporabi našega mesta z našimi partnerji s področja družbenih medijev, oglaševanja in analitike, ki jih morda kombinirajo z drugimi informacijami, ki ste jim jih posredovali ali pa so jih zbrali skozi vašo uporabo njihovih storitev.\nIzbira soglasja\nZahtevano\nNastavitve\nStatistika\nTrženje\nZavrni\nDovoli izbor\nDovoli vse\nKategorije\nPozdravljeni Prijava\nMoj račun\nKošarica",
+  "responses": [
+   {
+    "url": "https://featureassets.org/v1/initialize?k=client-5yDL8raj5uXwpUd9QtTNF3EjLcwKfsRYDPCSKBRh34n&st=javascript-client&sv=3.32.0&t=1794400511711&sid=7435d6e0-3574-431a-a7f1-0782f47147ba&se=1",
+    "ct": "json",
+    "size": 4265,
+    "head": "{\"feature_gates\":{\"157899809\":{\"name\":\"157899809\",\"value\":true,\"rule_id\":\"2jPolJKZoKi3zVgmoS3PGH\",\"id_type\":\"userID\",\"secondary_exposures\":[]},\"176091143\":{\"name\":\"176091143\",\"value\":false,\"rule_id\":\"default\",\"id_type\":\"userID\",\"secondary_exposures\":[]},\"478617786\":{\"name\":\"478617786\",\"value\":false,\"rule_id\":\"default\",\"id_type\":\"userID\",\"secondary_"
+   },
+   {
+    "url": "https://online.spar.si/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+    "ct": "json",
+    "size": 2,
+    "head": "{}"
+   },
+   {
+    "url": "https://consentcdn.cookiebot.com/consentconfig/8469deed-84a0-4bc3-b688-ab63116a2a1b/settings.json",
+    "ct": "json",
+    "size": 608,
+    "head": "{\"widget\":{\"enabled\":false,\"position\":{\"position\":\"bottom-right\",\"distanceVerticalPx\":100,\"distanceHorizontalPx\":10},\"theme\":{\"closed\":{\"backgroundColor\":\"#FFFFFF\",\"foregroundColor\":\"#141414\"},\"opened\":{\"backgroundColor\":\"#ffffff\",\"foregroundColor\":\"#141414\",\"highlightColor\":\"#2f9f51\",\"shadeColor\":\"#EEEEEE\",\"changeBackgroundColor\":\"#2f9f51\",\"change"
+   },
+   {
+    "url": "https://prodregistryv2.org/v1/rgstr?k=client-5yDL8raj5uXwpUd9QtTNF3EjLcwKfsRYDPCSKBRh34n&st=javascript-client-react&sv=3.32.0&t=1794400512701&sid=7435d6e0-3574-431a-a7f1-0782f47147ba&ec=5&gz=1",
+    "ct": "json",
+    "size": 16,
+    "head": "{\"success\":true}"
+   },
+   {
+    "url": "https://online.spar.si/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+    "ct": "json",
+    "size": 2,
+    "head": "{}"
+   },
+   {
+    "url": "https://online.spar.si/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+    "ct": "json",
+    "size": 2,
+    "head": "{}"
+   },
+   {
+    "url": "https://prodregistryv2.org/v1/rgstr?k=client-5yDL8raj5uXwpUd9QtTNF3EjLcwKfsRYDPCSKBRh34n&st=javascript-client-react&sv=3.32.0&t=1794400513560&sid=7435d6e0-3574-431a-a7f1-0782f47147ba&ec=8&gz=1",
+    "ct": "json",
+    "size": 16,
+    "head": "{\"success\":true}"
+   },
+   {
+    "url": "https://online.spar.si/srede?_rsc=x2spl",
+    "ct": "rsc",
+    "size": 170,
+    "head": "0:[\"12cadfa9ebbc9b30001f2f10a4a3f7fea1f6f129\",[[\"children\",\"(ecommerce)\",\"children\",[\"slug\",\"srede\",\"d\"],[[\"slug\",\"srede\",\"d\"],{\"children\":[\"__PAGE__\",{}]}],null,null]]]\n"
+   },
+   {
+    "url": "https://deadpool.unified-jennet.instaleap.io/api/v3",
+    "ct": "json",
+    "size": 298841,
+    "head": "[{\"data\":{\"getCategory\":[{\"active\":true,\"boost\":1,\"hasChildren\":true,\"categoryNamesPath\":\"/SADJE IN ZELENJAVA\",\"isAvailableInHome\":true,\"level\":1,\"name\":\"SADJE IN ZELENJAVA\",\"path\":\"/S1\",\"reference\":\"S1\",\"slug\":\"sadje-in-zelenjava/S1\",\"photoUrl\":null,\"imageUrl\":\"https://cdn1.interspar.at/cachableservlets/uniqueIdentifierImage.dam/si/VjMtc2FkamUtaW4"
+   }
+  ]
+ },
+ {
+  "store": "Lidl",
+  "url": "https://www.lidl.si/h/sadje-in-zelenjava/h10071012",
+  "status": 200,
+  "jsonResponses": 10,
+  "rscResponses": 0,
+  "jsonLd": 1,
+  "candidates": 13,
+  "matched": 0,
+  "sample": [],
+  "textHead": "Sadje in zelenjava\n/\nHrana in pijača\nSadje\nZelenjava\nvsi filtri\nrazvrsti \nUstreznost\n13 Produkti\nRdeče zelje za 0.89 EUR\nRdeče zelje\n1.29 €\n-31%\n0.89€*\nza kg\n1 kg = 0,89\nOd 05.11. do 11.11.\nMango za 0.89 EUR\nMango\n1.49 €\n-40%\n0.89€*\nkos\nOd 13.11. do 14.11.\nKaki za 0.55 EUR\nKaki\n0.79 €\n-30%\n0.55€*\nza kos\nOd 12.11. do 14.11.\nRdeča jabolka za 1.29 EUR\nRdeča jabolka\n1.99 €\n-35%\n1.29€*\nza kg\nOd 16.11. do 18.11.\nHruške za 1.69 EUR\nMATRIKET\nHruške\n2.49 €\n-32%\n1.69€*\nza kg\n1 kg = 1.69\nOd 12.11. do 14.11.\nCvetača za 1.79 EUR\nCvetača\n2.49 €\nz Lidl Plus\n-28%\n1.79€*\nza kos\nOd 12.11. do 14.11.\nPomaranče za",
+  "responses": [
+   {
+    "url": "https://cdn.cookielaw.org/consent/268444c1-c3b9-407d-a2ee-981ad1a9f1de/268444c1-c3b9-407d-a2ee-981ad1a9f1de.json",
+    "ct": "json",
+    "size": 5361,
+    "head": "{\"CookieSPAEnabled\":false,\"CookieSameSiteNoneEnabled\":false,\"CookieV2CSPEnabled\":false,\"MultiVariantTestingEnabled\":false,\"UseV2\":true,\"MobileSDK\":false,\"SkipGeolocation\":false,\"ScriptType\":\"PRODUCTION\",\"Version\":\"202604.2.0\",\"OptanonDataJSON\":\"268444c1-c3b9-407d-a2ee-981ad1a9f1de\",\"GeolocationUrl\":\"https://geolocation.onetrust.com/cookieconsentpub"
+   },
+   {
+    "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "ct": "json",
+    "size": 71,
+    "head": "{\"country\":\"US\",\"state\":\"CA\",\"stateName\":\"California\",\"continent\":\"NA\"}"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/consent/268444c1-c3b9-407d-a2ee-981ad1a9f1de/019dd3af-6121-769a-a8d6-f5746e0124f6/sl-si.json",
+    "ct": "json",
+    "size": 247809,
+    "head": "{\"DomainData\":{\"pclifeSpanYr\":\"leto\",\"pclifeSpanYrs\":\"Let\",\"pclifeSpanSecs\":\"Nekaj sekund\",\"pclifeSpanWk\":\"teden\",\"pclifeSpanWks\":\"Tednov\",\"pccontinueWithoutAcceptText\":\"Nadaljuj brez sprejemanja\",\"pccloseButtonType\":\"Icon\",\"MainText\":\"Določite obseg soglasja \",\"MainInfoText\":\"<p>Svoje soglasje za obdelavo lahko podate individualno v skladu z namen"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202604.2.0/assets/v2/otPcCenter.json",
+    "ct": "json",
+    "size": 68019,
+    "head": "\n        {\n            \"name\": \"otPcCenter\",\n            \"html\": \"PGRpdiBpZD0ib25ldHJ1c3QtcGMtc2RrIiBjbGFzcz0ib3RQY0NlbnRlciBvdC1oaWRlIG90LWZhZGUtaW4iPjxkaXYgcm9sZT0iZGlhbG9nIiBhcmlhLW1vZGFsPSJ0cnVlIj48IS0tIENsb3NlIEJ1dHRvbiAtLT48ZGl2IGNsYXNzPSJvdC1wYy1oZWFkZXIiPjwhLS0gTG9nbyBUYWcgLS0+PGRpdiBjbGFzcz0ib3QtcGMtbG9nbyI+PC9kaXY+PGJ1dHRvbiBpZD0iY2xvc2Ut"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/consent/268444c1-c3b9-407d-a2ee-981ad1a9f1de/019dd3af-6121-769a-a8d6-f5746e0124f6/bLayout-sl-si.json",
+    "ct": "json",
+    "size": 13357,
+    "head": "{\"html\":\"<div id=\\\"onetrust-banner-sdk\\\" class=\\\"otCenterRounded default\\\" tabindex=\\\"0\\\"><div class=\\\"ot-sdk-container\\\" role=\\\"dialog\\\" aria-modal=\\\"true\\\" aria-label=\\\"Preden nadaljujemo: Obdelava vaših podatkov \\\"><div class=\\\"ot-sdk-row\\\"><div id=\\\"onetrust-group-container\\\" class=\\\"ot-sdk-twelve ot-sdk-columns\\\"><div id=\\\"onetrust-policy\\\"><d"
+   },
+   {
+    "url": "https://www.lidl.si/s/translation/sl-SI.json?_=1794391884137",
+    "ct": "json",
+    "size": 18659,
+    "head": "{\n  \"detailPage.head.metaDescription.Text1\": \"Tvoja Lidl trgovina\",\n  \"detailPage.head.metaDescription.Text2\": \"Delovni čas in posebne ponudbe te trgovine.\",\n  \"detailPage.head.metaDescription.Text3\": \"Najvišja kakovost po najboljših cenah. Tvoja najljubša trgovina za sveže sadje in zelenjavo.\",\n  \"detailPage.head.metaTitle.prefix\": \"Trgovina\",\n  \""
+   },
+   {
+    "url": "https://www.lidl.si/s/translation/sl-SI.json?_=1794391884137",
+    "ct": "json",
+    "size": 18659,
+    "head": "{\n  \"detailPage.head.metaDescription.Text1\": \"Tvoja Lidl trgovina\",\n  \"detailPage.head.metaDescription.Text2\": \"Delovni čas in posebne ponudbe te trgovine.\",\n  \"detailPage.head.metaDescription.Text3\": \"Najvišja kakovost po najboljših cenah. Tvoja najljubša trgovina za sveže sadje in zelenjavo.\",\n  \"detailPage.head.metaTitle.prefix\": \"Trgovina\",\n  \""
+   },
+   {
+    "url": "https://www.lidl.si/q/fd59ca93/sl_SI/messages.json",
+    "ct": "json",
+    "size": 3262,
+    "head": "{\"sl_SI\":{\"storefront-next\":{\"Newsletter\":{\"formURL\":\"\"},\"NoGoodSearchResult\":{\"bulletPointFour\":\"zmanjšaj število vnesenih izrazov\",\"bulletPointOne\":\"preveri črkovanje\",\"bulletPointThree\":\"poskusi s splošnim iskalnim izrazom\",\"bulletPointTwo\":\"poskusi s podobnim izrazom\",\"categorySubtitle\":\"Poskusi izbrati drugo kategorijo ali si spodaj oglej naše"
+   },
+   {
+    "url": "https://www.lidl.si/n/disclaimer-text/Basic?locale=sl-SI",
+    "ct": "json",
+    "size": 1405,
+    "head": "{\"catalog\":\"si\",\"id\":\"Basic\",\"text\":\"<p><sub><strong>Pravno obvestilo</strong></sub></p><p><sub>Izdelki so dobavljivi v omejenih količinah. Ponudba posameznih izdelkov, modelov, velikosti in barv se lahko razlikuje glede na poslovalnico. V primeru nepričakovano velikega povpraševanja so lahko izdelki razprodani že prvi dan. Prosimo za razumevanje.<"
+   },
+   {
+    "url": "https://www.lidl.si/q/storefront-dist/builds/meta/20b15aa1-de7b-4935-91d5-2a128e44c245.json",
+    "ct": "json",
+    "size": 88,
+    "head": "{\"id\":\"20b15aa1-de7b-4935-91d5-2a128e44c245\",\"timestamp\":1793371794138,\"prerendered\":[]}"
+   }
+  ]
+ },
+ {
+  "store": "Lidl",
+  "url": "https://www.lidl.si/p/svezabio-jajca/p10060738",
+  "status": 200,
+  "jsonResponses": 10,
+  "rscResponses": 0,
+  "jsonLd": 0,
+  "candidates": 0,
+  "matched": 0,
+  "sample": [],
+  "textHead": "Svežabio jajca | Lidl\nSvežabio jajca\nZbirajte Lidlove točke z nakupom.\n\nRegistrirajte se ali ustvarite račun za neposredno zbiranje Lidlovih točk.\n\nV trgovini\nOpis\n\nkategorija A, velikost M\nŽelezo ima vlogo pri kognitivnih funkcijah; Železo prispeva k sproščanju energije pri presnovi; Železo ima vlogo pri nastajanju rdečih krvničk in hemoglobina; Železo ima vlogo pri prenosu kisika v telesu; Železo ima vlogo pri delovanju imunskega sistema; Železo prispeva k zmanjševanju utrujenosti in izčrpanosti; Železo ima vlogo pri delitvi celic.\n\nPravno besedilo\n\nPravno obvestilo\n\nIzdelki so dobavljivi v ",
+  "responses": [
+   {
+    "url": "https://cdn.cookielaw.org/consent/268444c1-c3b9-407d-a2ee-981ad1a9f1de/268444c1-c3b9-407d-a2ee-981ad1a9f1de.json",
+    "ct": "json",
+    "size": 5361,
+    "head": "{\"CookieSPAEnabled\":false,\"CookieSameSiteNoneEnabled\":false,\"CookieV2CSPEnabled\":false,\"MultiVariantTestingEnabled\":false,\"UseV2\":true,\"MobileSDK\":false,\"SkipGeolocation\":false,\"ScriptType\":\"PRODUCTION\",\"Version\":\"202604.2.0\",\"OptanonDataJSON\":\"268444c1-c3b9-407d-a2ee-981ad1a9f1de\",\"GeolocationUrl\":\"https://geolocation.onetrust.com/cookieconsentpub"
+   },
+   {
+    "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "ct": "json",
+    "size": 71,
+    "head": "{\"country\":\"US\",\"state\":\"CA\",\"stateName\":\"California\",\"continent\":\"NA\"}"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/consent/268444c1-c3b9-407d-a2ee-981ad1a9f1de/019dd3af-6121-769a-a8d6-f5746e0124f6/sl-si.json",
+    "ct": "json",
+    "size": 247809,
+    "head": "{\"DomainData\":{\"pclifeSpanYr\":\"leto\",\"pclifeSpanYrs\":\"Let\",\"pclifeSpanSecs\":\"Nekaj sekund\",\"pclifeSpanWk\":\"teden\",\"pclifeSpanWks\":\"Tednov\",\"pccontinueWithoutAcceptText\":\"Nadaljuj brez sprejemanja\",\"pccloseButtonType\":\"Icon\",\"MainText\":\"Določite obseg soglasja \",\"MainInfoText\":\"<p>Svoje soglasje za obdelavo lahko podate individualno v skladu z namen"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202604.2.0/assets/v2/otPcCenter.json",
+    "ct": "json",
+    "size": 68019,
+    "head": "\n        {\n            \"name\": \"otPcCenter\",\n            \"html\": \"PGRpdiBpZD0ib25ldHJ1c3QtcGMtc2RrIiBjbGFzcz0ib3RQY0NlbnRlciBvdC1oaWRlIG90LWZhZGUtaW4iPjxkaXYgcm9sZT0iZGlhbG9nIiBhcmlhLW1vZGFsPSJ0cnVlIj48IS0tIENsb3NlIEJ1dHRvbiAtLT48ZGl2IGNsYXNzPSJvdC1wYy1oZWFkZXIiPjwhLS0gTG9nbyBUYWcgLS0+PGRpdiBjbGFzcz0ib3QtcGMtbG9nbyI+PC9kaXY+PGJ1dHRvbiBpZD0iY2xvc2Ut"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/consent/268444c1-c3b9-407d-a2ee-981ad1a9f1de/019dd3af-6121-769a-a8d6-f5746e0124f6/bLayout-sl-si.json",
+    "ct": "json",
+    "size": 13357,
+    "head": "{\"html\":\"<div id=\\\"onetrust-banner-sdk\\\" class=\\\"otCenterRounded default\\\" tabindex=\\\"0\\\"><div class=\\\"ot-sdk-container\\\" role=\\\"dialog\\\" aria-modal=\\\"true\\\" aria-label=\\\"Preden nadaljujemo: Obdelava vaših podatkov \\\"><div class=\\\"ot-sdk-row\\\"><div id=\\\"onetrust-group-container\\\" class=\\\"ot-sdk-twelve ot-sdk-columns\\\"><div id=\\\"onetrust-policy\\\"><d"
+   },
+   {
+    "url": "https://www.lidl.si/s/translation/sl-SI.json?_=1794391884137",
+    "ct": "json",
+    "size": 18659,
+    "head": "{\n  \"detailPage.head.metaDescription.Text1\": \"Tvoja Lidl trgovina\",\n  \"detailPage.head.metaDescription.Text2\": \"Delovni čas in posebne ponudbe te trgovine.\",\n  \"detailPage.head.metaDescription.Text3\": \"Najvišja kakovost po najboljših cenah. Tvoja najljubša trgovina za sveže sadje in zelenjavo.\",\n  \"detailPage.head.metaTitle.prefix\": \"Trgovina\",\n  \""
+   },
+   {
+    "url": "https://www.lidl.si/s/translation/sl-SI.json?_=1794391884137",
+    "ct": "json",
+    "size": 18659,
+    "head": "{\n  \"detailPage.head.metaDescription.Text1\": \"Tvoja Lidl trgovina\",\n  \"detailPage.head.metaDescription.Text2\": \"Delovni čas in posebne ponudbe te trgovine.\",\n  \"detailPage.head.metaDescription.Text3\": \"Najvišja kakovost po najboljših cenah. Tvoja najljubša trgovina za sveže sadje in zelenjavo.\",\n  \"detailPage.head.metaTitle.prefix\": \"Trgovina\",\n  \""
+   },
+   {
+    "url": "https://www.lidl.si/n/disclaimer-text/Basic?locale=sl-SI",
+    "ct": "json",
+    "size": 1405,
+    "head": "{\"catalog\":\"si\",\"id\":\"Basic\",\"text\":\"<p><sub><strong>Pravno obvestilo</strong></sub></p><p><sub>Izdelki so dobavljivi v omejenih količinah. Ponudba posameznih izdelkov, modelov, velikosti in barv se lahko razlikuje glede na poslovalnico. V primeru nepričakovano velikega povpraševanja so lahko izdelki razprodani že prvi dan. Prosimo za razumevanje.<"
+   },
+   {
+    "url": "https://www.lidl.si/u/api/product/10060738/SI/sl?start=0&max=6&order=STARS_DESC",
+    "ct": "json",
+    "size": 224,
+    "head": "{\"erpNumber\":\"10060738\",\"variantNames\":{},\"originalNames\":{},\"bundleItemNames\":null,\"ratingsPerLocale\":null,\"globalRating\":null,\"starHistogram\":null,\"ratings\":{\"pageStart\":0,\"pageItems\":null,\"totalItems\":0},\"queryMillis\":20}"
+   },
+   {
+    "url": "https://www.lidl.si/p/details-view-dist/builds/meta/348bf672-a5f8-48ba-a422-b3d1d736b6a0.json",
+    "ct": "json",
+    "size": 88,
+    "head": "{\"id\":\"348bf672-a5f8-48ba-a422-b3d1d736b6a0\",\"timestamp\":1793875572545,\"prerendered\":[]}"
+   }
+  ]
+ },
+ {
+  "store": "Lidl",
+  "url": "https://www.lidl.si/p/sveza-jajca-izhlevske-reje/p10060740",
+  "status": 200,
+  "jsonResponses": 10,
+  "rscResponses": 0,
+  "jsonLd": 0,
+  "candidates": 0,
+  "matched": 0,
+  "sample": [],
+  "textHead": "Sveža jajca izhlevske reje | Lidl\nSveža jajca izhlevske reje\nZbirajte Lidlove točke z nakupom.\n\nRegistrirajte se ali ustvarite račun za neposredno zbiranje Lidlovih točk.\n\nV trgovini\nOpis\n\nkategorija A, velikost M\nŽelezo ima vlogo pri kognitivnih funkcijah; Železo prispeva k sproščanju energije pri presnovi; Železo ima vlogo pri nastajanju rdečih krvničk in hemoglobina; Železo ima vlogo pri prenosu kisika v telesu; Železo ima vlogo pri delovanju imunskega sistema; Železo prispeva k zmanjševanju utrujenosti in izčrpanosti; Železo ima vlogo pri delitvi celic.\n\nPravno besedilo\n\nPravno obvestilo\n\n",
+  "responses": [
+   {
+    "url": "https://cdn.cookielaw.org/consent/268444c1-c3b9-407d-a2ee-981ad1a9f1de/268444c1-c3b9-407d-a2ee-981ad1a9f1de.json",
+    "ct": "json",
+    "size": 5361,
+    "head": "{\"CookieSPAEnabled\":false,\"CookieSameSiteNoneEnabled\":false,\"CookieV2CSPEnabled\":false,\"MultiVariantTestingEnabled\":false,\"UseV2\":true,\"MobileSDK\":false,\"SkipGeolocation\":false,\"ScriptType\":\"PRODUCTION\",\"Version\":\"202604.2.0\",\"OptanonDataJSON\":\"268444c1-c3b9-407d-a2ee-981ad1a9f1de\",\"GeolocationUrl\":\"https://geolocation.onetrust.com/cookieconsentpub"
+   },
+   {
+    "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "ct": "json",
+    "size": 71,
+    "head": "{\"country\":\"US\",\"state\":\"CA\",\"stateName\":\"California\",\"continent\":\"NA\"}"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/consent/268444c1-c3b9-407d-a2ee-981ad1a9f1de/019dd3af-6121-769a-a8d6-f5746e0124f6/sl-si.json",
+    "ct": "json",
+    "size": 247809,
+    "head": "{\"DomainData\":{\"pclifeSpanYr\":\"leto\",\"pclifeSpanYrs\":\"Let\",\"pclifeSpanSecs\":\"Nekaj sekund\",\"pclifeSpanWk\":\"teden\",\"pclifeSpanWks\":\"Tednov\",\"pccontinueWithoutAcceptText\":\"Nadaljuj brez sprejemanja\",\"pccloseButtonType\":\"Icon\",\"MainText\":\"Določite obseg soglasja \",\"MainInfoText\":\"<p>Svoje soglasje za obdelavo lahko podate individualno v skladu z namen"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/consent/268444c1-c3b9-407d-a2ee-981ad1a9f1de/019dd3af-6121-769a-a8d6-f5746e0124f6/bLayout-sl-si.json",
+    "ct": "json",
+    "size": 13357,
+    "head": "{\"html\":\"<div id=\\\"onetrust-banner-sdk\\\" class=\\\"otCenterRounded default\\\" tabindex=\\\"0\\\"><div class=\\\"ot-sdk-container\\\" role=\\\"dialog\\\" aria-modal=\\\"true\\\" aria-label=\\\"Preden nadaljujemo: Obdelava vaših podatkov \\\"><div class=\\\"ot-sdk-row\\\"><div id=\\\"onetrust-group-container\\\" class=\\\"ot-sdk-twelve ot-sdk-columns\\\"><div id=\\\"onetrust-policy\\\"><d"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202604.2.0/assets/v2/otPcCenter.json",
+    "ct": "json",
+    "size": 68019,
+    "head": "\n        {\n            \"name\": \"otPcCenter\",\n            \"html\": \"PGRpdiBpZD0ib25ldHJ1c3QtcGMtc2RrIiBjbGFzcz0ib3RQY0NlbnRlciBvdC1oaWRlIG90LWZhZGUtaW4iPjxkaXYgcm9sZT0iZGlhbG9nIiBhcmlhLW1vZGFsPSJ0cnVlIj48IS0tIENsb3NlIEJ1dHRvbiAtLT48ZGl2IGNsYXNzPSJvdC1wYy1oZWFkZXIiPjwhLS0gTG9nbyBUYWcgLS0+PGRpdiBjbGFzcz0ib3QtcGMtbG9nbyI+PC9kaXY+PGJ1dHRvbiBpZD0iY2xvc2Ut"
+   },
+   {
+    "url": "https://www.lidl.si/s/translation/sl-SI.json?_=1794391884137",
+    "ct": "json",
+    "size": 18659,
+    "head": "{\n  \"detailPage.head.metaDescription.Text1\": \"Tvoja Lidl trgovina\",\n  \"detailPage.head.metaDescription.Text2\": \"Delovni čas in posebne ponudbe te trgovine.\",\n  \"detailPage.head.metaDescription.Text3\": \"Najvišja kakovost po najboljših cenah. Tvoja najljubša trgovina za sveže sadje in zelenjavo.\",\n  \"detailPage.head.metaTitle.prefix\": \"Trgovina\",\n  \""
+   },
+   {
+    "url": "https://www.lidl.si/s/translation/sl-SI.json?_=1794391884137",
+    "ct": "json",
+    "size": 18659,
+    "head": "{\n  \"detailPage.head.metaDescription.Text1\": \"Tvoja Lidl trgovina\",\n  \"detailPage.head.metaDescription.Text2\": \"Delovni čas in posebne ponudbe te trgovine.\",\n  \"detailPage.head.metaDescription.Text3\": \"Najvišja kakovost po najboljših cenah. Tvoja najljubša trgovina za sveže sadje in zelenjavo.\",\n  \"detailPage.head.metaTitle.prefix\": \"Trgovina\",\n  \""
+   },
+   {
+    "url": "https://www.lidl.si/n/disclaimer-text/Basic?locale=sl-SI",
+    "ct": "json",
+    "size": 1405,
+    "head": "{\"catalog\":\"si\",\"id\":\"Basic\",\"text\":\"<p><sub><strong>Pravno obvestilo</strong></sub></p><p><sub>Izdelki so dobavljivi v omejenih količinah. Ponudba posameznih izdelkov, modelov, velikosti in barv se lahko razlikuje glede na poslovalnico. V primeru nepričakovano velikega povpraševanja so lahko izdelki razprodani že prvi dan. Prosimo za razumevanje.<"
+   },
+   {
+    "url": "https://www.lidl.si/u/api/product/10060740/SI/sl?start=0&max=6&order=STARS_DESC",
+    "ct": "json",
+    "size": 223,
+    "head": "{\"erpNumber\":\"10060740\",\"variantNames\":{},\"originalNames\":{},\"bundleItemNames\":null,\"ratingsPerLocale\":null,\"globalRating\":null,\"starHistogram\":null,\"ratings\":{\"pageStart\":0,\"pageItems\":null,\"totalItems\":0},\"queryMillis\":0}"
+   },
+   {
+    "url": "https://www.lidl.si/p/details-view-dist/builds/meta/348bf672-a5f8-48ba-a422-b3d1d736b6a0.json",
+    "ct": "json",
+    "size": 88,
+    "head": "{\"id\":\"348bf672-a5f8-48ba-a422-b3d1d736b6a0\",\"timestamp\":1793875572545,\"prerendered\":[]}"
+   }
+  ]
+ },
+ {
+  "store": "Lidl",
+  "url": "https://www.lidl.si/p/sveza-jajca-izhlevske-reje/p10060742",
+  "status": 200,
+  "jsonResponses": 10,
+  "rscResponses": 0,
+  "jsonLd": 0,
+  "candidates": 0,
+  "matched": 0,
+  "sample": [],
+  "textHead": "Sveža jajca izhlevske reje | Lidl\nSveža jajca izhlevske reje\nZbirajte Lidlove točke z nakupom.\n\nRegistrirajte se ali ustvarite račun za neposredno zbiranje Lidlovih točk.\n\nV trgovini\nOpis\n\nkategorija A, velikost M\nŽelezo ima vlogo pri kognitivnih funkcijah; Železo prispeva k sproščanju energije pri presnovi; Železo ima vlogo pri nastajanju rdečih krvničk in hemoglobina; Železo ima vlogo pri prenosu kisika v telesu; Železo ima vlogo pri delovanju imunskega sistema; Železo prispeva k zmanjševanju utrujenosti in izčrpanosti; Železo ima vlogo pri delitvi celic.\n\nPravno besedilo\n\nPravno obvestilo\n\n",
+  "responses": [
+   {
+    "url": "https://cdn.cookielaw.org/consent/268444c1-c3b9-407d-a2ee-981ad1a9f1de/268444c1-c3b9-407d-a2ee-981ad1a9f1de.json",
+    "ct": "json",
+    "size": 5361,
+    "head": "{\"CookieSPAEnabled\":false,\"CookieSameSiteNoneEnabled\":false,\"CookieV2CSPEnabled\":false,\"MultiVariantTestingEnabled\":false,\"UseV2\":true,\"MobileSDK\":false,\"SkipGeolocation\":false,\"ScriptType\":\"PRODUCTION\",\"Version\":\"202604.2.0\",\"OptanonDataJSON\":\"268444c1-c3b9-407d-a2ee-981ad1a9f1de\",\"GeolocationUrl\":\"https://geolocation.onetrust.com/cookieconsentpub"
+   },
+   {
+    "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "ct": "json",
+    "size": 71,
+    "head": "{\"country\":\"US\",\"state\":\"CA\",\"stateName\":\"California\",\"continent\":\"NA\"}"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/consent/268444c1-c3b9-407d-a2ee-981ad1a9f1de/019dd3af-6121-769a-a8d6-f5746e0124f6/sl-si.json",
+    "ct": "json",
+    "size": 247809,
+    "head": "{\"DomainData\":{\"pclifeSpanYr\":\"leto\",\"pclifeSpanYrs\":\"Let\",\"pclifeSpanSecs\":\"Nekaj sekund\",\"pclifeSpanWk\":\"teden\",\"pclifeSpanWks\":\"Tednov\",\"pccontinueWithoutAcceptText\":\"Nadaljuj brez sprejemanja\",\"pccloseButtonType\":\"Icon\",\"MainText\":\"Določite obseg soglasja \",\"MainInfoText\":\"<p>Svoje soglasje za obdelavo lahko podate individualno v skladu z namen"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202604.2.0/assets/v2/otPcCenter.json",
+    "ct": "json",
+    "size": 68019,
+    "head": "\n        {\n            \"name\": \"otPcCenter\",\n            \"html\": \"PGRpdiBpZD0ib25ldHJ1c3QtcGMtc2RrIiBjbGFzcz0ib3RQY0NlbnRlciBvdC1oaWRlIG90LWZhZGUtaW4iPjxkaXYgcm9sZT0iZGlhbG9nIiBhcmlhLW1vZGFsPSJ0cnVlIj48IS0tIENsb3NlIEJ1dHRvbiAtLT48ZGl2IGNsYXNzPSJvdC1wYy1oZWFkZXIiPjwhLS0gTG9nbyBUYWcgLS0+PGRpdiBjbGFzcz0ib3QtcGMtbG9nbyI+PC9kaXY+PGJ1dHRvbiBpZD0iY2xvc2Ut"
+   },
+   {
+    "url": "https://cdn.cookielaw.org/consent/268444c1-c3b9-407d-a2ee-981ad1a9f1de/019dd3af-6121-769a-a8d6-f5746e0124f6/bLayout-sl-si.json",
+    "ct": "json",
+    "size": 13357,
+    "head": "{\"html\":\"<div id=\\\"onetrust-banner-sdk\\\" class=\\\"otCenterRounded default\\\" tabindex=\\\"0\\\"><div class=\\\"ot-sdk-container\\\" role=\\\"dialog\\\" aria-modal=\\\"true\\\" aria-label=\\\"Preden nadaljujemo: Obdelava vaših podatkov \\\"><div class=\\\"ot-sdk-row\\\"><div id=\\\"onetrust-group-container\\\" class=\\\"ot-sdk-twelve ot-sdk-columns\\\"><div id=\\\"onetrust-policy\\\"><d"
+   },
+   {
+    "url": "https://www.lidl.si/s/translation/sl-SI.json?_=1794391884137",
+    "ct": "json",
+    "size": 18659,
+    "head": "{\n  \"detailPage.head.metaDescription.Text1\": \"Tvoja Lidl trgovina\",\n  \"detailPage.head.metaDescription.Text2\": \"Delovni čas in posebne ponudbe te trgovine.\",\n  \"detailPage.head.metaDescription.Text3\": \"Najvišja kakovost po najboljših cenah. Tvoja najljubša trgovina za sveže sadje in zelenjavo.\",\n  \"detailPage.head.metaTitle.prefix\": \"Trgovina\",\n  \""
+   },
+   {
+    "url": "https://www.lidl.si/s/translation/sl-SI.json?_=0000000000000",
+    "ct": "json",
+    "size": 18659,
+    "head": "{\n  \"detailPage.head.metaDescription.Text1\": \"Tvoja Lidl trgovina\",\n  \"detailPage.head.metaDescription.Text2\": \"Delovni čas in posebne ponudbe te trgovine.\",\n  \"detailPage.head.metaDescription.Text3\": \"Najvišja kakovost po najboljših cenah. Tvoja najljubša trgovina za sveže sadje in zelenjavo.\",\n  \"detailPage.head.metaTitle.prefix\": \"Trgovina\",\n  \""
+   },
+   {
+    "url": "https://www.lidl.si/n/disclaimer-text/Basic?locale=sl-SI",
+    "ct": "json",
+    "size": 1405,
+    "head": "{\"catalog\":\"si\",\"id\":\"Basic\",\"text\":\"<p><sub><strong>Pravno obvestilo</strong></sub></p><p><sub>Izdelki so dobavljivi v omejenih količinah. Ponudba posameznih izdelkov, modelov, velikosti in barv se lahko razlikuje glede na poslovalnico. V primeru nepričakovano velikega povpraševanja so lahko izdelki razprodani že prvi dan. Prosimo za razumevanje.<"
+   },
+   {
+    "url": "https://www.lidl.si/u/api/product/10060742/SI/sl?start=0&max=6&order=STARS_DESC",
+    "ct": "json",
+    "size": 224,
+    "head": "{\"erpNumber\":\"10060742\",\"variantNames\":{},\"originalNames\":{},\"bundleItemNames\":null,\"ratingsPerLocale\":null,\"globalRating\":null,\"starHistogram\":null,\"ratings\":{\"pageStart\":0,\"pageItems\":null,\"totalItems\":0},\"queryMillis\":18}"
+   },
+   {
+    "url": "https://www.lidl.si/p/details-view-dist/builds/meta/348bf672-a5f8-48ba-a422-b3d1d736b6a0.json",
+    "ct": "json",
+    "size": 88,
+    "head": "{\"id\":\"348bf672-a5f8-48ba-a422-b3d1d736b6a0\",\"timestamp\":1793875572545,\"prerendered\":[]}"
+   }
+  ]
+ }
+]
