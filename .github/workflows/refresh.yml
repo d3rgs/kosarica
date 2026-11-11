@@ -1,0 +1,74 @@
+name: Osveži cene
+on:
+  push:
+    branches: [main]
+    paths: ["index.html", "sw.js", "manifest.webmanifest", "icon-*.png", ".github/workflows/**"]
+  schedule:
+    - cron: "0 5 * * *"   # vsak dan ob 05:00 UTC (06:00 ali 07:00 po slovenskem času)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "run = zberi cene, probe = samo preizkus (poročilo in posnetki)"
+        default: "run"
+concurrency:
+  group: kosarica
+  cancel-in-progress: false
+jobs:
+  collect:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Namesti
+        working-directory: scraper
+        run: npm install && npx playwright install --with-deps chromium
+      - name: Testi
+        working-directory: scraper
+        run: npm test
+      - name: Zagon zbiralnika
+        working-directory: scraper
+        continue-on-error: true
+        run: node ${{ github.event.inputs.mode == 'probe' && 'probe.mjs' || 'run.mjs' }}
+      - name: Naloži poročilo
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: probe-debug
+          path: scraper/debug
+          if-no-files-found: ignore
+      - name: Shrani podatke
+        if: github.event.inputs.mode != 'probe'
+        run: |
+          git config user.name "kosarica-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data
+          git diff --staged --quiet || (git commit -m "Osvežitev cen $(date -u +%F)" && git push)
+  deploy:
+    needs: collect
+    if: ${{ always() && needs.collect.result != 'failure' && needs.collect.result != 'cancelled' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.dp.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - name: Pripravi stran
+        run: |
+          mkdir _site
+          cp -r index.html manifest.webmanifest sw.js icon-192.png icon-512.png data _site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: dp
+        uses: actions/deploy-pages@v4
