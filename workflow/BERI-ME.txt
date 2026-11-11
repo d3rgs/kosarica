@@ -1,0 +1,1 @@
+Vsebino datoteke refresh.yml prekopiraj v GitHub kot novo datoteko z imenom .github/workflows/refresh.yml (skrite mape ne naloži s povleci in spusti).

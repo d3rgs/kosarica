@@ -1,0 +1,7 @@
+{
+  "name": "kosarica-zbiralnik",
+  "private": true,
+  "type": "module",
+  "scripts": { "run": "node run.mjs", "probe": "node probe.mjs", "test": "node --test" },
+  "dependencies": { "playwright": "^1.49.0" }
+}

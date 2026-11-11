@@ -1,0 +1,2 @@
+# Povezave do izdelkov na mercatoronline.si (ena na vrstico), npr.
+# https://mercatoronline.si/izdelek/17161388/mlinci-zito-250-g
