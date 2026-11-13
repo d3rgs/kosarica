@@ -6,6 +6,8 @@ test("pravilna ujemanja (resnična imena iz SPAR in Hofer)", () => {
   assert.equal(F("Trajno mleko brez zamaška, 1,5%", "1 l"), "Mleko 1,5 %");
   assert.equal(F("ODLIČNA KAKOVOST SVEŽE MLEKO 1,5% M.M., SPAR, 1L"), "Mleko 1,5 %");
   assert.equal(F("MLETO GOVEJE MESO, S-BUDGET, 500G"), "Goveje mleto meso");
+  assert.equal(F("Jajca L iz hlevske reje, Mercator, 10/1"), "Jajca");
+  assert.equal(F("Banane"), "Banane");
   assert.equal(F("PURANJE MLETO MESO, VINDIJA, 400G"), "Drugo mleto meso");
   assert.equal(F("BIO BANANE, SPAR NATUR*PUR, TEHTANO, ENOTA 500G"), "Banane");
   assert.equal(F("DOLGE KUMARE, TEHTANO, ENOTA 500G"), "Kumare");
@@ -17,7 +19,7 @@ test("napačna ujemanja so zavrnjena (iz prvega zagona)", () => {
     "FRUTOLINO, JABOLKO, BANANA IN KEKS, LINO, 190G", "KAŠICA JABOLKO IN BANANA LINO, PODRAVKA, 190G", "MINI BUČKE POLNJENE S SIROM, KÄSEMACHER, 250G",
     "POSUŠEN ČIPS IZ BUČK, TRUE STORY, 20G", "PIŠČANČJI CURRY PERFECT, PERUTNINA PTUJ, 350G", "OCVIRKI S KAJENSKIM POPROM, PANVITA, 100G",
     "KEKSI REMIX MALINA, OREO, 157G", "BIO KOSMIČI Z OKUSOM MALINE, GRACI, 300G", "OVSENA KAŠA MALINA, BOOM BOX, 300G",
-    "DELIKATESNE KUMARICE, SPAR, 670G", "KAMNIŠKE KUMARICE, NATURETA, 1KG", "Mleko 3,5 % 1 l", "Čokoladno mleko 1,5 % 1 l", "Banane čips 100 g"])
+    "DELIKATESNE KUMARICE, SPAR, 670G", "FRUTABELA JABOLKO IN BANANA, 44G", "SKUTA BANANA, JAGODA IN MARELICA, FRUCHTZWERGE, 300G", "SIRUP KIVI IN BANANA, FRUPI, 1L", "Čokoladne bananice, Casali, 300 g", "GRANOLA ZMEŠANA BANANA, MOJA PRESNA GRANOLA, 230G", "JAJCE ZA HLADILNIK, MR. MAGIC", "Prepeličja jajca, Redek, 12/1", "PODSTAVEK ZA JAJCA MCEGG, ROZA, WMF, 3/1", "KAMNIŠKE KUMARICE, NATURETA, 1KG", "Mleko 3,5 % 1 l", "Čokoladno mleko 1,5 % 1 l", "Banane čips 100 g"])
     assert.equal(F(n, ""), null, n);
 });
 test("pakiranje in EAN", () => {

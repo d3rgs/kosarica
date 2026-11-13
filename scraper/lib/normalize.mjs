@@ -32,7 +32,8 @@ export const unitPrice = (price, amount, unit) => (U[unit] ? price / (amount * U
 export function normalizeUnitPrice(text) {
   const s = String(text ?? "").toLowerCase().replace(/,/g, ".");
   const m = s.match(new RegExp(`(\\d+(?:\\.\\d+)?)\\s?(?:€|eur)\\s?(?:\\/|na|za)\\s?(\\d+(?:\\.\\d+)?)?\\s?(${UN})\\b`));
-  if (!m) return null;
-  const f = U[m[3]], per = m[2] ? parseFloat(m[2]) : 1;
-  return { value: parseFloat(m[1]) / (per * f[1]), unit: f[0] };
+  if (m) { const f = U[m[3]], per = m[2] ? parseFloat(m[2]) : 1; return { value: parseFloat(m[1]) / (per * f[1]), unit: f[0] }; }
+  // SPAR: "0.1KG (KG za 11,80 €) (PC30 KG za 10,50 €)" -> prva cena na enoto
+  const b = s.match(/(?<!pc30 )\b(kg|l|kos|m)\s*za\s*(\d+(?:\.\d+)?)\s?(?:€|eur)/);
+  return b ? { value: parseFloat(b[2]), unit: b[1] } : null;
 }

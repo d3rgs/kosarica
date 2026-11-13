@@ -14,11 +14,11 @@ for (const name of ["Hofer", "Mercator", "SPAR", "Lidl"]) {
   for (const [i, url] of (await mod.pages(test)).slice(0, 4).entries()) {
     const r = { store: name, url };
     try {
-      const s = await scanPage(browser, url), c = harvestAll(s), o = toOffers(name, url, c, {}, new Date().toISOString());
+      const s = await scanPage(browser, url, mod.scan || {}), c = mod.cands ? mod.cands(s) : harvestAll(s), st = {}, o = toOffers(name, url, c, {}, new Date().toISOString(), st);
       const id = `${name}-${i}`;
       fs.writeFileSync(`debug/${id}.png`, s.shot); fs.writeFileSync(`debug/${id}.html`, s.html);
       Object.assign(r, { status: s.status, jsonResponses: s.jsons.length, rscResponses: s.rscs.length, jsonLd: fromJsonLd(s.html).length,
-        candidates: c.length, matched: o.length, sample: o.slice(0, 3).map((x) => `${x.food}: ${x.name} ${x.amount} ${x.unit} ${x.price} €`), textHead: s.text.slice(0, 600), responses: s.meta });
+        rawItems: Array.isArray(s.dom) ? s.dom.length : undefined, candidates: c.length, matched: o.length, rejected: st.rejected, unmatched: st.unmatched, sample: o.slice(0, 3).map((x) => `${x.food}: ${x.name} ${x.amount} ${x.unit} ${x.price} €`), textHead: s.text.slice(0, 600), responses: s.meta.filter((m) => !/cookie|onetrust|consent|monitoring|featureassets|registry|translation|messages|builds\/meta/i.test(m.url)) });
     } catch (e) { r.error = String(e.message || e).slice(0, 200); }
     report.push(r); console.log(JSON.stringify(r));
   }
