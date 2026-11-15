@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-14T05:46:00.395Z",
+ "generatedAt": "2026-11-15T05:49:07.841Z",
  "stores": {
   "Hofer": {
    "ok": true,
    "offers": 4,
-   "candidates": 358,
+   "candidates": 351,
    "pages": 10,
    "pagesOk": 10,
    "error": null,
@@ -14,27 +14,23 @@
     "Ovseni kosmiči XXL: ni količine",
     "Ovseni kosmiči XXL: ni količine"
    ],
-   "checkedAt": "2026-11-14T05:46:00.395Z"
+   "checkedAt": "2026-11-15T05:49:07.841Z"
   },
   "Mercator": {
-   "ok": false,
-   "offers": 0,
-   "candidates": 0,
+   "ok": true,
+   "offers": 85,
+   "candidates": 255,
    "pages": 21,
-   "pagesOk": 0,
-   "error": "HTTP 503",
-   "errors": [
-    "https://mercatoronline.si/brskaj#search=banane: HTTP 503",
-    "https://mercatoronline.si/brskaj#search=skuta%200: HTTP 503",
-    "https://mercatoronline.si/brskaj#search=goveje%20mleto%20meso: HTTP 503"
-   ],
+   "pagesOk": 21,
+   "error": null,
+   "errors": [],
    "rejected": [],
-   "checkedAt": "2026-11-14T05:46:00.395Z"
+   "checkedAt": "2026-11-15T05:49:07.841Z"
   },
   "SPAR": {
    "ok": true,
-   "offers": 106,
-   "candidates": 545,
+   "offers": 104,
+   "candidates": 543,
    "pages": 21,
    "pagesOk": 21,
    "error": null,
@@ -50,15 +46,15 @@
     "JAJCA IZPOD KAMNIŠKIH PLANIN, HLEVSKA RE: pakiranje",
     "JAJCA IZ GNEZDA, VELIKOST L, JATA EMONA,: primerjalna cena 0.51 ≠ 0.42",
     "VAFLJI IZ SVEŽIH JAJC, KUCHENMEISTER, 25: pakiranje",
-    "PIŠKOTI Z JAJCI TARALLUCCI, MULINO BIANC: pakiranje",
-    "VEGANSKA MAJONEZA BREZ JAJC, GEA 420G: pakiranje"
+    "ČOKOLADNO JAJCE MAXI KINDER SURPRISE, 22: pakiranje",
+    "PIŠKOTI Z JAJCI TARALLUCCI, MULINO BIANC: pakiranje"
    ],
-   "checkedAt": "2026-11-14T05:46:00.395Z"
+   "checkedAt": "2026-11-15T05:49:07.841Z"
   },
   "Lidl": {
    "ok": true,
    "offers": 3,
-   "candidates": 182,
+   "candidates": 172,
    "pages": 9,
    "pagesOk": 9,
    "error": null,
@@ -66,7 +62,7 @@
    "rejected": [
     "Kaki: pakiranje"
    ],
-   "checkedAt": "2026-11-14T05:46:00.395Z"
+   "checkedAt": "2026-11-15T05:49:07.841Z"
   }
  },
  "offers": [
@@ -1143,7 +1139,7 @@
    "kind": "redna",
    "url": "https://www.hofer.si/izdelek/milsani-banana-ali-000000000110912002",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/png/scaleWidth/400/e4b51ae9-9234-410e-93de-d9a27e03ab86/milsani-banana-ali",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1160,7 +1156,7 @@
    "kind": "redna",
    "url": "https://www.hofer.si/izdelek/okus-podezelja-sveze-goveje-mleto-meso-000000000000310861",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/png/scaleWidth/400/52d28563-1932-4f65-9124-35232e44d246/okus-podezelja-sveze-goveje-mleto-meso",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1177,7 +1173,7 @@
    "kind": "redna",
    "url": "https://www.hofer.si/izdelek/back-family-kakav-v-prahu-000000000000597645",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/png/scaleWidth/400/e08d8e1a-4951-4e2f-959a-e3dd41409c30/back-family-kakav-v-prahu",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1193,7 +1189,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/banane-tehtano-enota-500g-11638",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/11638/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1209,7 +1205,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/bio-banane-spar-naturpur-tehtano-enota-500g-568097",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/568097/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1225,7 +1221,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/nepasirana-pusta-skuta-spar-500g-259841",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/259841/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1241,7 +1237,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/skuta-iz-pasteriziranega-mleka-20-mm-spar-250g-625361",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/625361/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1275,7 +1271,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/pripravek-mletega-mesa-svinjsko-in-goveje-spar-630g-xxl-599895",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/599895/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1291,7 +1287,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/mleto-goveje-meso-s-budget-500g-613349",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/613349/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1323,7 +1319,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/zacimbna-mesanica-za-pripravo-mletega-mesa-s-budget-80g-621537",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/621537/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1339,7 +1335,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/mleto-mesano-meso-svinjsko-in-goveje-spar-480g-551053",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/551053/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1371,7 +1367,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/bio-mesanica-zacimb-za-mleto-meso-spar-naturpur-62g-639639",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/639639/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1387,7 +1383,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/kakav-v-prahu-chef-gorenjka-100g-615193",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/615193/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1403,7 +1399,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/bio-kakav-v-prahu-nature%C2%B4s-finest-nutrisslim-350g-xxl-522294",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/522294/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1419,7 +1415,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/bio-presni-kakav-criollo-v-prahu-uhtco-200g-623965",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/623965/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1435,7 +1431,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/ovseni-kosmici-s-budget-500g-32506",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/32506/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1451,7 +1447,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/ovseni-kosmici-s-budget-500g-654950",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/654950/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1467,7 +1463,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/bio-ovseni-kosmici-rahli-spar-naturpur-500g-591531",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/591531/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1483,7 +1479,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/bio-ovseni-kosmici-spar-naturpur-500g-562821",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/562821/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1499,7 +1495,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/hrustljavi-musli-s-polnozrnatimi-ovsenimi-kosmici-spar-600g-664395",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/664395/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1515,7 +1511,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/trajno-mleko-15-s-budget-1l-348636",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/348636/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1531,7 +1527,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/trajno-mleko-15-spar-1l-270242",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/270242/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1550,7 +1546,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/alpsko-mleko-15-mm-6x1l-481110",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/481110/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1566,7 +1562,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/sveze-mleko-15-mm-spar-1l-541812",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/541812/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1582,7 +1578,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/mleko-polposneto-ik-15-mm-1l-662137",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/662137/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1598,7 +1594,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/proteinska-tortilja-mexicana-370g-667435",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/667435/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1614,7 +1610,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/bucke-tehtano-500g-48200",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/48200/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1630,7 +1626,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/bio-bucke-naturpur-500g-485121",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/485121/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1646,7 +1642,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/kumare-tehtano-enota-500g-11652",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/11652/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1662,7 +1658,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/dolge-kumare-tehtano-enota-500g-325222",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/325222/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1678,7 +1674,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/maline-spar-250g-639628",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/639628/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1696,7 +1692,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/maline-125g-215209",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/215209/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1712,7 +1708,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/maline-natureta-450g-246671",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/246671/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1728,7 +1724,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/maline-spar-premium-150g-643854",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/643854/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1744,7 +1740,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/zacimbna-mesanica-provansalska-zelisca-kotanyi-25g-102952",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/102952/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1760,7 +1756,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/curry-mesanica-zacimb-maestro-40g-528730",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/528730/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1776,7 +1772,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/zacimbna-mesanica-curry-kotanyi-50g-103853",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/103853/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1792,7 +1788,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/cicerikin-cips-z-okusom-indijskega-currya-bio-today-75g-645152",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/645152/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1808,7 +1804,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/zacimbna-mesanica-secrets-of-indija-curry-kotanyi-20g-652282",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/652282/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1824,7 +1820,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/bio-curry-sladki-sonnentor-50g-582201",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/582201/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1840,7 +1836,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/jodirana-morska-sol-rafinirana-fino-mleta-despar-1kg-623038",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/623038/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1856,7 +1852,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/morska-sol-fino-mleta-jedilna-nerafinirana-jodirana-piranske-soline-1kg-274155",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/274155/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1872,7 +1868,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/morska-sol-fino-mleta-jedilna-nerafinirana-jodirana-piranske-soline-750g-389449",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/389449/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1888,7 +1884,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/jodirana-morska-sol-rafinirana-zelo-fino-mleta-despar-125g-623042",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/623042/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1904,7 +1900,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/morska-sol-fino-mleta-jedilna-nerafinirana-jodirana-piranske-soline-175g-488355",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/488355/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1920,7 +1916,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/kajenski-poper-mleti-kotanyi-38g-102950",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/102950/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1936,7 +1932,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/kajenski-poper-mleti-maestro-38g-527579",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/527579/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1952,7 +1948,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/tunina-v-lastnem-soku-despar-3x80g-452009",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/452009/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1968,7 +1964,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/tuna-v-lastnem-soku-zero-fat-free-calvo-3x65g-587420",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/587420/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -1984,7 +1980,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/tuna-v-lastnem-soku-pro-calvo-3x65g-669791",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/669791/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -2000,7 +1996,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/filet-belega-tuna-v-lastnem-soku-spar-premium-200g-682130",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/682130/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -2016,7 +2012,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/jajca-velikost-m-s-budget-181-680390",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/680390/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -2032,7 +2028,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/jajca-hlevska-reja-m-s-budget-101-576285",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/576285/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -2048,7 +2044,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/jajca-velikost-l-s-budget-181-680337",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/680337/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -2064,7 +2060,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/jajca-hlevska-reja-l-s-budget-101-532511",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/532511/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -2082,7 +2078,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/jajca-m-talna-reja-kmetija-globocnik-101-585544",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/585544/mb_sub.jpg",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -2101,7 +2097,7 @@
    "validTo": "2026-11-28",
    "url": "https://www.lidl.si/p/nase-nam-pase-piscancje-mleto-meso/p11258154",
    "img": "https://www.lidl.si/assets/gcp2aaee774165d433296fa185a3ee10e01.png",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -2118,7 +2114,7 @@
    "validTo": "2026-11-25",
    "url": "https://www.lidl.si/p/jata-sveza-jajca-izpod-kamniskih-planin/p11456354",
    "img": "https://www.lidl.si/assets/gcpdd81130f45f74e939d872992275df78d.png",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   },
   {
@@ -2137,7 +2133,732 @@
    "validTo": "2026-11-18",
    "url": "https://www.lidl.si/p/crownfield-ovseni-kosmici/p11276154",
    "img": "https://www.lidl.si/assets/gcp1f1c4ac6f71f4711a1771017b20f150d.png",
-   "checkedAt": "2026-11-14T05:46:00.395Z",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Banane",
+   "sku": "16649957",
+   "name": "Banane",
+   "amount": 1,
+   "unit": "kg",
+   "pack": "1 kg",
+   "price": 1.49,
+   "unitPrice": 1.49,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/16649957/banane",
+   "img": "https://mercatoronline.si/img/cache/products/5636/product_small_image/00653884.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Skuta 0 %",
+   "sku": "20105864",
+   "name": "Pasirana skuta, 10 % m.m., Active Zone, 500 g",
+   "amount": 500,
+   "unit": "g",
+   "pack": "500 g",
+   "price": 1.69,
+   "unitPrice": 3.38,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/20105864/pasirana-skuta-10-m-m-active-zone-500-g",
+   "img": "https://mercatoronline.si/img/cache/products/10097/product_small_image/00615220.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Skuta 0 %",
+   "sku": "11319820",
+   "name": "Nepasirana skuta, 40 % m.m., Zelene Doline, 500 g",
+   "amount": 500,
+   "unit": "g",
+   "pack": "500 g",
+   "price": 3.79,
+   "unitPrice": 7.58,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/11319820/nepasirana-skuta-40-m-m-zelene-doline-500-g",
+   "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px24.png",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Goveje mleto meso",
+   "sku": "20151118",
+   "name": "Goveje mleto meso, Mercator, 420 g",
+   "amount": 420,
+   "unit": "g",
+   "pack": "420 g",
+   "price": 4.49,
+   "unitPrice": 10.69,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/20151118/goveje-mleto-meso-mercator-420-g",
+   "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00779386.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Goveje mleto meso",
+   "sku": "17237806",
+   "name": "Mlado goveje mleto meso, Mercator, cena za kg",
+   "amount": 1,
+   "unit": "kg",
+   "pack": "1 kg",
+   "price": 14.99,
+   "unitPrice": 14.99,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/17237806/mlado-goveje-mleto-meso-mercator-cena-za-kg",
+   "img": "https://mercatoronline.si/img/cache/products/8761/product_small_image/00492443.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Drugo mleto meso",
+   "sku": "20170397",
+   "name": "Mleto mešano meso, Mercator, 1 kg",
+   "amount": 1,
+   "unit": "kg",
+   "pack": "1 kg",
+   "price": 5.99,
+   "regularPrice": 7.49,
+   "promoPrice": 5.99,
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/20170397/mleto-mesano-meso-mercator-1-kg",
+   "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00896305.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Drugo mleto meso",
+   "sku": "16940569",
+   "name": "Mleto mešano meso, Mercator, pakirano, 450 g",
+   "amount": 450,
+   "unit": "g",
+   "pack": "450 g",
+   "price": 3.49,
+   "unitPrice": 7.76,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/16940569/mleto-mesano-meso-mercator-pakirano-450-g",
+   "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00247878.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Drugo mleto meso",
+   "sku": "17129997",
+   "name": "Svinjsko mleto meso, Mercator, cena za kg",
+   "amount": 1,
+   "unit": "kg",
+   "pack": "1 kg",
+   "price": 7.99,
+   "unitPrice": 7.99,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/17129997/svinjsko-mleto-meso-mercator-cena-za-kg",
+   "img": "https://mercatoronline.si/img/cache/products/8761/product_small_image/00372744.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Drugo mleto meso",
+   "sku": "8199175",
+   "name": "Mleto mešano meso, Mercator",
+   "amount": 1,
+   "unit": "kg",
+   "pack": "1 kg",
+   "price": 8.49,
+   "regularPrice": 9.99,
+   "promoPrice": 8.49,
+   "unitPrice": 8.49,
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/8199175/mleto-mesano-meso-mercator",
+   "img": "https://mercatoronline.si/img/cache/products/8761/product_small_image/00395134.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Drugo mleto meso",
+   "sku": "20170419",
+   "name": "Mleto mešano meso z manj maščob, Mercator, 450 g",
+   "amount": 450,
+   "unit": "g",
+   "pack": "450 g",
+   "price": 3.99,
+   "unitPrice": 8.87,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/20170419/mleto-mesano-meso-z-manj-mascob-mercator-450-g",
+   "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00896310.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Kakav",
+   "sku": "19263554",
+   "name": "Kakav v prahu, Gorenjka, 100 g",
+   "amount": 100,
+   "unit": "g",
+   "pack": "100 g",
+   "price": 2.59,
+   "unitPrice": 25.9,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/19263554/kakav-v-prahu-gorenjka-100-g",
+   "img": "https://mercatoronline.si/img/cache/products/4595/product_small_image/00210202.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Kakav",
+   "sku": "14488225",
+   "name": "Kakav v prahu, Kandit, 100 g",
+   "amount": 100,
+   "unit": "g",
+   "pack": "100 g",
+   "price": 2.79,
+   "unitPrice": 27.9,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/14488225/kakav-v-prahu-kandit-100-g",
+   "img": "https://mercatoronline.si/img/cache/products/4635/product_small_image/00808606.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Kakav",
+   "sku": "162583",
+   "name": "Kakav v prahu, Kraš, 100 g",
+   "amount": 100,
+   "unit": "g",
+   "pack": "100 g",
+   "price": 3.59,
+   "unitPrice": 35.9,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/162583/kakav-v-prahu-kras-100-g",
+   "img": "https://mercatoronline.si/img/cache/products/4591/product_small_image/00050585.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Kakav",
+   "sku": "14391157",
+   "name": "Bio presni kakav v prahu, Uhtco, 200 g",
+   "amount": 200,
+   "unit": "g",
+   "pack": "200 g",
+   "price": 12.99,
+   "unitPrice": 64.95,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/14391157/bio-presni-kakav-v-prahu-uhtco-200-g",
+   "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px23.png",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Ovseni kosmiči",
+   "sku": "19400538",
+   "name": "Drobni polnozrnati ovseni kosmiči, Rise & Smile, 500 g",
+   "amount": 500,
+   "unit": "g",
+   "pack": "500 g",
+   "price": 0.79,
+   "unitPrice": 1.58,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/19400538/drobni-polnozrnati-ovseni-kosmici-rise-amp-smile-500-g",
+   "img": "https://mercatoronline.si/img/cache/products/10365/product_small_image/00506077.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Ovseni kosmiči",
+   "sku": "19400549",
+   "name": "Veliki polnozrnati ovseni kosmiči, Rise & Smile, 500 g",
+   "amount": 500,
+   "unit": "g",
+   "pack": "500 g",
+   "price": 0.79,
+   "unitPrice": 1.58,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/19400549/veliki-polnozrnati-ovseni-kosmici-rise-amp-smile-500-g",
+   "img": "https://mercatoronline.si/img/cache/products/10365/product_small_image/00506078.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Ovseni kosmiči",
+   "sku": "18910465",
+   "name": "Ovseni kosmiči, Numbers Are Good, 500 g",
+   "amount": 500,
+   "unit": "g",
+   "pack": "500 g",
+   "price": 1.49,
+   "unitPrice": 2.98,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/18910465/ovseni-kosmici-numbers-are-good-500-g",
+   "img": "https://mercatoronline.si/img/cache/products/10708/product_small_image/00518460.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Ovseni kosmiči",
+   "sku": "19141757",
+   "name": "Ovseni kosmiči, Bio Zone, 500 g",
+   "amount": 500,
+   "unit": "g",
+   "pack": "500 g",
+   "price": 1.59,
+   "unitPrice": 3.18,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/19141757/ovseni-kosmici-bio-zone-500-g",
+   "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px23.png",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Ovseni kosmiči",
+   "sku": "19141801",
+   "name": "Drobni ovseni kosmiči, Bio Zone, 500 g",
+   "amount": 500,
+   "unit": "g",
+   "pack": "500 g",
+   "price": 1.69,
+   "unitPrice": 3.38,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/19141801/drobni-ovseni-kosmici-bio-zone-500-g",
+   "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px23.png",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Zamrznjena zelenjava z brokolijem",
+   "sku": "221435",
+   "name": "Brokoli, Natureta, zamrznjeno, 450 g",
+   "amount": 450,
+   "unit": "g",
+   "pack": "450 g",
+   "price": 2.99,
+   "unitPrice": 6.64,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/221435/brokoli-natureta-zamrznjeno-450-g",
+   "img": "https://mercatoronline.si/img/cache/products/4574/product_small_image/00080110.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Mleko 1,5 %",
+   "sku": "20175440",
+   "name": "Trajno polposneto Alpsko mleko s kalcijem, 1,5 % m.m., Ljubljanske mlekarne, 1 l",
+   "amount": 1,
+   "unit": "l",
+   "pack": "1 l",
+   "price": 1.69,
+   "unitPrice": 1.69,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/20175440/trajno-polposneto-alpsko-mleko-s-kalcijem-1-5-m-m-ljubljanske-mlekarne-1-l",
+   "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px24.png",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Kumare",
+   "sku": "12190760",
+   "name": "Kumare, cena za kg",
+   "amount": 1,
+   "unit": "kg",
+   "pack": "1 kg",
+   "price": 1.79,
+   "unitPrice": 1.79,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/12190760/kumare-cena-za-kg",
+   "img": "https://mercatoronline.si/img/cache/products/5636/product_small_image/00338196.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Maline",
+   "sku": "19965711",
+   "name": "Maline, zamrznjene, Garden Good, 400 g",
+   "amount": 400,
+   "unit": "g",
+   "pack": "400 g",
+   "price": 3.99,
+   "unitPrice": 9.97,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/19965711/maline-zamrznjene-garden-good-400-g",
+   "img": "https://mercatoronline.si/img/cache/products/10000/product_small_image/00107531.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Maline",
+   "sku": "543075",
+   "name": "Maline, Natureta, zamrznjeno, 450 g",
+   "amount": 450,
+   "unit": "g",
+   "pack": "450 g",
+   "price": 8.99,
+   "unitPrice": 19.98,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/543075/maline-natureta-zamrznjeno-450-g",
+   "img": "https://mercatoronline.si/img/cache/products/4574/product_small_image/00279621.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Maline",
+   "sku": "19165189",
+   "name": "Slovenske maline, 125 g",
+   "amount": 125,
+   "unit": "g",
+   "pack": "125 g",
+   "price": 2.79,
+   "unitPrice": 22.32,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/19165189/slovenske-maline-125-g",
+   "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px7.png",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Maline",
+   "sku": "1524671",
+   "name": "Maline, pakirano, 125 g",
+   "amount": 125,
+   "unit": "g",
+   "pack": "125 g",
+   "price": 3.29,
+   "unitPrice": 26.32,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/1524671/maline-pakirano-125-g",
+   "img": "https://mercatoronline.si/img/cache/products/5636/product_small_image/00312403.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Kaki",
+   "sku": "16823906",
+   "name": "Kaki Persimon, cena za kg",
+   "amount": 1,
+   "unit": "kg",
+   "pack": "1 kg",
+   "price": 3.49,
+   "unitPrice": 3.49,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/16823906/kaki-persimon-cena-za-kg",
+   "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px20.png",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Provansalske začimbe",
+   "sku": "513535",
+   "name": "Začimbna mešanica provansalskih začimb v mlinčku, Kotanyi, 33 g",
+   "amount": 33,
+   "unit": "g",
+   "pack": "33 g",
+   "price": 3.29,
+   "unitPrice": 99.7,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/513535/zacimbna-mesanica-provansalskih-zacimb-v-mlincku-kotanyi-33-g",
+   "img": "https://mercatoronline.si/img/cache/products/4576/product_small_image/00259240.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Curry",
+   "sku": "17748151",
+   "name": "Curry, Maestro, 40 g",
+   "amount": 40,
+   "unit": "g",
+   "pack": "40 g",
+   "price": 1.39,
+   "unitPrice": 34.75,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/17748151/curry-maestro-40-g",
+   "img": "https://mercatoronline.si/img/cache/products/4575/product_small_image/00205370.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Curry",
+   "sku": "4675730",
+   "name": "Mleti curry, Kotanyi, 50 g",
+   "amount": 50,
+   "unit": "g",
+   "pack": "50 g",
+   "price": 1.79,
+   "unitPrice": 35.8,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/4675730/mleti-curry-kotanyi-50-g",
+   "img": "https://mercatoronline.si/img/cache/products/4576/product_small_image/00081454.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Fino mleta sol",
+   "sku": "17512611",
+   "name": "Fino mleta morska sol, Mercator, 1 kg",
+   "amount": 1,
+   "unit": "kg",
+   "pack": "1 kg",
+   "price": 0.49,
+   "unitPrice": 0.49,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/17512611/fino-mleta-morska-sol-mercator-1-kg",
+   "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00063843.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Fino mleta sol",
+   "sku": "266055",
+   "name": "Jodirana fino mleta morska sol, Droga, 1 kg",
+   "amount": 1,
+   "unit": "kg",
+   "pack": "1 kg",
+   "price": 0.53,
+   "unitPrice": 0.53,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/266055/jodirana-fino-mleta-morska-sol-droga-1-kg",
+   "img": "https://mercatoronline.si/img/cache/products/4778/product_small_image/00115429.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Fino mleta sol",
+   "sku": "516351",
+   "name": "Jodirana fino mleta morska sol, Droga, 1 kg",
+   "amount": 1,
+   "unit": "kg",
+   "pack": "1 kg",
+   "price": 0.64,
+   "unitPrice": 0.64,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/516351/jodirana-fino-mleta-morska-sol-droga-1-kg",
+   "img": "https://mercatoronline.si/img/cache/products/4778/product_small_image/00260707.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Fino mleta sol",
+   "sku": "338991",
+   "name": "Fino mleta kamena sol, Tuzla, 1 kg",
+   "amount": 1,
+   "unit": "kg",
+   "pack": "1 kg",
+   "price": 0.72,
+   "unitPrice": 0.72,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/338991/fino-mleta-kamena-sol-tuzla-1-kg",
+   "img": "https://mercatoronline.si/img/cache/products/5606/product_small_image/00164328.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Fino mleta sol",
+   "sku": "28711",
+   "name": "Jodirana fino mleta morska sol, Droga, 500 g",
+   "amount": 500,
+   "unit": "g",
+   "pack": "500 g",
+   "price": 0.49,
+   "unitPrice": 0.98,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/28711/jodirana-fino-mleta-morska-sol-droga-500-g",
+   "img": "https://mercatoronline.si/img/cache/products/4778/product_small_image/00001734.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Kajenski poper",
+   "sku": "17748327",
+   "name": "Kajenski poper, Maestro, 38 g",
+   "amount": 38,
+   "unit": "g",
+   "pack": "38 g",
+   "price": 1.89,
+   "regularPrice": 1.99,
+   "promoPrice": 1.89,
+   "unitPrice": 49.74,
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/17748327/kajenski-poper-maestro-38-g",
+   "img": "https://mercatoronline.si/img/cache/products/4575/product_small_image/00205426.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Kajenski poper",
+   "sku": "155503",
+   "name": "Mleti kajenski poper, Kotanyi, 38 g",
+   "amount": 38,
+   "unit": "g",
+   "pack": "38 g",
+   "price": 1.99,
+   "unitPrice": 52.37,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/155503/mleti-kajenski-poper-kotanyi-38-g",
+   "img": "https://mercatoronline.si/img/cache/products/4576/product_small_image/00047308.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Kajenski poper",
+   "sku": "17130756",
+   "name": "Bio pekoči čili in kajenski poper, Sonnentor, 40 g",
+   "amount": 40,
+   "unit": "g",
+   "pack": "40 g",
+   "price": 4.19,
+   "unitPrice": 104.75,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/17130756/bio-pekoci-cili-in-kajenski-poper-sonnentor-40-g",
+   "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px23.png",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Jajca",
+   "sku": "18973021",
+   "name": "Jajca mladih kokoši M iz hlevske reje, Mercator, 10/1",
+   "amount": 10,
+   "unit": "kos",
+   "pack": "10 kos",
+   "price": 2.19,
+   "unitPrice": 0.22,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/18973021/jajca-mladih-kokosi-m-iz-hlevske-reje-mercator-10-1",
+   "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00611045.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Jajca",
+   "sku": "17026888",
+   "name": "Jajca M iz hlevske reje, Mercator, 10/1",
+   "amount": 10,
+   "unit": "kos",
+   "pack": "10 kos",
+   "price": 2.29,
+   "unitPrice": 0.23,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/17026888/jajca-m-iz-hlevske-reje-mercator-10-1",
+   "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00306872.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Jajca",
+   "sku": "18342675",
+   "name": "Jajca M iz hlevske reje, Mercator, 10/1",
+   "amount": 10,
+   "unit": "kos",
+   "pack": "10 kos",
+   "price": 2.29,
+   "unitPrice": 0.23,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/18342675/jajca-m-iz-hlevske-reje-mercator-10-1",
+   "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00724874.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Jajca",
+   "sku": "17961253",
+   "name": "Jajca L iz hlevske reje, Mercator, 10/1",
+   "amount": 10,
+   "unit": "kos",
+   "pack": "10 kos",
+   "price": 2.59,
+   "unitPrice": 0.26,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/17961253/jajca-l-iz-hlevske-reje-mercator-10-1",
+   "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00396221.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "Mercator",
+   "food": "Jajca",
+   "sku": "18342686",
+   "name": "Jajca L iz hlevske reje, Mercator, 10/1",
+   "amount": 10,
+   "unit": "kos",
+   "pack": "10 kos",
+   "price": 2.59,
+   "unitPrice": 0.26,
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/18342686/jajca-l-iz-hlevske-reje-mercator-10-1",
+   "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00724875.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "SPAR",
+   "food": "Goveje mleto meso",
+   "sku": "411702",
+   "name": "MLETO GOVEJE MESO, SPAR, 480G",
+   "amount": 480,
+   "unit": "g",
+   "pack": "480 g",
+   "price": 5.99,
+   "unitPrice": 12.48,
+   "kind": "redna",
+   "url": "https://online.spar.si/p/mleto-goveje-meso-spar-480g-411702",
+   "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/411702/mb_sub.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
+   "matchConfidence": "medium"
+  },
+  {
+   "store": "SPAR",
+   "food": "Maline",
+   "sku": "679749",
+   "name": "MALINE VŠEČKA, 250G",
+   "amount": 250,
+   "unit": "g",
+   "pack": "250 g",
+   "price": 4.69,
+   "unitPrice": 18.76,
+   "kind": "redna",
+   "url": "https://online.spar.si/p/maline-vsecka-250g-679749",
+   "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/679749/mb_sub.jpg",
+   "checkedAt": "2026-11-15T05:49:07.841Z",
    "matchConfidence": "medium"
   }
  ]
