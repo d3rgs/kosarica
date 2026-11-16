@@ -45,10 +45,10 @@ export function toOffers(store, pageUrl, cands, eanMap, now, stats = {}) {
       else { stats.rejected.push(`${name.slice(0, 40)}: primerjalna cena ${c.unitPrice.value.toFixed(2)} ≠ ${mine.toFixed(2)}`); continue; }
     }
     let url = pageUrl; try { if (c.url) url = new URL(c.url, pageUrl).href; } catch {}
-    const sale = c.regularPrice > c.price;
+    const sale = c.regularPrice > c.price || c.forceSale === true;
     out.push({
       store, food: m.food, sku: c.sku, ean: c.ean, brand: c.brand, name, amount: p.amount, unit: p.unit, pack: p.label,
-      price: c.price, regularPrice: sale ? c.regularPrice : undefined, promoPrice: sale ? c.price : undefined, unitPrice: up, lowest30: c.lowest30,
+      price: c.price, regularPrice: c.regularPrice > c.price ? c.regularPrice : undefined, promoPrice: sale ? c.price : undefined, unitPrice: up, unitText: c.unitText, lowest30: c.lowest30,
       kind: c.loyalty ? "klub" : sale ? "akcija" : "redna", loyalty: c.loyalty, validFrom: c.validFrom, validTo: c.validTo,
       url, img: c.img, checkedAt: now, matchConfidence: m.confidence,
     });

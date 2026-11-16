@@ -13,7 +13,7 @@ export async function collect({ stores, scan, foods, eanMap = {}, now, pause = a
       for (const url of await mod.pages(foods)) {
         pages++;
         try {
-          const sc = await scan(url, mod.scan || {}), c = mod.cands ? mod.cands(sc) : harvestAll(sc), st = {};
+          const sc = mod.fetch ? await mod.fetch(url) : await scan(url, mod.scan || {}), c = mod.cands ? mod.cands(sc) : harvestAll(sc), st = {};
           const o = toOffers(mod.name, url, c, eanMap, now, st);
           fresh.push(...o); n += o.length; cand += c.length; pagesOk++;
           for (const x of st.rejected || []) if (rej.length < 12) rej.push(x);
@@ -27,10 +27,21 @@ export async function collect({ stores, scan, foods, eanMap = {}, now, pause = a
 }
 const up = (o) => o.unitPrice ?? unitPrice(o.price, o.amount, o.unit);
 // Združi nove ponudbe s shranjenimi: shranjene preveri z današnjimi pravili, največ 5 najcenejših na trgovino in živilo.
-export function finalize(prev, fresh, now) {
+// Previsoke ali prenizke primerjalne cene glede na mediano istega živila (pod 25 % ali nad 400 %) so skoraj gotovo napaka pri branju: ne shranimo jih.
+export function dropOutliers(fresh) {
+  const byFood = {}, dropped = [];
+  for (const o of fresh) (byFood[o.food] ||= []).push(up(o));
+  const med = {};
+  for (const [f, a] of Object.entries(byFood)) if (a.length >= 4) { a.sort((x, y) => x - y); med[f] = a[Math.floor(a.length / 2)]; }
+  const kept = fresh.filter((o) => { const m = med[o.food]; if (m && (up(o) < m * 0.25 || up(o) > m * 4)) { dropped.push(`${o.store}: ${o.name.slice(0, 40)} ${up(o).toFixed(2)} (mediana ${m.toFixed(2)})`); return false; } return true; });
+  return { kept, dropped };
+}
+export function finalize(prev, freshAll, now) {
   const old = (prev.offers || []).map((o) => ({ ...o, name: cleanName(o.name) })).filter(stillValid);
+  const { kept: fresh, dropped } = dropOutliers(freshAll);
   const g = {};
   for (const o of fresh) (g[o.store + "|" + o.food] ||= []).push(o);
   const capped = Object.values(g).flatMap((a) => a.sort((x, y) => up(x) - up(y)).slice(0, 5));
-  return mergeRun({ offers: old }, capped, now);
+  const m = mergeRun({ offers: old }, capped, now);
+  return { ...m, dropped };
 }

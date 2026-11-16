@@ -35,5 +35,7 @@ export function normalizeUnitPrice(text) {
   if (m) { const f = U[m[3]], per = m[2] ? parseFloat(m[2]) : 1; return { value: parseFloat(m[1]) / (per * f[1]), unit: f[0] }; }
   // SPAR: "0.1KG (KG za 11,80 €) (PC30 KG za 10,50 €)" -> prva cena na enoto
   const b = s.match(/(?<!pc30 )\b(kg|l|kos|m)\s*za\s*(\d+(?:\.\d+)?)\s?(?:€|eur)/);
-  return b ? { value: parseFloat(b[2]), unit: b[1] } : null;
+  if (b) return { value: parseFloat(b[2]), unit: b[1] };
+  const c = s.match(/\bza\s*(kg|l|kos|m)\s*(\d+(?:\.\d+)?)\s?(?:€|eur)/);   // Eurospin: "za kg 6,23 €"
+  return c ? { value: parseFloat(c[2]), unit: c[1] } : null;
 }

@@ -1,0 +1,51 @@
+[
+ {
+  "id": 378622,
+  "name": "Pijača Fructal First, limona, limonska trava, 0,5 l",
+  "sku": "",
+  "on_sale": true,
+  "prices": {
+   "price": "150",
+   "regular_price": "150",
+   "sale_price": "122",
+   "currency_minor_unit": 2
+  },
+  "permalink": "https://www.tus.si/izdelki/pijaca-fructal-first-limona-limonska-trava-05-l/",
+  "images": [],
+  "is_in_stock": true
+ },
+ {
+  "id": 399050,
+  "name": "Frutek kaša, jabolko, banana, jagoda, 100 g",
+  "sku": "",
+  "on_sale": true,
+  "prices": {
+   "price": "139",
+   "regular_price": "139",
+   "sale_price": "125",
+   "currency_minor_unit": 2
+  },
+  "permalink": "https://www.tus.si/izdelki/frutek-kasa-jabolko-banana-jagoda-100-g/",
+  "images": [],
+  "is_in_stock": true
+ },
+ {
+  "id": 900001,
+  "name": "Mleko polposneto 1,5 % m.m., Ljubljanske mlekarne, 1 l",
+  "sku": "",
+  "on_sale": true,
+  "prices": {
+   "price": "099",
+   "regular_price": "119",
+   "sale_price": "099",
+   "currency_minor_unit": 2
+  },
+  "permalink": "https://www.tus.si/izdelki/mleko-1-5/",
+  "images": [
+   {
+    "src": "https://www.tus.si/wp-content/uploads/mleko.jpg"
+   }
+  ],
+  "is_in_stock": true
+ }
+]
