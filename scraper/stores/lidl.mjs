@@ -1,14 +1,14 @@
 import { extractLidl } from "../lib/dom.mjs";
 import { lidlCands } from "../lib/cands.mjs";
 // Lidl: kategorije s karticami izdelkov (ime, cena, prečrtana redna cena, »Od .. do ..«). Povezave do kategorij preberemo z začetne strani.
-const FOOD = /sadje|zelenjav|meso|mleč|mlec|jajca|zamrznj|pekovsk|sir|ribe|konserv|začimb|zacimb|kosmič|kosmic|kakav|hrana|ponudb/i;
+const FOOD = /hrana|sadje|zelenjav|meso|perutnin|govedin|svinjin|ribe|mleč|mlec|jajca|zamrznj|pekovsk|sir|konserv|začimb|zacimb|olj|kosmič|kosmic|kakav|testenin|čistil|cistil|gospodinj|higien|nega|papir|kozmet|pralni|pomival|ponudb/i;
 export default {
   name: "Lidl",
   pages: async () => {
     let cats = [];
     try {
       const html = await (await fetch("https://www.lidl.si/", { headers: { "user-agent": "KosaricaAI-osebna-primerjava/1.0" } })).text();
-      cats = [...new Set([...html.matchAll(/href="(\/h\/[^"#?]+)"/g)].map((m) => m[1]))].filter((u) => FOOD.test(u)).slice(0, 12).map((u) => "https://www.lidl.si" + u);
+      cats = [...new Set([...html.matchAll(/href="(\/h\/[^"#?]+)"/g)].map((m) => m[1]))].filter((u) => FOOD.test(u)).slice(0, 30).map((u) => "https://www.lidl.si" + u);
     } catch (e) { console.log("::warning::Lidl kategorije: " + e.message); }
     return [...new Set(["https://www.lidl.si/h/sadje-in-zelenjava/h10071012", ...cats])];
   },

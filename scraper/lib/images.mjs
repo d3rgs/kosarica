@@ -36,7 +36,7 @@ export async function enrichImages(offers, cache = {}, { fetch = globalThis.fetc
         if (j.status === 1 && offAccept(o, j.product, true).ok) hit = j.product;
       } else if (o.brand) {
         if (search++ >= maxSearch) { stats.skipped++; continue; }
-        const j = await get(`https://world.openfoodfacts.org/cgi/search.pl?search_simple=1&action=process&json=1&page_size=8&fields=${FIELDS}&search_terms=${encodeURIComponent([o.brand, o.name].join(" "))}&tagtype_0=countries&tag_contains_0=contains&tag_0=slovenia`); await pause();
+        const j = await get(`https://world.openfoodfacts.org/cgi/search.pl?search_simple=1&action=process&json=1&page_size=8&fields=${FIELDS}&search_terms=${encodeURIComponent([o.brand, o.name].join(" "))}&tagtype_0=countries&tag_contains_0=contains&tag_0=slovenia`); await pause(6500);
         const ok = (j.products || []).filter((p) => offAccept(o, p, false).ok);
         if (ok.length === 1) hit = ok[0];                                   // dvoumno ujemanje = brez slike
       } else { stats.skipped++; continue; }

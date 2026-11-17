@@ -2,7 +2,7 @@ import { FOODS } from "../config/foods.mjs";
 import { parsePack, family, unitPrice } from "./normalize.mjs";
 import { cleanName, productPart } from "./clean.mjs";
 // Pri sveži zelenjavi in sadju mora biti ime živila na začetku imena izdelka (BIO BANANE, DOLGE KUMARE), ne v sestavi (SKUTA BANANA).
-const MOD = /^(bio|sveže|svež|sveža|dolge|dolga|mini|rdeče|rdeča|zrele|slovenske|italijanske|španske|tehtano|odlična kakovost|odlična|kakovost)\s+/i;
+const MOD = /^(bio|presni|presna|presno|naravni|naravna|premium|ekološki|sveže|svež|sveža|dolge|dolga|mini|rdeče|rdeča|zrele|slovenske|italijanske|španske|tehtano|odlična kakovost|odlična|kakovost)\s+/i;
 function leadWord(seg) { let s = seg; for (let i = 0; i < 4; i++) { const t = s.replace(MOD, ""); if (t === s) break; s = t; } return s.split(/\s+/)[0]; }
 // Stopnje: high (znan EAN), medium (ime + pakiranje), low (pakiranje ne ustreza), null (ni ujemanja).
 export function matchFood(o, eanMap = {}) {
@@ -44,6 +44,7 @@ export function toOffers(store, pageUrl, cands, eanMap, now, stats = {}) {
       if (Math.abs(c.unitPrice.value / mine - 1) <= 0.04) up = c.unitPrice.value;
       else { stats.rejected.push(`${name.slice(0, 40)}: primerjalna cena ${c.unitPrice.value.toFixed(2)} ≠ ${mine.toFixed(2)}`); continue; }
     }
+    if (food && food.rng) { const v = up ?? mine; if (v < food.rng[0] || v > food.rng[1]) { stats.rejected.push(`${name.slice(0, 40)}: cena ${v.toFixed(2)} izven razpona`); continue; } }
     let url = pageUrl; try { if (c.url) url = new URL(c.url, pageUrl).href; } catch {}
     const sale = c.regularPrice > c.price || c.forceSale === true;
     out.push({

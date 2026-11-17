@@ -14,7 +14,7 @@ for (const name of ["Hofer", "Mercator", "SPAR", "Lidl", "Tus", "Eurospin"]) {
   for (const [i, url] of (await mod.pages(test)).slice(0, 4).entries()) {
     const r = { store: name, url };
     try {
-      const s = mod.fetch ? await mod.fetch(url) : await scanPage(browser, url, mod.scan || {}), c = mod.cands ? mod.cands(s) : harvestAll(s), st = {}, o = toOffers(name, url, c, {}, new Date().toISOString(), st);
+      const s = mod.fetch ? await mod.fetch(url) : await scanPage(browser, url, { ...(mod.scan || {}), shot: true }), c = mod.cands ? mod.cands(s) : harvestAll(s), st = {}, o = toOffers(name, url, c, {}, new Date().toISOString(), st);
       const id = `${name}-${i}`;
       if (s.shot) fs.writeFileSync(`debug/${id}.png`, s.shot); if (s.html) fs.writeFileSync(`debug/${id}.html`, s.html);
       Object.assign(r, { status: s.status, jsonResponses: (s.jsons || []).length, rscResponses: (s.rscs || []).length, jsonLd: fromJsonLd(s.html || "").length,

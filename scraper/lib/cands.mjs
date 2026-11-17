@@ -28,13 +28,15 @@ export function lidlCands(items, now = new Date()) {
   return (items || []).filter((i) => i.title).map((i) => {
     const t = i.text || "", price = euro(i.price), stroke = euro(i.stroke), name = cleanName(i.title);
     let pack = null;
-    if (/za kg|1 kg\s*=/i.test(t)) pack = { label: "1 kg", unit: "kg" };
-    else if (/za l\b|1 l\s*=/i.test(t)) pack = { label: "1 l", unit: "l" };
+    const ex = t.match(/(\d+(?:[.,]\d+)?)\s?(g|kg|ml|l|kos)\b(?!\s*=)/i);        // »500 g«, »10 kos« (ne »1 kg = 1,78«)
+    if (ex && !/^(za kg|za l)/i.test(ex[0])) pack = { label: `${ex[1]} ${ex[2]}`, explicit: true };
+    else if (/za kg/i.test(t)) pack = { label: "1 kg", unit: "kg" };
+    else if (/za l\b/i.test(t)) pack = { label: "1 l", unit: "l" };
     else if (/za kos|(^|[^a-zčšž])kos(?![a-zčšž])/i.test(t)) pack = { label: "1 kos", unit: "kos" };
     const d = t.match(/Od\s+(\d{1,2})\.(\d{1,2})\.\s+do\s+(\d{1,2})\.(\d{1,2})\./);
     const from = d ? iso(y, d[2], d[1]) : undefined, to = d ? iso(+d[4] < +d[2] ? y + 1 : y, d[4], d[3]) : undefined;
     return { name, price, regularPrice: stroke > price ? stroke : undefined, packText: pack ? pack.label : undefined,
-      unitPrice: pack ? { value: price, unit: pack.unit } : undefined, unitText: pack ? "za " + pack.unit : undefined, loyalty: /Lidl Plus/i.test(t) || undefined, validFrom: from, validTo: to,
+      unitPrice: pack && !pack.explicit ? { value: price, unit: pack.unit } : undefined, unitText: pack && !pack.explicit ? "za " + pack.unit : undefined, loyalty: /Lidl Plus/i.test(t) || undefined, validFrom: from, validTo: to,
       url: abs(i.url, "https://www.lidl.si"), img: abs(i.img, "https://www.lidl.si") };
   });
 }

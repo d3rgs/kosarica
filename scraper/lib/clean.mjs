@@ -1,5 +1,5 @@
 // Odstrani besedilo uporabniškega vmesnika, ki se je prilepilo k imenom izdelkov (Dodaj, Ni na voljo, Razvrsti po, Rezultati za ...).
-const UI = /^(?:dodaj v košarico|dodaj|ni na voljo|razvrsti po:?|rezultati za\s*[„“"”'].*?[“”"'])\s*/i;
+const UI = /^(?:v košarico|potrdi|dodaj v košarico|dodaj|ni na voljo|razvrsti po:?|rezultati za\s*[„“"”'].*?[“”"'])\s*/i;
 export function cleanName(s) {
   let t = String(s ?? "").replace(/\s+/g, " ").trim();
   for (let i = 0; i < 5; i++) { const u = t.replace(UI, "").trim(); if (u === t) break; t = u; }

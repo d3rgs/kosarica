@@ -1,6 +1,6 @@
 // Odpre stran v Playwrightu in zbere HTML, besedilo ter JSON in RSC odgovore, ki jih stran naloži sama.
 // Ne obide CAPTCHA ali zaščit: če stran blokira, vrne napako.
-export async function scanPage(browser, url, { wait = 2500, scroll = true, evaluate, waitFor } = {}) {
+export async function scanPage(browser, url, { wait = 2500, scroll = true, scrolls = 4, evaluate, waitFor, shot: wantShot = false } = {}) {
   const ctx = await browser.newContext({ locale: "sl-SI" });
   const page = await ctx.newPage();
   const jsons = [], rscs = [], meta = [];
@@ -19,11 +19,11 @@ export async function scanPage(browser, url, { wait = 2500, scroll = true, evalu
     await page.waitForLoadState("networkidle", { timeout: 15000 }).catch(() => {});
     if (waitFor) await page.waitForSelector(waitFor, { timeout: 15000 }).catch(() => {});
     await page.waitForTimeout(wait);
-    if (scroll) for (let i = 0; i < 4; i++) { await page.mouse.wheel(0, 1500); await page.waitForTimeout(600); }
+    if (scroll) for (let i = 0; i < scrolls; i++) { await page.mouse.wheel(0, 1500); await page.waitForTimeout(600); }
     const html = await page.content();
     const text = await page.evaluate(() => document.body.innerText);
     const dom = evaluate ? await page.evaluate(evaluate) : undefined;
-    const shot = await page.screenshot();
+    const shot = wantShot ? await page.screenshot() : undefined;
     return { url, status, html, text, jsons, rscs, dom, meta: meta.slice(0, 20), shot };
   } finally { await ctx.close(); }
 }

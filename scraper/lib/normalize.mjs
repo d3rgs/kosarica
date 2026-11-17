@@ -17,9 +17,9 @@ export function parsePack(t) {
   let m = s.match(new RegExp(`(\\d+)\\s?[x×]\\s?(\\d+(?:\\.\\d+)?)\\s?(${UN})\\b`)), n, u, label;
   if (m) { n = +m[1] * parseFloat(m[2]); u = m[3]; label = `${m[1]} × ${fmt(parseFloat(m[2]))} ${u}`; }
   else {
-    m = s.match(new RegExp(`(\\d+(?:\\.\\d+)?)\\s?(${UN}|jajc\\w*)(?![\\w.])`));
+    m = s.match(new RegExp(`(\\d+(?:\\.\\d+)?)\\s?(${UN}|jajc\\w*|rol\\w*|kosov|kosa)(?![\\w.])`));
     if (!m) return null;
-    n = parseFloat(m[1]); u = m[2].startsWith("jajc") ? "kos" : m[2]; label = `${fmt(n)} ${u}`;
+    n = parseFloat(m[1]); u = /^(jajc|rol|kosov|kosa)/.test(m[2]) ? "kos" : m[2]; label = `${fmt(n)} ${u}`;
   }
   if (u === "cl") return { amount: +(n * 10).toFixed(4), unit: "ml", label };
   if (u === "dl") return { amount: +(n * 100).toFixed(4), unit: "ml", label };

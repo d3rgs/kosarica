@@ -56,3 +56,40 @@ test("Tuš in Eurospin v primerjavi, akcija z veljavnostjo, prihodnja ponudba ni
   assert.match(t, /velja od/);                                          // Lidlova ponudba se začne šele čez 3 dni
   assert.equal([...a.D.querySelectorAll(".chip")].filter((c) => /Tuš|Eurospin/.test(c.textContent)).length >= 2, true);
 });
+
+test("povečava slike: miška ob prehodu, prst ob dotiku (pritisni in drži)", async () => {
+  const a = await app([o("SPAR", "Banane", "BANANE", 1, "kg", "1 kg", 1.49, { img: "https://cdn1.interspar.at/b.jpg" })]);
+  a.open("Banane");
+  const img = a.D.querySelector(".wi"); assert.ok(img.classList.contains("zi"));
+  const fire = (type, target) => target.dispatchEvent(new a.w.Event(type, { bubbles: true }));
+  fire("mouseover", img); assert.equal(a.D.querySelector("#zoom img").getAttribute("src"), "https://cdn1.interspar.at/b.jpg");
+  fire("mouseout", img); assert.equal(a.D.querySelector("#zoom"), null);
+  fire("touchstart", img); assert.ok(a.D.querySelector("#zoom")); fire("touchend", a.D.body); assert.equal(a.D.querySelector("#zoom"), null);
+});
+test("drsni meni »V akciji«: izdelki v akciji s popustom, slikami in veljavnostjo; ob odsotnosti akcij jasno sporočilo", async () => {
+  const a = await app([
+    o("Eurospin", "Mleko 1,5 %", "POLPOSNETO MLEKO", 1, "l", "1 l", 0.69, { promoPrice: 0.69, regularPrice: 0.89, kind: "akcija", validFrom: day(-1), validTo: day(5), img: "https://x/m.jpg" }),
+    o("SPAR", "Banane", "BANANE", 1, "kg", "1 kg", 0.99, { promoPrice: 0.99, regularPrice: 1.49, kind: "akcija" }),
+    o("Hofer", "Skuta 0 %", "SKUTA", 1, "kg", "1 kg", 3.0)]);
+  const cards = [...a.D.querySelectorAll("#car .cc")]; assert.equal(cards.length, 2);
+  assert.match(cards[0].textContent, /−34 %/); assert.match(cards[0].textContent, /Banane/); assert.match(cards[1].textContent, /Mleko 1,5 %/); assert.match(cards[1].textContent, /do /);
+  assert.ok(cards[1].querySelector("img.zh"));
+  assert.equal(a.w.eval("typeof carS"), "function");
+  const b = await app([o("SPAR", "Banane", "BANANE", 1, "kg", "1 kg", 1.49)]); assert.match(b.D.querySelector("#view").textContent, /Trenutno ni zabeleženih akcij/);
+});
+test("neživilski razdelek: skupine, cene na 100 ml za osebno nego, ločeno od živil", async () => {
+  const a = await app([
+    o("Tuš", "Šampon", "ŠAMPON ZA LASE", 0.25, "l", "250 ml", 2.49),
+    o("SPAR", "Toaletni papir", "TOALETNI PAPIR 8/1", 8, "kos", "8 kos", 3.2, { promoPrice: 3.2, regularPrice: 4.0, kind: "akcija" }),
+    o("SPAR", "Banane", "BANANE", 1, "kg", "1 kg", 1.49)]);
+  a.D.querySelector("[data-v=n]").click();
+  const v = a.D.querySelector("#view").textContent;
+  assert.match(v, /Čistila/); assert.match(v, /Papir in higiena/); assert.match(v, /Osebna nega/); assert.match(v, /Gospodinjstvo/);
+  assert.match(v, /Toaletni papir/); assert.ok(!/Banane/.test(a.D.querySelector(".plan").textContent));   // živila niso v razdelku
+  const t = a.open("Šampon"); assert.match(t, /2,49 €\s*250 ml/); assert.match(t, /1,00 €\/100 ml/);
+  assert.match(a.D.querySelector("#view").textContent || "", /./);
+  a.w.shut(); a.D.querySelector("[data-v=n]").click();
+  assert.match(a.D.querySelector("#car").textContent, /Toaletni papir/);                                     // akcija v neživilskem razdelku
+  a.D.querySelector("[data-v=f]").click(); assert.ok(!/Toaletni papir|Šampon/.test(a.D.querySelector("#view").textContent));  // v hladilniku ni neživil
+  a.D.querySelector("[data-v=k]").click(); assert.ok(!/Toaletni papir|Šampon/.test(a.D.querySelector("#view").textContent));  // niti v »Kje kupiti«
+});

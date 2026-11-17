@@ -1,5 +1,8 @@
-import { hoferCands } from "../lib/cands.mjs";
+import { hoferCands, hoferToCand } from "../lib/cands.mjs";
+import { hoferProducts } from "../lib/nuxt.mjs";
+import { matchFood } from "../lib/match.mjs";
 // Hoferjeva spletna ponudba: podatke kategorij strežnik vgradi v stran (__NUXT_DATA__), cene so v centih.
+// Pri izdelkih iz seznama, ki v kategoriji nimajo količine, jo poskusimo prebrati s strani izdelka (največ 15 strani).
 const cat = (slug, key) => `https://www.hofer.si/izdelki/${slug}/k/${key}`;
 export default {
   name: "Hofer",
@@ -12,4 +15,17 @@ export default {
   ],
   scan: {},
   cands: (scan) => hoferCands(scan.html),
+  enrich: async (cands, { scan }) => {
+    let n = 0;
+    for (const c of cands) {
+      if (c.packText || c.unitPrice || n >= 15 || !c.url || !matchFood(c).food) continue;
+      n++;
+      try {
+        const s = await scan(c.url, { wait: 1500, scroll: false });
+        const p = hoferProducts(s.html).find((x) => String(x.sku) === String(c.sku));
+        if (p) { const d = hoferToCand(p); if (d.packText) c.packText = d.packText; if (d.unitPrice) c.unitPrice = d.unitPrice; if (d.unitText) c.unitText = d.unitText; }
+      } catch {}
+    }
+    return cands;
+  },
 };
