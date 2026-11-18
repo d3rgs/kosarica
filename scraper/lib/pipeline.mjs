@@ -51,5 +51,7 @@ export function finalize(prev, freshAll, now) {
   // zastareli zapisi iz starejših različic (brez sku) izpadejo, če isti izdelek že imamo z oznako sku
   const withSku = new Set(m.offers.filter((o) => o.sku).map((o) => [o.store, cleanName(o.name).toLowerCase(), o.amount, o.unit].join("|")));
   m.offers = m.offers.filter((o) => o.sku || !withSku.has([o.store, cleanName(o.name).toLowerCase(), o.amount, o.unit].join("|")));
+  const seen = new Set();
+  m.offers = m.offers.filter((o) => { const k = [o.store, cleanName(o.name).toLowerCase(), o.amount, o.unit, o.price].join("|"); if (seen.has(k)) return false; seen.add(k); return true; });
   return { ...m, dropped };
 }

@@ -33,10 +33,12 @@ export function lidlCands(items, now = new Date()) {
     else if (/za kg/i.test(t)) pack = { label: "1 kg", unit: "kg" };
     else if (/za l\b/i.test(t)) pack = { label: "1 l", unit: "l" };
     else if (/za kos|(^|[^a-zčšž])kos(?![a-zčšž])/i.test(t)) pack = { label: "1 kos", unit: "kos" };
+    const bp = t.match(/1\s?(kg|l)\s*=\s*(\d+(?:[.,]\d+)?)/i);                // »1 kg = 5,70«: količino izračunamo iz cene in primerjalne cene
+    const baseUnit = !pack && bp ? { value: parseFloat(bp[2].replace(",", ".")), unit: bp[1].toLowerCase() } : undefined;
     const d = t.match(/Od\s+(\d{1,2})\.(\d{1,2})\.\s+do\s+(\d{1,2})\.(\d{1,2})\./);
     const from = d ? iso(y, d[2], d[1]) : undefined, to = d ? iso(+d[4] < +d[2] ? y + 1 : y, d[4], d[3]) : undefined;
     return { name, price, regularPrice: stroke > price ? stroke : undefined, packText: pack ? pack.label : undefined,
-      unitPrice: pack && !pack.explicit ? { value: price, unit: pack.unit } : undefined, unitText: pack && !pack.explicit ? "za " + pack.unit : undefined, loyalty: /Lidl Plus/i.test(t) || undefined, validFrom: from, validTo: to,
+      unitPrice: baseUnit || (pack && !pack.explicit ? { value: price, unit: pack.unit } : undefined), unitText: baseUnit ? `1 ${baseUnit.unit} = ${bp[2]}` : pack && !pack.explicit ? "za " + pack.unit : undefined, loyalty: /Lidl Plus/i.test(t) || undefined, validFrom: from, validTo: to,
       url: abs(i.url, "https://www.lidl.si"), img: abs(i.img, "https://www.lidl.si") };
   });
 }

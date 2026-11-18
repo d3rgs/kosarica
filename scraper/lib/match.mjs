@@ -31,12 +31,15 @@ export function toOffers(store, pageUrl, cands, eanMap, now, stats = {}) {
     if (!name || !(c.price > 0)) continue;
     const m = matchFood({ ...c, name }, eanMap);
     if (!m.food) { if (stats.unmatched.length < 8) stats.unmatched.push(name.slice(0, 60)); continue; }
-    if (m.confidence === "low") { stats.rejected.push(`${name.slice(0, 40)}: pakiranje`); continue; }
+    if (m.confidence === "low" && !(c.unitPrice && FOODS.find((f) => f.n === m.food)?.b === c.unitPrice.unit)) { stats.rejected.push(`${name.slice(0, 40)}: pakiranje`); continue; }
     const food = FOODS.find((f) => f.n === m.food);
     // jajca: število kosov v imenu (10/1, 18/1) velja, če ga potrdi primerjalna cena trgovine
     const nk = food && food.b === "kos" ? name.match(/\b(\d{1,3})\s?\/\s?1\b/) : null;
-    const p = (nk && { amount: +nk[1], unit: "kos", label: `${nk[1]} kos` }) || parsePack(c.packText || [c.brand, name].filter(Boolean).join(" ")) || derivePack(c.price, c.unitPrice);
+    let p = (nk && { amount: +nk[1], unit: "kos", label: `${nk[1]} kos` }) || parsePack(c.packText || [c.brand, name].filter(Boolean).join(" ")) || derivePack(c.price, c.unitPrice);
     if (!p) { stats.rejected.push(`${name.slice(0, 40)}: ni količine`); continue; }
+    if (p && food && family(p.unit) !== food.b && c.unitPrice && c.unitPrice.unit === food.b) {      // npr. kumara »1 kos« s ceno na kg
+      const d = derivePack(c.price, c.unitPrice); if (d) { d.label = `${p.label} (≈ ${d.label})`; p = d; }
+    }
     if (family(p.unit) !== food?.b && !(c.ean && eanMap[c.ean])) { stats.rejected.push(`${name.slice(0, 40)}: enota`); continue; }
     // primerjalno ceno trgovine uporabimo samo, če se ujema s ceno pakiranja (največ 4 % razlike)
     const mine = unitPrice(c.price, p.amount, p.unit); let up;

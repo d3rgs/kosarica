@@ -74,3 +74,38 @@ test("časovna omejitev: po izteku roka se nove strani ne odpirajo, zbrani podat
   const r2 = await collect({ stores: [mod, { ...mod, name: "Hofer" }], scan: async () => ({}), foods: FOODS, now: NOW });
   assert.deepEqual(Object.keys(r2.status).sort(), ["Hofer", "SPAR"]);            // trgovine tečejo vzporedno, vsaka ima svoje stanje
 });
+
+test("Lidl: količina iz primerjalne cene »1 kg = 5,70«", () => {
+  const c = lidlCands([{ title: "Sveže mleto mešano meso", price: "2.85€*", stroke: "", text: "Sveže mleto mešano meso 2.85€* 1 kg = 5,70 Od 16.11. do 18.11.", url: "/p/m/p9" }], new Date(NOW));
+  assert.equal(c[0].unitPrice.value, 5.7); assert.equal(c[0].unitPrice.unit, "kg");
+  const o = toOffers("Lidl", "https://www.lidl.si/", c, {}, NOW, {}).find((x) => x.food === "Drugo mleto meso");
+  assert.ok(o); assert.equal(o.amount, 0.5); assert.equal(o.unit, "kg");
+});
+test("kumara »1 kos« s ceno na kg: teža se izračuna iz primerjalne cene", () => {
+  const st = {}, o = toOffers("SPAR", "https://online.spar.si/", [{ name: "BIO KUMARA DOLGA, TEHTANO, 1KOS", price: 1.1, unitPrice: { value: 2.2, unit: "kg" } }], {}, NOW, st);
+  assert.equal(o.length, 1, JSON.stringify(st.rejected)); assert.equal(o[0].unit, "kg"); assert.equal(o[0].amount, 0.5); assert.match(o[0].pack, /1 kos \(≈ 0,5 kg\)/);
+});
+test("podvojeni zapisi iste ponudbe pod različnimi ID-ji se združijo", () => {
+  const mk = (sku) => ({ store: "Tuš", food: "Pralni prašek", sku, name: "Pralni prašek Persil, 3,465 kg", amount: 3.465, unit: "kg", price: 19.19, checkedAt: NOW });
+  assert.equal(finalize({ offers: [] }, [mk("1"), mk("2")], NOW).offers.length, 1);
+});
+test("Hofer: več kategorij in količina iz besedila strani izdelka", async () => {
+  assert.ok(hofer.pages().length >= 16); assert.ok(hofer.pages().some((u) => /sadje-in-zelenjava/.test(u)) && hofer.pages().some((u) => /cistila/.test(u)));
+  const listProduct = { sku: "676958", name: "Trajno mleko brez zamaška, 1,5%", brandName: "No Brand", urlSlugText: "no-brand-trajno-mleko", sellingSize: null, price: { amount: 79, comparisonDisplay: null } };
+  const arr = []; const add = (v) => { if (v && typeof v === "object") { const i = arr.length; arr.push(null); arr[i] = Object.fromEntries(Object.entries(v).map(([k, x]) => [k, x === null ? null : add(x)])); return i; } arr.push(v); return arr.length - 1; }; add(listProduct);
+  const html = `<script type="application/json" id="__NUXT_DATA__">${JSON.stringify(arr)}</script>`;
+  const scan = async (url) => (url.includes("/izdelek/") ? { html: "<html></html>", text: "Trajno mleko\n0,79 €vključen DDV\nTO NI AKCIJA\nPodrobnosti o izdelku\n1 l\nPonudba vsebuje izdelke" } : { html });
+  const mod = { ...hofer, pages: () => ["https://www.hofer.si/izdelki/mleko/k/1"] };
+  const { fresh } = await collect({ stores: [mod], scan, foods: FOODS, now: NOW });
+  assert.equal(fresh.length, 1); assert.equal(fresh[0].amount, 1); assert.equal(fresh[0].unit, "l");
+});
+
+test("Tuš: manjkajoča slika se prebere iz og:image strani izdelka, logotip se ne uporabi", async () => {
+  const tus = (await import("../stores/tus.mjs")).default;
+  const real = globalThis.fetch; const pages = { "https://www.tus.si/a/": '<meta property="og:image" content="https://www.tus.si/wp-content/uploads/pralni.jpg">', "https://www.tus.si/b/": '<meta property="og:image" content="https://www.tus.si/wp-content/uploads/logo.png">' };
+  globalThis.fetch = async (u) => ({ ok: true, text: async () => pages[u] });
+  try {
+    const c = await tus.enrich([{ name: "Pralni prašek Persil, 3,465 kg", url: "https://www.tus.si/a/" }, { name: "Pralni prašek Ariel, 2 kg", url: "https://www.tus.si/b/" }]);
+    assert.equal(c[0].img, "https://www.tus.si/wp-content/uploads/pralni.jpg"); assert.equal(c[1].img, undefined);
+  } finally { globalThis.fetch = real; }
+});
