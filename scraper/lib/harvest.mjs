@@ -44,6 +44,7 @@ export function fromJsonLd(html) {
           name: o.name, brand: o.brand?.name ?? o.brand,
           ean: String(o.gtin13 ?? o.gtin ?? o.gtin8 ?? "").replace(/\D/g, "") || undefined,
           sku: o.sku ? String(o.sku) : undefined, price, url: o.url || of.url,
+          img: Array.isArray(o.image) ? o.image[0] : (typeof o.image === "string" ? o.image : o.image && o.image.url), validTo: of.priceValidUntil ? String(of.priceValidUntil).slice(0, 10) : undefined,
         });
       });
     } catch {}

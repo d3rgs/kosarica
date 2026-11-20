@@ -5,7 +5,7 @@ const FOOD_LIST = [
   { n: "Skuta 0 %", b: "kg", q: ["skuta 0", "pusta skuta", "skuta posneta"], inc: /skuta/i, need: /(?<![\d.,])0\s?%|posneta|pusta/i, exc: /torta|sirov/i },
   { n: "Goveje mleto meso", b: "kg", q: ["goveje mleto meso", "mleto goveje meso"], inc: /mlet/i, need: /govej/i, exc: /mešan|svinjsk|burger|polpet/i },
   { n: "Drugo mleto meso", b: "kg", q: ["mleto meso", "mleto mešano meso", "mleto svinjsko meso"], inc: /mlet/i, need: /svinjsk|mešan|piščanč|puranj/i, exc: /burger|polpet/i },
-  { n: "Kakav", b: "kg", lead: true, q: ["kakav v prahu", "kakav"], inc: /kakav/i, exc: /napitek|čokol|namaz|keks|torta|kosmič|puding|kaš|krem|jogurt|sladoled|mleko|rogljič|penice|preliv|rezine|lešnik|bonbon/i },
+  { n: "Kakav", b: "kg", lead: true, q: ["kakav v prahu", "kakav", "kakao"], inc: /kakav|kakao/i, exc: /napitek|čokol|namaz|keks|torta|kosmič|puding|kaš|krem|jogurt|sladoled|mleko|rogljič|penice|preliv|rezine|lešnik|bonbon|nesquik|nestle|benco|cekin|čokolino|ovomaltine|instant|topli|vitamin|sladkor|vanilij|drink|zmes/i },
   { n: "Ovseni kosmiči", b: "kg", q: ["ovseni kosmiči"], inc: /ovsen/i, need: /kosmič/i, exc: /musli|granola|palačink|ploščic|keks|kaš/i },
   { n: "Zamrznjena zelenjava z brokolijem", b: "kg", q: ["zamrznjena zelenjava brokoli", "brokoli zamrznjen", "zamrznjena zelenjava", "mešanica zelenjave zamrznjena"], inc: /brokoli/i, need: /zamrz|globoko|mešan/i, exc: /juha|omaka/i },
   { n: "Mleko 1,5 %", b: "l", q: ["mleko 1,5", "polposneto mleko", "trajno mleko", "sveže mleko"], inc: /mleko/i, need: /1[,.]5\s?%/, exc: /čokolad|kokos|ovsen|sojin|mandlj|jogurt|kisl|kondenz|v prahu|laktoz|napitek/i },

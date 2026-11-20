@@ -109,3 +109,32 @@ test("Tuš: manjkajoča slika se prebere iz og:image strani izdelka, logotip se 
     assert.equal(c[0].img, "https://www.tus.si/wp-content/uploads/pralni.jpg"); assert.equal(c[1].img, undefined);
   } finally { globalThis.fetch = real; }
 });
+
+test("kakav: pravi kakav v prahu da, Nesquik in drugi napitki ne", () => {
+  assert.equal(F("Kakav v prahu, Belbake, 200 g"), "Kakav"); assert.equal(F("KAKAO V PRAHU, EKSTRA TEMEN, 10-12 % MAŠČOBE, 200G"), "Kakav");
+  for (const n of ["Kakav Nesquik, Nestle, 800 g", "Kakav Nesquik, Nestle, 400 g", "Kakavov napitek Benco, 500 g", "Instant kakav, 300 g", "Čokolino, Podravka, 500 g"]) assert.equal(F(n), null, n);
+});
+import { flyerIds, flyerProducts, discoverFlyerProducts } from "../lib/lidl-flyer.mjs";
+import { acceptManual } from "../lib/pipeline.mjs";
+import lidl from "../stores/lidl.mjs";
+import { lidlEans } from "../lib/nuxt.mjs";
+test("Lidl letaki: identifikatorji, izdelki s povezavo, ujemanje s seznamom", async () => {
+  const html = '<div data-flyer-identifier="x"></div><a href="/v4/flyer?flyer_identifier=ponudba-19-11-2026-25-11-2026-ab12cd">a</a><a href="/l/sl/letaki/ponudba-12-11-2026-18-11-2026-ef34gh/view/flyer/page/1">b</a>';
+  assert.deepEqual(flyerIds(html).sort(), ["ponudba-12-11-2026-18-11-2026-ef34gh", "ponudba-19-11-2026-25-11-2026-ab12cd"]);
+  const json = { flyer: { pages: [{ links: [{ title: "Piščančje mleto meso 1 kg", url: "https://www.lidl.si/p/piscancje-mleto-meso/p100" }, { title: "Brez povezave" }, { name: "Banane", link: "https://www.lidl.si/p/banane/p101" }] }] } };
+  assert.deepEqual(flyerProducts(json).map((p) => p.title), ["Piščančje mleto meso 1 kg", "Banane"]);
+  const calls = []; const fetch = async (u) => { calls.push(u); return u.includes("esi.leaflets") ? { status: 200, ok: true, text: async () => html } : { status: 200, ok: true, json: async () => json }; };
+  const r = await discoverFlyerProducts(fetch, 1); assert.equal(r.products.length, 2); assert.ok(calls.some((u) => /endpoints\.leaflets\.schwarz\/v4\/flyer\?flyer_identifier=/.test(u)));
+});
+test("Lidl stran izdelka: cena iz JSON-LD, EAN iz podatkov strani, veljavnost", () => {
+  const arr = [{ eans: 1 }, [2], "3830012345678"];
+  const html = `<script type="application/ld+json">{"@type":"Product","name":"Kakav v prahu, 200 g","sku":"p9","image":"https://img.lidl.si/k.jpg","offers":{"price":"1.99","priceValidUntil":"2026-11-25"}}</script><script type="application/json" id="__NUXT_DATA__">${JSON.stringify(arr)}</script>`;
+  assert.deepEqual(lidlEans(html), ["3830012345678"]);
+  const c = lidl.cands({ dom: [], html }); assert.equal(c.length, 1); assert.equal(c[0].price, 1.99); assert.equal(c[0].ean, "3830012345678"); assert.equal(c[0].validTo, "2026-11-25"); assert.equal(c[0].img, "https://img.lidl.si/k.jpg");
+  const o = toOffers("Lidl", "https://www.lidl.si/p/k", c, {}, NOW, {}); assert.equal(o.length, 1); assert.equal(o[0].food, "Kakav"); assert.equal(o[0].amount, 200); assert.equal(o[0].validTo, "2026-11-25");
+});
+test("ročno pripravljene ponudbe (letak): samo popolne in še veljavne", () => {
+  const ok = { store: "Lidl", food: "Mleko 1,5 %", name: "Mleko 1,5 %, Milbona, 1 l", amount: 1, unit: "l", price: 0.79, regularPrice: 0.95, validFrom: "2026-11-19", validTo: "2026-11-25" };
+  const r = acceptManual([ok, { ...ok, price: 0 }, { ...ok, validTo: "2026-11-01" }, { ...ok, unit: "zavojčki" }, { ...ok, food: undefined }, null], NOW);
+  assert.equal(r.length, 1); assert.equal(r[0].kind, "akcija"); assert.equal(r[0].manual, true); assert.equal(r[0].promoPrice, 0.79); assert.equal(r[0].regularPrice, 0.95);
+});

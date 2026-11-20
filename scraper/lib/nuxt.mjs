@@ -14,6 +14,12 @@ export function resolve(arr, i, d = 0) {
   if (v && typeof v === "object") { const o = {}; for (const [k, x] of Object.entries(v)) o[k] = Number.isInteger(x) && x >= 0 ? resolve(arr, x, d + 1) : x; return o; }
   return v;
 }
+// Lidl: strani izdelkov vgradijo EAN kode v __NUXT_DATA__ (polje eans).
+export function lidlEans(html) {
+  const arr = nuxtArray(html); if (!arr) return [];
+  for (let i = 0; i < arr.length; i++) { const v = arr[i]; if (v && typeof v === "object" && !Array.isArray(v) && "eans" in v) { const p = resolve(arr, i); return (Array.isArray(p.eans) ? p.eans : []).map(String); } }
+  return [];
+}
 export function hoferProducts(html) {
   const arr = nuxtArray(html); if (!arr) return [];
   const out = [], seen = new Set();

@@ -29,5 +29,11 @@ export async function diagnoseLidl({ fetch = globalThis.fetch, scan, foods = [],
     pages.push(p);
   }
   rep.koraki["5-6 cene na straneh izdelkov"] = { ...tot, strani_primeri: pages };
+  try {
+    const { discoverFlyerProducts, OVERVIEW, flyerUrl } = await import("./lidl-flyer.mjs");
+    const f = await discoverFlyerProducts(fetch, 3);
+    rep.koraki["7 letaki"] = { pregled: f.overview, identifikatorji: f.flyers, izdelkovZPovezavo: f.products.length, primeri: f.products.slice(0, 4), url: OVERVIEW, primerUrlLetaka: f.flyers[0] ? flyerUrl(f.flyers[0]) : null };
+    if (f.overview && f.overview.bytes) { const r = await fetch(OVERVIEW, { headers: { "user-agent": UA } }); rep.koraki["7 letaki"].pregledZacetek = (await r.text()).slice(0, 500); }
+  } catch (e) { rep.koraki["7 letaki"] = { napaka: String(e.message || e).slice(0, 200) }; }
   return rep;
 }

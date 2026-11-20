@@ -3,7 +3,7 @@ import fs from "node:fs";
 import { fileURLToPath } from "node:url";
 import { FOODS } from "./config/foods.mjs";
 import { scanPage } from "./lib/page.mjs";
-import { collect, finalize } from "./lib/pipeline.mjs";
+import { collect, finalize, acceptManual } from "./lib/pipeline.mjs";
 import { enrichImages } from "./lib/images.mjs";
 
 const D = fileURLToPath(new URL("../data/", import.meta.url));
@@ -16,7 +16,7 @@ for (const name of ["Hofer", "Mercator", "SPAR", "Lidl", "Tus", "Eurospin"]) sto
 const browser = await chromium.launch();
 const { fresh, status } = await collect({ stores, scan: (url, opt) => scanPage(browser, url, opt), foods: FOODS, eanMap, now, pause: (ms) => sleep(ms ?? 2500), deadline: Date.now() + 20 * 60 * 1000 });
 await browser.close();
-const m = finalize(prev, fresh, now);
+const m = finalize(prev, [...fresh, ...acceptManual(rd("manual-offers.json", []), now)], now);
 const cache = rd("images.json", {});
 let imgStats = {};
 try { imgStats = await enrichImages(m.offers, cache, { now, pause: (ms) => sleep(ms ?? 1200) }); fs.mkdirSync(D, { recursive: true }); fs.writeFileSync(D + "images.json", JSON.stringify(cache)); } catch (e) { console.log("::warning::slike: " + e.message); }

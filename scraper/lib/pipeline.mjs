@@ -41,6 +41,17 @@ export function dropOutliers(fresh) {
   const kept = fresh.filter((o) => { const m = med[o.food]; if (m && (up(o) < m * 0.25 || up(o) > m * 4)) { dropped.push(`${o.store}: ${o.name.slice(0, 40)} ${up(o).toFixed(2)} (mediana ${m.toFixed(2)})`); return false; } return true; });
   return { kept, dropped };
 }
+// Ročno pripravljene ponudbe (data/manual-offers.json), npr. iz zaslonskih slik letaka: sprejmemo samo popolne in še veljavne zapise.
+export function acceptManual(list, now) {
+  const UNITS = ["g", "kg", "ml", "l", "kos", "m", "cm"], day = now.slice(0, 10), out = [];
+  for (const o of Array.isArray(list) ? list : []) {
+    if (!o || !o.store || !o.food || !o.name || !(o.price > 0) || !(o.amount > 0) || !UNITS.includes(o.unit)) continue;
+    if (o.validTo && String(o.validTo) < day) continue;
+    const sale = o.regularPrice > o.price;
+    out.push({ ...o, regularPrice: sale ? o.regularPrice : undefined, promoPrice: sale || o.kind === "akcija" ? o.price : undefined, kind: sale || o.kind === "akcija" ? "akcija" : o.kind || "redna", manual: true, checkedAt: String(o.checkedAt || now), matchConfidence: "ročno" });
+  }
+  return out;
+}
 export function finalize(prev, freshAll, now) {
   const old = (prev.offers || []).map((o) => ({ ...o, name: cleanName(o.name) })).filter(stillValid);
   const { kept: fresh, dropped } = dropOutliers(freshAll);

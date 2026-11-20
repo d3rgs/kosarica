@@ -97,3 +97,10 @@ test("neživilski razdelek: skupine, cene na 100 ml za osebno nego, ločeno od �
   a.D.querySelector("[data-v=f]").click(); assert.ok(!/Toaletni papir|Šampon/.test(a.D.querySelector("#view").textContent));  // v hladilniku ni neživil
   a.D.querySelector("[data-v=k]").click(); assert.ok(!/Toaletni papir|Šampon/.test(a.D.querySelector("#view").textContent));  // niti v »Kje kupiti«
 });
+
+test("papirnate brisače imajo svojo ikono, ročno prebrani letak je označen", async () => {
+  const a = await app([o("Lidl", "Papirnate brisače", "KUHINJSKE BRISAČE 2/1", 2, "kos", "2 kos", 1.99, { manual: true, kind: "akcija", promoPrice: 1.99, regularPrice: 2.49, validTo: day(5) })]);
+  const e = (n) => a.w.eval(`S.f.find(x=>x.n==${JSON.stringify(n)}).e`);
+  assert.notEqual(e("Papirnate brisače"), e("Toaletni papir"));
+  assert.match(a.open("Papirnate brisače"), /ročni vnos \(letak\)/);
+});
