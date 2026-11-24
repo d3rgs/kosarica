@@ -1,55 +1,55 @@
 {
- "generatedAt": "2026-11-23T06:34:10.369Z",
+ "generatedAt": "2026-11-24T05:56:59.716Z",
  "stores": {
   "Hofer": {
    "ok": true,
    "offers": 7,
-   "candidates": 470,
+   "candidates": 464,
    "pages": 16,
    "pagesOk": 16,
    "error": null,
    "errors": [],
    "rejected": [
     "banana ali: cena 3.60 izven razpona",
-    "malina ali: cena 4.33 izven razpona",
     "Papir za peko: ni količine",
     "Kuhinjske brisače XXL: ni količine",
     "Recikliran toaletni papir: ni količine",
+    "Papir za peko: ni količine",
     "Kuhinjske brisače XXL: ni količine",
     "Recikliran toaletni papir: ni količine",
     "Kuhinjske brisače: ni količine",
     "Pralni prašek: ni količine"
    ],
-   "checkedAt": "2026-11-23T06:34:10.369Z"
+   "checkedAt": "2026-11-24T05:56:59.716Z"
   },
   "Mercator": {
    "ok": true,
-   "offers": 832,
-   "candidates": 1512,
+   "offers": 980,
+   "candidates": 1875,
    "pages": 64,
    "pagesOk": 64,
    "error": null,
    "errors": [],
    "rejected": [
-    "Bučkin džem, Pelagonia, 314g: cena 16.21 izven razpona",
+    "Bio banane, Bio Zone, pakirano: ni količine",
+    "Bio banane, Bio Zone, pakirano: ni količine",
+    "Goveje mleto meso, Ekodar, pakirano, cen: ni količine",
+    "Goveje mleto meso, Ekodar, pakirano, cen: ni količine",
+    "Goveje mleto meso, Ekodar, pakirano, cen: ni količine",
+    "Mleto mešano meso, Z'dežele, 500 g, paki: ni količine",
+    "Mleto mešano meso, Z'dežele, 500 g, paki: ni količine",
+    "Slovenske kumare, cena za kg: ni količine",
     "Dolga kumara, kos: ni količine",
-    "Univerzalno čistilo Cillit Bang, 750 ml : primerjalna cena 6.29 ≠ 8.39",
-    "Toaletni papir, vlažni, Natur, 60/1: primerjalna cena 0.02 ≠ 0.02",
-    "Papirnate brisače, Exellent, 2-slojne, 4: ni količine",
-    "Papirnate brisače Jumbo, Natur, 2-slojne: ni količine",
-    "Papirnate brisače, Violeta, 80/1: primerjalna cena 0.02 ≠ 0.02",
-    "Naravni trdi šampon za obnovo in sijaj l: pakiranje",
-    "Naravni trdi šampon proti prhljaju in ma: pakiranje",
-    "Tekoče milo Kids refil, Frosh, 300 ml: primerjalna cena 6.98 ≠ 11.63",
-    "Zobna pasta Max White, Colgate, 75 ml: primerjalna cena 39.90 ≠ 53.20",
-    "Otroška zobna pasta Elmex junior 0-6 let: primerjalna cena 93.80 ≠ 62.53"
+    "Slovenske kumare, cena za kg: ni količine",
+    "Rezilo za jajca 11x9 cm, metalic: pakiranje",
+    "Čokoladno jajce s košaro, Lov na jajca, : pakiranje"
    ],
-   "checkedAt": "2026-11-23T06:34:10.369Z"
+   "checkedAt": "2026-11-24T05:56:59.716Z"
   },
   "SPAR": {
    "ok": true,
-   "offers": 520,
-   "candidates": 1778,
+   "offers": 524,
+   "candidates": 1833,
    "pages": 64,
    "pagesOk": 64,
    "error": null,
@@ -65,15 +65,15 @@
     "MALINA MEŠANICA AROME IN BARVIL: enota",
     "KAKI VANILIJA PERSIMON, TEHTANO, ENOTA 5: primerjalna cena 1.99 ≠ 1.00",
     "KAKI POREKLO SLOVENIJA, 1KG: primerjalna cena 3.39 ≠ 2.71",
-    "BIO KAKI, PAKIRAN, 1KG: primerjalna cena 3.99 ≠ 0.40",
-    "KAKI POREKLO SLOVENIJA, 1KG: primerjalna cena 3.39 ≠ 2.71"
+    "KAKI POREKLO SLOVENIJA, 1KG: primerjalna cena 3.39 ≠ 2.71",
+    "KAKI VANILIJA PERSIMON, TEHTANO, ENOTA 5: primerjalna cena 1.99 ≠ 1.00"
    ],
-   "checkedAt": "2026-11-23T06:34:10.369Z"
+   "checkedAt": "2026-11-24T05:56:59.716Z"
   },
   "Lidl": {
    "ok": true,
    "offers": 7,
-   "candidates": 195,
+   "candidates": 194,
    "pages": 11,
    "pagesOk": 11,
    "error": null,
@@ -83,7 +83,7 @@
     "Toaletni papir: ni količine",
     "Toaletni papir „I Love Art“: ni količine"
    ],
-   "checkedAt": "2026-11-23T06:34:10.369Z"
+   "checkedAt": "2026-11-24T05:56:59.716Z"
   },
   "Tuš": {
    "ok": true,
@@ -94,20 +94,20 @@
    "error": null,
    "errors": [],
    "rejected": [
-    "Pralni prašek Perwoll, gel, Light Colors: pakiranje",
     "Pralni prašek Perwoll, gel, Black, 40 pr: pakiranje",
     "Pralni prašek Weisse Riese, kapsule, Orc: ni količine",
+    "Pralni prašek Persil gel, Universal, 66 : pakiranje",
     "Pralni prašek Persil, gel, Expert Sensit: pakiranje",
-    "Pralni prašek Woolite, tekoči, Color, 60: pakiranje",
     "Papir za peko viGO!, premium, v listih, : ni količine",
+    "Pralni prašek Perwoll, gel, Light Colors: pakiranje",
+    "Pralni prašek Woolite, tekoči, Color, 60: pakiranje",
     "Pralni prašek Persil, gel, Color, 66 pra: pakiranje",
     "Pralni prašek Perwoll gel, Renew Black, : pakiranje",
-    "Pralni prašek Persil gel, Universal, 66 : pakiranje",
     "Pralni prašek Woolite, tekoči, Dark, 60 : pakiranje",
     "Pralni prašek Weisser Riese gel, Color O: pakiranje",
     "Pralni prašek Woolite, tekoči, Pro Care,: pakiranje"
    ],
-   "checkedAt": "2026-11-23T06:34:10.369Z"
+   "checkedAt": "2026-11-24T05:56:59.716Z"
   },
   "Eurospin": {
    "ok": true,
@@ -118,33 +118,52 @@
    "error": null,
    "errors": [],
    "rejected": [],
-   "checkedAt": "2026-11-23T06:34:10.369Z"
+   "checkedAt": "2026-11-24T05:56:59.716Z"
   }
  },
  "images": {
-  "store": 273,
+  "store": 312,
   "off": 0,
   "none": 4,
-  "cached": 4,
-  "skipped": 103
+  "cached": 2,
+  "skipped": 104
  },
  "outliers": [
-  "Hofer: Ovseni kosmiči XXL 1.37 (mediana 5.74)",
-  "Hofer: Ovseni kosmiči XXL 1.37 (mediana 5.74)",
   "Mercator: Rastlinska mešanica za mleto meso, brez  44.90 (mediana 9.40)",
+  "Mercator: Kakav Choco v vrečki, Benquick, 500 g 5.20 (mediana 22.90)",
+  "Mercator: Kakav Choco v vrečki, Benquick, 500 g 5.20 (mediana 22.90)",
   "Mercator: Fino mleta morska sol, Mercator, 1 kg 0.49 (mediana 2.15)",
   "Mercator: Jodirana fino mleta morska sol, Droga, 1 0.53 (mediana 2.15)",
   "Mercator: Fino mleta morska sol v mlinčku, Kotanyi 22.72 (mediana 2.15)",
+  "Mercator: Ajurvedska fina kamena sol, Sonnentor, 1 19.93 (mediana 2.15)",
   "Mercator: Jodirana fino mleta morska sol, Droga, 1 0.53 (mediana 2.15)",
-  "Mercator: Papirnate brisače, Daisy, 2-slojne, 4/1 0.37 (mediana 1.53)",
-  "Mercator: Šampon za odstranjevanje uši Paranit, 20 74.95 (mediana 12.88)",
-  "Mercator: Piling šampon, Naturavit, 150 ml 63.93 (mediana 12.88)",
-  "Mercator: Šampon za lase, kamilica, Daisy, 1 l 1.49 (mediana 12.88)",
-  "Mercator: Šampon za lase, kopriva, Daisy, 1 l 1.49 (mediana 12.88)",
+  "Mercator: Papirnate brisače Maxi, Paloma, 2-slojne 5.89 (mediana 1.28)",
+  "Mercator: Šampon za odstranjevanje uši Paranit, 20 74.95 (mediana 12.47)",
+  "Mercator: Šampon za lase, keratin, Afrodita, 1 l 2.34 (mediana 12.47)",
+  "Mercator: Piling šampon, Naturavit, 150 ml 63.93 (mediana 12.47)",
+  "Mercator: Šampon Pure Herbal, Subrina, 300 ml 1.13 (mediana 12.47)",
+  "Mercator: Šampon za lase in telo, japonska češnja, 2.34 (mediana 12.47)",
+  "Mercator: Bio gel za prhanje, ognjič, žajbelj in s 39.95 (mediana 9.97)",
+  "Mercator: Bio gel za prhanje, korenček in vanilija 39.95 (mediana 9.97)",
+  "Mercator: Bio gel za prhanje, ognjič, žajbelj in s 39.95 (mediana 9.97)",
+  "Mercator: Bio gel za prhanje 2v1, konoplja, aloe v 39.95 (mediana 9.97)",
+  "Mercator: Gel za prhanje, Skateboard, Axe, 250 ml 1.68 (mediana 9.97)",
+  "Mercator: Gel za prhanje, AI, Axe, 250 ml 1.68 (mediana 9.97)",
+  "Mercator: Gel za prhanje Spa Minerals, Olea, 300 m 1.10 (mediana 9.97)",
+  "Mercator: Gel za prhanje Pomergranate&Plum, Olea,  1.83 (mediana 9.97)",
+  "Mercator: Gel za prhanje Coco&Vanilla, Olea, 300 m 1.10 (mediana 9.97)",
   "Mercator: Tekoče milo, med in mleko, Daisy, 1 l 1.29 (mediana 6.58)",
   "Mercator: Tekoče milo, med in kokos, Daisy, 1 l 1.29 (mediana 6.58)",
-  "SPAR: OVSENI KOSMIČI, S-BUDGET, 500G 1.28 (mediana 5.74)",
-  "SPAR: OVSENI KOSMIČI, S-BUDGET, 500G 1.28 (mediana 5.74)",
+  "Mercator: Gel za prhanje, Skateboard, Axe, 250 ml 1.68 (mediana 9.97)",
+  "Mercator: Gel za prhanje, AI, Axe, 250 ml 1.68 (mediana 9.97)",
+  "Mercator: Antibakterijsko tekoče milo, Pure protec 1.30 (mediana 6.58)",
+  "Mercator: Otroška zobna pasta Signal Junior, 75 ml 12.00 (mediana 49.20)",
+  "Mercator: Zobna pasta, Colgate Naturals, kokos in  6.00 (mediana 49.20)",
+  "Mercator: Otroška zobna pasta, 3-5 let, Colgate, 5 6.60 (mediana 49.20)",
+  "Mercator: Vrečke za smeti, Dax, 35 l, 15/1 0.04 (mediana 0.22)",
+  "SPAR: OVSENI KOSMIČI, S-BUDGET, 500G 1.28 (mediana 5.32)",
+  "SPAR: OVSENI KOSMIČI, S-BUDGET, 500G 1.28 (mediana 5.32)",
+  "SPAR: RASTLINSKI NAMAZ Z MANDLJI IN OVSENIMI K 22.00 (mediana 5.32)",
   "SPAR: MEŠANICA MLETE BREZKOFEINSKE KAVE, HAUSB 39.95 (mediana 9.40)",
   "SPAR: JODIRANA MORSKA SOL RAFINIRANA, FINO MLE 0.43 (mediana 2.15)",
   "SPAR: MORSKA SOL FINO MLETA JEDILNA, NERAFINIR 22.23 (mediana 2.15)",
@@ -157,20 +176,22 @@
   "SPAR: MORSKA SOL FINO MLETA JEDILNA, NERAFINIR 22.23 (mediana 2.15)",
   "SPAR: PRALNI PRAŠEK, S-BUDGET, 40PRANJ, 4KG 1.10 (mediana 5.54)",
   "SPAR: PRALNI PRAŠEK, S-BUDGET, 40PRANJ, 4KG 1.10 (mediana 5.54)",
-  "SPAR: ENERGIJSKI ŠAMPON, VICHY, 400ML 64.88 (mediana 12.88)",
-  "SPAR: ŠAMPON PROTI PRHLJAJU, VICHY, 390ML 66.54 (mediana 12.88)",
-  "SPAR: ŠAMPON ZA KODRASTE LASE, SILKI, 200ML 59.95 (mediana 12.88)",
-  "SPAR: GEL ZA PRHANJE SPORT, S-BUDGET, 1L 1.29 (mediana 10.47)",
-  "SPAR: GEL ZA PRHANJE ENERGY, WELEDA, 200ML 42.95 (mediana 10.47)",
-  "SPAR: GEL ZA PRHANJE - LIMONA, WELEDA, 200ML 42.95 (mediana 10.47)",
+  "SPAR: ŠAMPON ZA LASE S KOLAGENOM, SILKI, 200ML 49.95 (mediana 12.47)",
+  "SPAR: ENERGIJSKI ŠAMPON, VICHY, 400ML 64.88 (mediana 12.47)",
+  "SPAR: ŠAMPON PROTI PRHLJAJU, VICHY, 390ML 66.54 (mediana 12.47)",
+  "SPAR: ŠAMPON ZA KODRASTE LASE, SILKI, 200ML 59.95 (mediana 12.47)",
+  "SPAR: GEL ZA PRHANJE SPORT, S-BUDGET, 1L 1.29 (mediana 9.97)",
+  "SPAR: GEL ZA PRHANJE ENERGY, WELEDA, 200ML 42.95 (mediana 9.97)",
+  "SPAR: GEL ZA PRHANJE - LIMONA, WELEDA, 200ML 42.95 (mediana 9.97)",
+  "SPAR: GEL ZA PRHANJE ARNIKA SPORT, WELEDA, 200 42.95 (mediana 9.97)",
   "SPAR: TEKOČE MILO MLEKO IN MED, BEAUTY KISS, 1 1.49 (mediana 6.58)",
   "SPAR: TEKOČE MILO MED IN MLEKO, S-BUDGET, 1L 1.19 (mediana 6.58)",
   "SPAR: TEKOČE MILO INGVER IN LIMONA, S-BUDGET,  1.19 (mediana 6.58)",
   "Lidl: Sveža jajca izpod kamniških planin 2.99 (mediana 0.38)",
   "Lidl: Pripravljene “curry” omake 6.95 (mediana 34.75)",
-  "Tuš: Toaletni papir Violeta, vlažni Kids, 60/ 0.04 (mediana 0.42)",
-  "Tuš: Toaletni papir Violeta, vlaž., ognjič, 6 0.04 (mediana 0.42)",
-  "Tuš: Šampon Cvet, za oslabljene lase, pivo &  3.09 (mediana 12.88)",
+  "Tuš: Toaletni papir Violeta, vlažni Kids, 60/ 0.04 (mediana 0.36)",
+  "Tuš: Toaletni papir Violeta, vlaž., ognjič, 6 0.04 (mediana 0.36)",
+  "Tuš: Šampon Cvet, za oslabljene lase, pivo &  3.09 (mediana 12.47)",
   "Tuš: Pralni prašek Persil, Discs Color Box, 3 26.36 (mediana 5.54)",
   "Tuš: Pralni prašek Persil, Discs Universal De 26.36 (mediana 5.54)",
   "Eurospin: TEKOČE MILO, ORHIDEJA/VERBENA, PONOVNO P 1.49 (mediana 6.58)",
@@ -567,7 +588,7 @@
    "kind": "redna",
    "url": "https://www.hofer.si/izdelek/okus-podezelja-sveze-goveje-mleto-meso-000000000000310861",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/png/scaleWidth/400/52d28563-1932-4f65-9124-35232e44d246/okus-podezelja-sveze-goveje-mleto-meso",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "9,98 €/1 kg",
    "fs": "2026-11-16",
@@ -618,7 +639,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/banane-tehtano-enota-500g-11638",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/11638/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "1,49 €/KG",
    "fs": "2026-11-16",
@@ -647,7 +668,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/bio-banane-spar-naturpur-tehtano-enota-500g-568097",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/568097/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "1,79 €/KG",
    "fs": "2026-11-16",
@@ -676,7 +697,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/nepasirana-pusta-skuta-spar-500g-259841",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/259841/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "3,78 €/KG",
    "fs": "2026-11-16",
@@ -707,7 +728,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/domaca-skuta-nepasirana-posneta-zelene-doline-500g-377207",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/377207/mb_sub.jpg",
-   "checkedAt": "2026-11-21T05:51:53.272Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "6,56 €/KG",
    "fs": "2026-11-14",
@@ -732,7 +753,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/pripravek-mletega-mesa-svinjsko-in-goveje-spar-630g-xxl-599895",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/599895/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "9,35 €/KG",
    "fs": "2026-11-16",
@@ -761,7 +782,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/mleto-goveje-meso-s-budget-500g-613349",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/613349/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "9,98 €/KG",
    "fs": "2026-11-16",
@@ -803,7 +824,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/zacimbna-mesanica-za-pripravo-mletega-mesa-s-budget-80g-621537",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/621537/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "4,63 €/KG",
    "fs": "2026-11-16",
@@ -828,7 +849,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/mleto-mesano-meso-svinjsko-in-goveje-spar-480g-551053",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/551053/mb_sub.jpg",
-   "checkedAt": "2026-11-21T05:51:53.272Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "7,27 €/KG",
    "fs": "2026-11-16",
@@ -909,7 +930,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/kakav-v-prahu-chef-gorenjka-100g-615193",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/615193/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "22,90 €/KG",
    "fs": "2026-11-16",
@@ -1001,7 +1022,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/bio-ovseni-kosmici-rahli-spar-naturpur-500g-591531",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/591531/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "2,38 €/KG",
    "fs": "2026-11-16",
@@ -1026,7 +1047,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/bio-ovseni-kosmici-spar-naturpur-500g-562821",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/562821/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "2,38 €/KG",
    "fs": "2026-11-16",
@@ -1051,7 +1072,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/hrustljavi-musli-s-polnozrnatimi-ovsenimi-kosmici-spar-600g-664395",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/664395/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "3,62 €/KG",
    "fs": "2026-11-16",
@@ -1101,7 +1122,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/trajno-mleko-15-spar-1l-270242",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/270242/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "0,89 €/L",
    "fs": "2026-11-16",
@@ -1154,7 +1175,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/sveze-mleko-15-mm-spar-1l-541812",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/541812/mb_sub.jpg",
-   "checkedAt": "2026-11-22T05:53:27.684Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "1,35 €/L",
    "fs": "2026-11-16",
@@ -1204,7 +1225,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/proteinska-tortilja-mexicana-370g-667435",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/667435/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "6,46 €/KG",
    "fs": "2026-11-16",
@@ -1229,7 +1250,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/bucke-tehtano-500g-48200",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/48200/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "1,69 €/KG",
    "fs": "2026-11-16",
@@ -1258,7 +1279,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/bio-bucke-naturpur-500g-485121",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/485121/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "3,98 €/KG",
    "fs": "2026-11-16",
@@ -1283,7 +1304,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/kumare-tehtano-enota-500g-11652",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/11652/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "1,99 €/KG",
    "fs": "2026-11-16",
@@ -1308,7 +1329,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/dolge-kumare-tehtano-enota-500g-325222",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/325222/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "2,49 €/KG",
    "fs": "2026-11-16",
@@ -1333,7 +1354,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/maline-spar-250g-639628",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/639628/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "13,36 €/KG",
    "fs": "2026-11-16",
@@ -1358,7 +1379,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/maline-125g-215209",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/215209/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "21,52 €/KG",
    "fs": "2026-11-16",
@@ -1412,7 +1433,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/maline-spar-premium-150g-643854",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/643854/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "26,60 €/KG",
    "fs": "2026-11-16",
@@ -1437,7 +1458,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/zacimbna-mesanica-provansalska-zelisca-kotanyi-25g-102952",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/102952/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "71,60 €/KG",
    "fs": "2026-11-16",
@@ -1462,7 +1483,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/curry-mesanica-zacimb-maestro-40g-528730",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/528730/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "34,75 €/KG",
    "fs": "2026-11-16",
@@ -1688,7 +1709,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/kajenski-poper-mleti-kotanyi-38g-102950",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/102950/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "52,37 €/KG",
    "fs": "2026-11-16",
@@ -1713,7 +1734,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/kajenski-poper-mleti-maestro-38g-527579",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/527579/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "52,37 €/KG",
    "fs": "2026-11-16",
@@ -1763,7 +1784,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/tuna-v-lastnem-soku-zero-fat-free-calvo-3x65g-587420",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/587420/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "25,59 €/KG",
    "fs": "2026-11-16",
@@ -1788,7 +1809,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/tuna-v-lastnem-soku-pro-calvo-3x65g-669791",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/669791/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "25,59 €/KG",
    "fs": "2026-11-16",
@@ -1838,7 +1859,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/jajca-velikost-m-s-budget-181-680390",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/680390/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "0,21 €/KOS",
    "fs": "2026-11-16",
@@ -1863,7 +1884,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/jajca-hlevska-reja-m-s-budget-101-576285",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/576285/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "0,22 €/KOS",
    "fs": "2026-11-16",
@@ -1888,7 +1909,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/jajca-velikost-l-s-budget-181-680337",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/680337/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "0,23 €/KOS",
    "fs": "2026-11-16",
@@ -1913,7 +1934,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/jajca-hlevska-reja-l-s-budget-101-532511",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/532511/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "0,23 €/KOS",
    "fs": "2026-11-16",
@@ -1940,7 +1961,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/jajca-m-talna-reja-kmetija-globocnik-101-585544",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/585544/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "0,29 €/KOS",
    "fs": "2026-11-16",
@@ -2031,7 +2052,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/16649957/banane",
    "img": "https://mercatoronline.si/img/cache/products/5636/product_small_image/00653884.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "1,49 €/ 1kg",
    "fs": "2026-11-16",
@@ -2056,7 +2077,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/20151118/goveje-mleto-meso-mercator-420-g",
    "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00779386.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "10,69 €/ 1kg",
    "fs": "2026-11-16",
@@ -2105,7 +2126,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/20170397/mleto-mesano-meso-mercator-1-kg",
    "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00896305.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "€/",
    "fs": "2026-11-16",
@@ -2134,7 +2155,7 @@
    "kind": "akcija",
    "url": "https://mercatoronline.si/izdelek/16940569/mleto-mesano-meso-mercator-pakirano-450-g",
    "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00247878.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "5,98 €/ 1kg",
    "fs": "2026-11-16",
@@ -2192,7 +2213,7 @@
    "kind": "akcija",
    "url": "https://mercatoronline.si/izdelek/8199175/mleto-mesano-meso-mercator",
    "img": "https://mercatoronline.si/img/cache/products/8761/product_small_image/00395134.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "7,49 €/ 1kg",
    "fs": "2026-11-16",
@@ -2346,7 +2367,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/19400538/drobni-polnozrnati-ovseni-kosmici-rise-amp-smile-500-g",
    "img": "https://mercatoronline.si/img/cache/products/10365/product_small_image/00506077.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "1,58 €/ 1kg",
    "fs": "2026-11-16",
@@ -2371,7 +2392,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/19400549/veliki-polnozrnati-ovseni-kosmici-rise-amp-smile-500-g",
    "img": "https://mercatoronline.si/img/cache/products/10365/product_small_image/00506078.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "1,58 €/ 1kg",
    "fs": "2026-11-16",
@@ -2471,7 +2492,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/221435/brokoli-natureta-zamrznjeno-450-g",
    "img": "https://mercatoronline.si/img/cache/products/4574/product_small_image/00080110.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "6,64 €/ 1kg",
    "fs": "2026-11-16",
@@ -2521,7 +2542,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/12190760/kumare-cena-za-kg",
    "img": "https://mercatoronline.si/img/cache/products/5636/product_small_image/00338196.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "1,79 €/ 1kg",
    "fs": "2026-11-16",
@@ -2546,7 +2567,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/19965711/maline-zamrznjene-garden-good-400-g",
    "img": "https://mercatoronline.si/img/cache/products/10000/product_small_image/00107531.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "9,97 €/ 1kg",
    "fs": "2026-11-16",
@@ -2571,7 +2592,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/543075/maline-natureta-zamrznjeno-450-g",
    "img": "https://mercatoronline.si/img/cache/products/4574/product_small_image/00279621.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "19,98 €/ 1kg",
    "fs": "2026-11-16",
@@ -2646,7 +2667,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/16823906/kaki-persimon-cena-za-kg",
    "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px20.png",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "3,29 €/ 1kg",
    "fs": "2026-11-16",
@@ -2675,7 +2696,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/513535/zacimbna-mesanica-provansalskih-zacimb-v-mlincku-kotanyi-33-g",
    "img": "https://mercatoronline.si/img/cache/products/4576/product_small_image/00259240.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "99,70 €/ 1kg",
    "fs": "2026-11-16",
@@ -2700,7 +2721,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/17748151/curry-maestro-40-g",
    "img": "https://mercatoronline.si/img/cache/products/4575/product_small_image/00205370.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "34,75 €/ 1kg",
    "fs": "2026-11-16",
@@ -2725,7 +2746,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/4675730/mleti-curry-kotanyi-50-g",
    "img": "https://mercatoronline.si/img/cache/products/4576/product_small_image/00081454.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "35,80 €/ 1kg",
    "fs": "2026-11-16",
@@ -2784,7 +2805,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/516351/jodirana-fino-mleta-morska-sol-droga-1-kg",
    "img": "https://mercatoronline.si/img/cache/products/4778/product_small_image/00260707.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "imgSource": "trgovina",
    "unitText": "0,64 €/ 1kg",
@@ -2861,7 +2882,7 @@
    "kind": "akcija",
    "url": "https://mercatoronline.si/izdelek/17748327/kajenski-poper-maestro-38-g",
    "img": "https://mercatoronline.si/img/cache/products/4575/product_small_image/00205426.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "49,74 €/ 1kg",
    "fs": "2026-11-16",
@@ -2886,7 +2907,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/155503/mleti-kajenski-poper-kotanyi-38-g",
    "img": "https://mercatoronline.si/img/cache/products/4576/product_small_image/00047308.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "52,37 €/ 1kg",
    "fs": "2026-11-16",
@@ -2911,7 +2932,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/17130756/bio-pekoci-cili-in-kajenski-poper-sonnentor-40-g",
    "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px23.png",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "104,75 €/ 1kg",
    "fs": "2026-11-16",
@@ -2936,7 +2957,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/18973021/jajca-mladih-kokosi-m-iz-hlevske-reje-mercator-10-1",
    "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00611045.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "0,22 €/ kos",
    "fs": "2026-11-16",
@@ -2961,7 +2982,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/17026888/jajca-m-iz-hlevske-reje-mercator-10-1",
    "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00306872.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "unitText": "0,23 €/ kos",
    "fs": "2026-11-16",
@@ -3216,7 +3237,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/bio-ovseni-kosmici-boom-box-500g-633359",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/633359/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3241,7 +3262,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/kosmici-ovseni-bio-natura-500g-227706",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/227706/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3290,7 +3311,7 @@
    "promoPrice": 3.49,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/jajca-razlicnih-velikosti-15-1/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3311,7 +3332,7 @@
    "price": 4.89,
    "kind": "redna",
    "url": "https://www.tus.si/izdelki/jajca-za-peko-jata-12-1/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3406,7 +3427,7 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "url": "https://www.eurospin.si/akcije/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3432,7 +3453,7 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "url": "https://www.eurospin.si/akcije/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3482,7 +3503,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/1056427/kakavove-napolitanke-maxi-frondi-250-g",
    "img": "https://mercatoronline.si/img/cache/products/5574/product_small_image/00616854.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3557,7 +3578,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/17294245/gel-za-prhanje-x-sensitive-2v1-man-max-300-ml",
    "img": "https://mercatoronline.si/img/cache/products/7527/product_small_image/00553269.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3582,7 +3603,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/17294234/gel-za-prhanje-x-fresh-2v1-man-max-300-ml",
    "img": "https://mercatoronline.si/img/markers/discounts/vec_kosov_kupon_small.png",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3607,7 +3628,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/19779589/gel-za-prhanje-inlove-orchid-amp-cashmere-olea-300-ml",
    "img": "https://mercatoronline.si/img/cache/products/6296/product_small_image/00443802.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3632,7 +3653,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/19779567/gel-za-prhanje-enjoy-coco-amp-vanilla-olea-300-ml",
    "img": "https://mercatoronline.si/img/cache/products/6296/product_small_image/00443789.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3657,7 +3678,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/19779633/gel-za-prhanje-inspire-pomegranate-amp-plum-olea-300-ml",
    "img": "https://mercatoronline.si/img/cache/products/6296/product_small_image/00444073.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3682,7 +3703,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/17904850/trajno-mleko-1-5-m-m-mila-1-l",
    "img": "https://mercatoronline.si/img/cache/products/7309/product_small_image/00345112.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3707,7 +3728,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/19589689/trajno-mleko-1-5-m-m-mercator-1-l",
    "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00023957.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3732,7 +3753,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/270419/trajno-pol-posneto-mleko-lejko-1-5-m-m-pomurske-mlekarne-1-l",
    "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px24.png",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3757,7 +3778,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/16857197/trajno-pol-posneto-alpsko-mleko-1-5-m-m-ljubljanske-mlekarne-6-x-1-l",
    "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px24.png",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3782,7 +3803,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/19989960/tortilja-tortilla-mexicana-protein-370-g",
    "img": "https://mercatoronline.si/img/cache/products/10947/product_small_image/00157153.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3807,7 +3828,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/5066176/malinov-puding-dolcela-40-g",
    "img": "https://mercatoronline.si/img/cache/products/4593/product_small_image/00002796.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3832,7 +3853,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/1395651/sampon-za-lase-kopriva-cvet-1-l",
    "img": "https://mercatoronline.si/img/cache/products/4382/product_small_image/00811326.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3857,7 +3878,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/1135495/sampon-za-lase-breza-cvet-1-l",
    "img": "https://mercatoronline.si/img/cache/products/4382/product_small_image/00660455.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -3910,7 +3931,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/5322739/sampon-za-lase-in-telo-afrodita-kokos-1-l",
    "img": "https://mercatoronline.si/img/cache/products/4537/product_small_image/00288042.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -4015,7 +4036,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/20144812/pralni-prasek-lily-gaia-2-kg",
    "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px16.png",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -4173,7 +4194,7 @@
    "kind": "akcija",
    "url": "https://mercatoronline.si/izdelek/20141820/toaletni-papir-daisy-3-slojni-10-1",
    "img": "https://mercatoronline.si/img/cache/products/5914/product_small_image/00746664.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -4198,7 +4219,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/20161302/toaletni-papir-pure-amp-strong-violeta-3-slojni-24-1",
    "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px25.png",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -4302,7 +4323,7 @@
    "kind": "akcija",
    "url": "https://mercatoronline.si/izdelek/20141842/papirnate-brisace-classic-natur-3-slojne-4-1",
    "img": "https://mercatoronline.si/img/cache/products/7268/product_small_image/00746970.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -4436,7 +4457,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/16855933/tekoce-milo-med-in-mleko-daisy-500-ml",
    "img": "https://mercatoronline.si/img/cache/products/5914/product_small_image/00789928.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -4461,7 +4482,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/16855945/tekoce-milo-med-in-kokos-daisy-500-ml",
    "img": "https://mercatoronline.si/img/cache/products/5914/product_small_image/00789929.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -4486,7 +4507,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/17287069/tekoce-milo-almond-amp-shea-butter-olea-500-ml",
    "img": "https://mercatoronline.si/img/cache/products/6296/product_small_image/00545704.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -4511,7 +4532,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/17287080/tekoce-milo-aloe-vera-amp-yoghurt-olea-500-ml",
    "img": "https://mercatoronline.si/img/cache/products/6296/product_small_image/00545705.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -4536,7 +4557,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/17287102/tekoce-milo-coco-amp-vanilla-olea-500-ml",
    "img": "https://mercatoronline.si/img/cache/products/6296/product_small_image/00545711.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -4727,7 +4748,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/19902345/vrecka-za-smeti-dax-45-l-20-1",
    "img": "https://mercatoronline.si/img/cache/products/7190/product_small_image/00830082.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -4828,7 +4849,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/1270887/papir-za-peko-v-listih-alufix-38-x-42-cm-20-kosov",
    "img": "https://mercatoronline.si/img/cache/products/4337/product_small_image/00745529.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -4853,7 +4874,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/50879/papir-za-peko-alufix-8-m",
    "img": "https://mercatoronline.si/img/cache/products/4337/product_small_image/00008365.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -4877,7 +4898,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/19362360/baterijski-vlozki-optimum-duracell-aa-4-1",
    "img": "https://mercatoronline.si/img/cache/products/4509/product_small_image/00411300.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -4902,7 +4923,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/tekoce-milo-mandelj-in-vanilija-silky-touch-1l-409308",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/409308/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -4927,7 +4948,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/tekoce-milo-mosus-in-gozdni-sadezi-silky-touch-1l-377454",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/377454/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -4952,7 +4973,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/kremno-tekoce-milo-z-mlekom-in-medom-beauty-kiss-500ml-564641",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/564641/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -4977,7 +4998,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/tekoce-milo-silky-touch-500ml-409304",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/409304/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5002,7 +5023,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/kakav-nesquik-400g-309660",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/309660/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5055,7 +5076,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/brownies-gourmet-karim-atelier-mlinotest-180g-650585",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/650585/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5080,7 +5101,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/pralni-prasek-super-blue-freshnees-spar-80pranj-52kg-592162",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/592162/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5105,7 +5126,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/pralni-prasek-super-green-freshnees-spar-80pranj-52kg-592153",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/592153/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5130,7 +5151,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/pralni-prasek-super-sivka-in-mandelj-spar-80pranj-52kg-592156",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/592156/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5155,7 +5176,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/zobna-pasta-triple-action-colgate-125ml-636942",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/636942/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5207,7 +5228,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/zobna-pasta-fluoride-sensodyne-2x75ml-642474",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/642474/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5234,7 +5255,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/zobna-pasta-extra-whitening-sensodyne-2x75ml-671611",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/671611/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5284,7 +5305,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/jodirana-morska-sol-fina-droga-500g-78671",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/78671/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5309,7 +5330,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/tuna-v-naravnem-soku-s-budget-3x80g-670291",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/670291/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5334,7 +5355,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/gel-za-pranje-perila-universal-s-budget-5l-681161",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/681161/mb_sub.jpg",
-   "checkedAt": "2026-11-18T06:33:24.818Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5359,7 +5380,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/tablete-za-ciscenje-pomivalnega-stroja-lemon-splendid-31-597985",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/597985/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5384,7 +5405,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/cistilo-za-lesene-povrsine-sweet-almond-splendid-15l-516922",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/516922/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5409,7 +5430,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/univerzalno-cistilo-z-razprsilko-s-budget-750ml-664870",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/664870/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5434,7 +5455,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/univerzalno-cistilo-red-flower-splendid-15-l-516939",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/516939/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5459,7 +5480,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/univerzalno-cistilo-ocean-fresh-splendid-15l-516927",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/516927/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5484,7 +5505,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/univerzalno-cistilo-blue-lagoon-splendid-15l-516929",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/516929/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5509,7 +5530,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/toaletni-papir-3-slojni-vonj-kamilice-s-budget-150-list-101-640334",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/640334/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5534,7 +5555,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/toaletni-papir-2-slojni-s-budget-180-list-81-640064",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/640064/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5559,7 +5580,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/toaletni-papir-3-slojni-soft-touch-lovely-121-678899",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/678899/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5637,7 +5658,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/papirnate-brisace-3-slojne-lovely-41-404060",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/404060/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5662,7 +5683,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/papirnate-brisace-3-slojne-lovely-31-679251",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/679251/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5689,7 +5710,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/kuhinjske-brisace-3-slojne-6x50-listicev-paloma-multi-fun-61-433189",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/433189/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5714,7 +5735,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/papirnate-brisace-bele-2-slojne-lovely-90-listicev-21-407833",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/407833/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5767,7 +5788,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/sampon-kopriva-cvet-ilirija-1l-320382",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/320382/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5792,7 +5813,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/sampon-kopriva-cvet-ilirija-500ml-320381",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/320381/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5873,7 +5894,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/sampon-za-lase-kopriva-ilirija-230ml-110413",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/110413/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5900,7 +5921,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/gel-za-prhanje-sport-fa-400ml-xxl-331092",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/331092/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -5953,7 +5974,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/gel-za-prhanje-ph-55-isana-250ml-643516",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/643516/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6006,7 +6027,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/gel-za-prhanje-coconut-milk-fa-750ml-681437",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/681437/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6158,7 +6179,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/alu-folija-20m-s-budget-11-605106",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/605106/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6186,7 +6207,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/alu-folija-za-zivila-alufix-30x030m-164626",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/164626/mb_sub.jpg",
-   "checkedAt": "2026-11-22T05:53:27.684Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6211,7 +6232,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/folija-za-zivila-30m-spar-11-605112",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/605112/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6235,7 +6256,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/folija-za-zivila-45x29cm-perforirana-spar-501-605114",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/605114/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6263,7 +6284,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/baterije-aa-philips-power-alkaline-201-654875",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/654875/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6291,7 +6312,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/baterije-aa-longlife-varta-61-350576",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/350576/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6316,7 +6337,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/baterije-aa-varta-41-337415",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/337415/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6341,7 +6362,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/baterije-llx-aa-varta-21-352961",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/352961/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6366,7 +6387,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/baterije-aa-high-energy-varta-41-239994",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/239994/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6527,7 +6548,7 @@
    "price": 3.69,
    "kind": "redna",
    "url": "https://www.tus.si/izdelki/sampon-cvet-zeleno-jabolko-1-l/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6545,10 +6566,10 @@
    "amount": 1,
    "unit": "l",
    "pack": "1 l",
-   "price": 3.79,
-   "kind": "akcija",
+   "price": 4.19,
+   "kind": "redna",
    "url": "https://www.tus.si/izdelki/sampon-cvet-kopriva-za-mastne-lase-1-l/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6559,10 +6580,12 @@
     {
      "d": "2026-11-23",
      "p": 3.79
+    },
+    {
+     "d": "2026-11-24",
+     "p": 4.19
     }
-   ],
-   "regularPrice": 4.19,
-   "promoPrice": 3.79
+   ]
   },
   {
    "store": "Tuš",
@@ -6575,7 +6598,7 @@
    "price": 4.19,
    "kind": "redna",
    "url": "https://www.tus.si/izdelki/sampon-cvet-breza-1-l/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6647,10 +6670,10 @@
    "amount": 70,
    "unit": "g",
    "pack": "70 g",
-   "price": 1.75,
-   "kind": "akcija",
+   "price": 1.99,
+   "kind": "redna",
    "url": "https://www.tus.si/izdelki/kakav-za-kolace-70-g/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6669,10 +6692,12 @@
     {
      "d": "2026-11-23",
      "p": 1.75
+    },
+    {
+     "d": "2026-11-24",
+     "p": 1.99
     }
-   ],
-   "regularPrice": 1.99,
-   "promoPrice": 1.75
+   ]
   },
   {
    "store": "Tuš",
@@ -6687,7 +6712,7 @@
    "promoPrice": 2.99,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/alu-folija-alufix-20m-30cm/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6708,7 +6733,7 @@
    "price": 3.59,
    "kind": "redna",
    "url": "https://www.tus.si/izdelki/aluminijasta-folija-vigo-premium-v-roli-20-m-x-29-cm/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6837,7 +6862,7 @@
    "price": 12.99,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/pralni-prasek-weisser-riese-universal-pwd-45-pranj-225-kg/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6868,7 +6893,7 @@
    "price": 2.99,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/vrecke-za-smeti-vigo-odisavljene-100-reciklirane-zelo-mocne-s-trakom-35-l-15-1/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6903,7 +6928,7 @@
    "price": 2.79,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/vrecke-za-smeti-vigo-100-reciklirane-odisavljene-zelo-mocne-s-trakom-60-l-10-1/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6939,10 +6964,10 @@
    "amount": 10,
    "unit": "kos",
    "pack": "10 kos",
-   "price": 3.29,
-   "kind": "redna",
+   "price": 2.79,
+   "kind": "akcija",
    "url": "https://www.tus.si/izdelki/vrecke-bio-za-smeti-vigo-35-l-10-1/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6957,8 +6982,14 @@
     {
      "d": "2026-11-21",
      "p": 3.29
+    },
+    {
+     "d": "2026-11-24",
+     "p": 2.79
     }
-   ]
+   ],
+   "regularPrice": 3.29,
+   "promoPrice": 2.79
   },
   {
    "store": "Tuš",
@@ -6968,10 +6999,10 @@
    "amount": 75,
    "unit": "ml",
    "pack": "75 ml",
-   "price": 3.59,
-   "kind": "redna",
+   "price": 2.89,
+   "kind": "akcija",
    "url": "https://www.tus.si/izdelki/zobna-pasta-oral-b-complete-extra-white-75-ml/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -6990,8 +7021,14 @@
     {
      "d": "2026-11-22",
      "p": 3.59
+    },
+    {
+     "d": "2026-11-24",
+     "p": 2.89
     }
-   ]
+   ],
+   "regularPrice": 3.59,
+   "promoPrice": 2.89
   },
   {
    "store": "Tuš",
@@ -7004,7 +7041,7 @@
    "price": 3.59,
    "kind": "redna",
    "url": "https://www.tus.si/izdelki/zobna-pasta-oral-b-complete-ultimate-fresh-75-ml/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -7104,7 +7141,7 @@
    "promoPrice": 2.99,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/toaletni-papir-paloma-limited-print-3sl-12-1/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -7122,10 +7159,10 @@
    "amount": 16,
    "unit": "kos",
    "pack": "16 kos",
-   "price": 5.79,
-   "kind": "akcija",
+   "price": 9.69,
+   "kind": "redna",
    "url": "https://www.tus.si/izdelki/toaletni-papir-paloma-comfort-3sl-16-1/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -7148,10 +7185,12 @@
     {
      "d": "2026-11-21",
      "p": 5.79
+    },
+    {
+     "d": "2026-11-24",
+     "p": 9.69
     }
-   ],
-   "regularPrice": 9.69,
-   "promoPrice": 5.79
+   ]
   },
   {
    "store": "Tuš",
@@ -7161,10 +7200,10 @@
    "amount": 10,
    "unit": "kos",
    "pack": "10 kos",
-   "price": 4.49,
-   "kind": "redna",
+   "price": 2.19,
+   "kind": "akcija",
    "url": "https://www.tus.si/izdelki/toaletni-papir-paloma-classic-3sl-10-1/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -7187,8 +7226,14 @@
     {
      "d": "2026-11-22",
      "p": 4.49
+    },
+    {
+     "d": "2026-11-24",
+     "p": 2.19
     }
-   ]
+   ],
+   "regularPrice": 4.49,
+   "promoPrice": 2.19
   },
   {
    "store": "Tuš",
@@ -7198,10 +7243,10 @@
    "amount": 10,
    "unit": "kos",
    "pack": "10 kos",
-   "price": 6.75,
-   "kind": "akcija",
+   "price": 7.97,
+   "kind": "redna",
    "url": "https://www.tus.si/izdelki/toaletni-papir-deluxe-sensitiv-silk-4-sl-10-1/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -7216,10 +7261,12 @@
     {
      "d": "2026-11-22",
      "p": 6.75
+    },
+    {
+     "d": "2026-11-24",
+     "p": 7.97
     }
-   ],
-   "regularPrice": 7.97,
-   "promoPrice": 6.75
+   ]
   },
   {
    "store": "Tuš",
@@ -7255,7 +7302,7 @@
    "promoPrice": 1.39,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/folija-za-zivila-tus-29-cm-40-m/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -7273,10 +7320,10 @@
    "amount": 30,
    "unit": "m",
    "pack": "30 m",
-   "price": 1.69,
-   "kind": "redna",
+   "price": 1.44,
+   "kind": "akcija",
    "url": "https://www.tus.si/izdelki/folija-za-zivila-vigo-premium-v-skatli-z-rezilom-30-m-x-29-cm/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -7303,8 +7350,14 @@
     {
      "d": "2026-11-22",
      "p": 1.69
+    },
+    {
+     "d": "2026-11-24",
+     "p": 1.44
     }
-   ]
+   ],
+   "regularPrice": 1.69,
+   "promoPrice": 1.44
   },
   {
    "store": "Tuš",
@@ -7340,7 +7393,7 @@
    "price": 1.09,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/alpsko-mleko-pol-posneto-1-5-m-m-1-l/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -7373,7 +7426,7 @@
    "promoPrice": 6.99,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/meso-mleto-z-dezele-mesano-900-g-2/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -7400,7 +7453,7 @@
    "validFrom": "2026-11-19",
    "validTo": "2026-11-25",
    "url": "https://www.eurospin.si/akcije/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-17",
    "h": [
@@ -7424,7 +7477,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/17607242/sampon-za-lase-in-telo-afrodita-argan-1-l",
    "img": "https://mercatoronline.si/img/cache/products/4537/product_small_image/00116162.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -7563,7 +7616,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/kakav-nesquik-490-g-515378",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/515378/mb_sub.jpg",
-   "checkedAt": "2026-11-22T05:53:27.684Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -7591,7 +7644,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/alpsko-mleko-15-mm-pol-posneto-1l-96174",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/96174/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -7644,7 +7697,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/zobna-pasta-cavity-protection-colgate-75ml-642169",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/642169/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -7669,7 +7722,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/zobna-pasta-triple-action-colgate-75ml-635693",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/635693/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -7697,7 +7750,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/tunina-v-lastnem-soku-despar-3x80g-452009",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/452009/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -7725,7 +7778,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/toaletni-papir-3-slojni-premium-violeta-161-473589",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/473589/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -7753,7 +7806,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/toaletni-papir-3-slojni-lavender-premium-violeta-161-424122",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/424122/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -7781,7 +7834,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/kuhinjske-brisace-3-slojne-love-print-teta-violeta-31-537366",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/537366/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -7806,7 +7859,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/sampon-za-lase-breza-ilirija-230ml-17758",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/17758/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -7831,7 +7884,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/sampon-za-lase-cesen-ilirija-230ml-579943",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/579943/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -7859,7 +7912,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/gel-za-prhanje-divine-moments-fa-400ml-584000",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/584000/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -7887,7 +7940,7 @@
    "kind": "akcija",
    "url": "https://online.spar.si/p/gel-za-prhanje-blueberry-yogurt-fa-400ml-681438",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/681438/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -7912,7 +7965,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/alu-folija-power-15m-spar-605103",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/605103/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -7934,7 +7987,7 @@
    "price": 3.09,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/sampon-subrina-repaircare-300-ml/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -7967,7 +8020,7 @@
    "promoPrice": 3.09,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/sampon-subrina-colorcare-2v1-300-ml/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -7990,7 +8043,7 @@
    "promoPrice": 1.99,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/gel-za-prhanje-fa-kids-pirate-250ml/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -8008,18 +8061,20 @@
    "amount": 675,
    "unit": "ml",
    "pack": "675 ml",
-   "price": 6.69,
-   "regularPrice": 7.49,
-   "promoPrice": 6.69,
-   "kind": "akcija",
+   "price": 7.49,
+   "kind": "redna",
    "url": "https://www.tus.si/izdelki/gel-za-prhanje-old-spice-whitewater-675-ml/",
-   "checkedAt": "2026-11-20T06:59:38.635Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
     {
      "d": "2026-11-18",
      "p": 6.69
+    },
+    {
+     "d": "2026-11-24",
+     "p": 7.49
     }
    ]
   },
@@ -8034,7 +8089,7 @@
    "price": 6.69,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/gel-za-prhanje-old-spice-captain-675-ml/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -8088,7 +8143,7 @@
    "price": 1.99,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/gel-za-prhanje-fa-watermelon-waves-250-ml/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -8184,7 +8239,7 @@
    "price": 0.99,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/mleko-tus-planinsko-15-m-m-1-l/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -8211,7 +8266,7 @@
    "price": 2.49,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/toaletni-papir-perfex-aloe-vera-3-slojni-10-1/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -8238,7 +8293,7 @@
    "price": 4.99,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/mleto-mesano-meso-anton-480-g/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -8262,10 +8317,10 @@
    "amount": 6,
    "unit": "kos",
    "pack": "6 kos",
-   "price": 4.19,
-   "kind": "akcija",
+   "price": 7.69,
+   "kind": "redna",
    "url": "https://www.tus.si/izdelki/papirnate-brisace-multi-family-3sl-6-1/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -8276,10 +8331,12 @@
     {
      "d": "2026-11-23",
      "p": 4.19
+    },
+    {
+     "d": "2026-11-24",
+     "p": 7.69
     }
-   ],
-   "regularPrice": 7.69,
-   "promoPrice": 4.19
+   ]
   },
   {
    "store": "Tuš",
@@ -8292,7 +8349,7 @@
    "price": 10.99,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/kumare-kamniske-natureta-ozimnica-4-x-1-kg/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -8324,10 +8381,10 @@
    "amount": 10,
    "unit": "kg",
    "pack": "10 kg",
-   "price": 15.99,
-   "kind": "akcija",
+   "price": 31.99,
+   "kind": "redna",
    "url": "https://www.tus.si/izdelki/pralni-prasek-faks-prah-aquamarine-100-pranj-10-kg/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -8338,10 +8395,12 @@
     {
      "d": "2026-11-19",
      "p": 15.99
+    },
+    {
+     "d": "2026-11-24",
+     "p": 31.99
     }
-   ],
-   "regularPrice": 31.99,
-   "promoPrice": 15.99
+   ]
   },
   {
    "store": "Tuš",
@@ -8354,7 +8413,7 @@
    "price": 21.89,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/pralni-prasek-dash-regular-66-pranj-33-kg/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -8382,10 +8441,10 @@
    "amount": 2.97,
    "unit": "kg",
    "pack": "2,97 kg",
-   "price": 19.99,
-   "kind": "akcija",
+   "price": 29.99,
+   "kind": "redna",
    "url": "https://www.tus.si/izdelki/pralni-prasek-persil-powder-expert-freshness-by-silan-box-54-pranj-297-kg/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -8400,10 +8459,12 @@
     {
      "d": "2026-11-22",
      "p": 19.99
+    },
+    {
+     "d": "2026-11-24",
+     "p": 29.99
     }
-   ],
-   "regularPrice": 29.99,
-   "promoPrice": 19.99
+   ]
   },
   {
    "store": "Tuš",
@@ -8416,7 +8477,7 @@
    "price": 14.79,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/pralni-prasek-persil-prah-universal-50-pranj-277-kg/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -8444,7 +8505,7 @@
    "kind": "redna",
    "url": "https://www.hofer.si/izdelek/no-brand-trajno-mleko-brez-zamaska-1-5-000000000000676958",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/png/scaleWidth/400/02a1cb1d-ffc0-43d4-9bfb-28f84979cdab/no-brand-trajno-mleko-brez-zamaska-1-5",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -8470,7 +8531,7 @@
    "kind": "redna",
    "url": "https://www.hofer.si/izdelek/lacura-tekoce-milo-000000000000479002",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/png/scaleWidth/400/78772cee-d750-431b-9af9-1b26a8623a88/lacura-tekoce-milo",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -8524,7 +8585,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/vrecke-za-smeti-35l-s-trakom-spar-301-594634",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/594634/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "low",
    "fs": "2026-11-18",
    "h": [
@@ -8549,7 +8610,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/vrecke-za-smeti-45l-s-trakom-spar-201-594635",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/594635/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "low",
    "fs": "2026-11-18",
    "h": [
@@ -8574,7 +8635,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/disece-vrecke-za-smeti-30l-s-trakom-spar-201-594643",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/594643/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "low",
    "fs": "2026-11-18",
    "h": [
@@ -8599,7 +8660,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/eko-vrecke-za-smeti-20l-s-trakom-spar-251-594648",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/594648/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "low",
    "fs": "2026-11-18",
    "h": [
@@ -8624,7 +8685,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/eko-vrecke-za-smeti-35l-s-trakom-spar-201-594652",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/594652/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "low",
    "fs": "2026-11-18",
    "h": [
@@ -8680,7 +8741,7 @@
    "validTo": "2026-11-28",
    "url": "https://www.lidl.si/p/nase-nam-pase-piscancje-mleto-meso/p11258154",
    "img": "https://www.lidl.si/assets/gcp2aaee774165d433296fa185a3ee10e01.png",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -8706,7 +8767,7 @@
    "validTo": "2026-11-25",
    "url": "https://www.lidl.si/p/formil-univerzalni-pralni-prasek/p11330677",
    "img": "https://www.lidl.si/assets/gcp88b7aecde48f47b0a46547ede98cd274.png",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-18",
    "h": [
@@ -8733,7 +8794,7 @@
    "kind": "akcija",
    "url": "https://mercatoronline.si/izdelek/15948175/mleto-piscancje-meso-pivka-pakirano-400-g-ik",
    "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px24.png",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-19",
    "h": [
@@ -8783,7 +8844,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/5322751/sampon-za-lase-kopriva-amp-panteol-afrodita-1-l",
    "img": "https://mercatoronline.si/img/cache/products/4537/product_small_image/00288043.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-19",
    "h": [
@@ -8808,7 +8869,7 @@
    "kind": "redna",
    "url": "https://mercatoronline.si/izdelek/24511/fina-jodirana-morska-paska-sol-solana-pag-zop-1-kg",
    "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px20.png",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-19",
    "h": [
@@ -8833,7 +8894,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/wrap-losos-in-mango-kari-sushi-4you-210g-21-684708",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/684708/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-19",
    "h": [
@@ -8858,7 +8919,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/jodirana-morska-sol-fina-droga-1kg-42175",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/42175/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-19",
    "h": [
@@ -8883,7 +8944,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/kuhinjska-morska-sol-jodirana-fina-solana-pag-1kg-42176",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/42176/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-19",
    "h": [
@@ -8908,7 +8969,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/gel-za-pranje-perila-color-s-budget-5l-681162",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/681162/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-19",
    "h": [
@@ -9117,7 +9178,7 @@
    "promoPrice": 4.89,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/zobna-pasta-parodontax-active-repair-75-ml/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-19",
    "h": [
@@ -9335,7 +9396,7 @@
    "kind": "redna",
    "url": "https://online.spar.si/p/gel-za-pranje-perila-super-universal-spar-40pranj-3l-632918",
    "img": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/si/632918/mb_sub.jpg",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-21",
    "h": [
@@ -9407,7 +9468,7 @@
    "promoPrice": 1.99,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/gel-za-prhanje-fa-men-extreme-cool-250ml/",
-   "checkedAt": "2026-11-22T05:53:27.684Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-21",
    "h": [
@@ -9430,7 +9491,7 @@
    "promoPrice": 4.89,
    "kind": "akcija",
    "url": "https://www.tus.si/izdelki/zobna-pasta-parodontax-cp-extra-fresh-75-ml/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-21",
    "h": [
@@ -9457,7 +9518,7 @@
    "validTo": "2026-12-02",
    "url": "https://www.lidl.si/p/bio-banane/p11150996",
    "img": "https://www.lidl.si/assets/gcp7616ef56e9a046158a9c1d20287bd64c.png",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-23",
    "h": [
@@ -9485,7 +9546,7 @@
    "validTo": "2026-11-28",
    "url": "https://www.lidl.si/p/bucke/p11151073",
    "img": "https://www.lidl.si/assets/gcp8d3c9c87531b446eb2825f910e8af365.png",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-23",
    "h": [
@@ -9513,7 +9574,7 @@
    "validTo": "2026-12-02",
    "url": "https://www.lidl.si/p/nase-nam-pase-goveje-mleto-meso/p11257355",
    "img": "https://www.lidl.si/assets/gcp9ca7802565f04af89138ca562092f3ce.png",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-23",
    "h": [
@@ -9562,7 +9623,7 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "url": "https://www.eurospin.si/akcije/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-23",
    "h": [
@@ -9588,7 +9649,7 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "url": "https://www.eurospin.si/akcije/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-23",
    "h": [
@@ -9613,13 +9674,1022 @@
    "validFrom": "2026-11-26",
    "validTo": "2026-12-02",
    "url": "https://www.eurospin.si/akcije/",
-   "checkedAt": "2026-11-23T06:34:10.369Z",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
    "matchConfidence": "medium",
    "fs": "2026-11-23",
    "h": [
     {
      "d": "2026-11-23",
      "p": 4.99
+    }
+   ]
+  },
+  {
+   "store": "Hofer",
+   "food": "Ovseni kosmiči",
+   "sku": "000000000000638219",
+   "brand": "GOLDEN BRIDGE",
+   "name": "Ovseni kosmiči XXL",
+   "amount": 1,
+   "unit": "kg",
+   "pack": "1 kg",
+   "price": 1.37,
+   "kind": "redna",
+   "url": "https://www.hofer.si/izdelek/golden-bridge-ovseni-kosmici-xxl-000000000000638219",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/1a838264-041f-41ed-a3ab-1aafdc215e8c/golden-bridge-ovseni-kosmici-xxl",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 1.37
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Goveje mleto meso",
+   "sku": "17935185",
+   "name": "Mlado goveje mleto meso, Mercator, pakirano, 420 g",
+   "amount": 420,
+   "unit": "g",
+   "pack": "420 g",
+   "price": 4.49,
+   "unitText": "€/",
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/17935185/mlado-goveje-mleto-meso-mercator-pakirano-420-g",
+   "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00370269.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 4.49
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Kakav",
+   "sku": "14065780",
+   "name": "Kakav v prahu Expres, Kraš, 330g",
+   "amount": 330,
+   "unit": "g",
+   "pack": "330 g",
+   "price": 2.39,
+   "regularPrice": 4.79,
+   "promoPrice": 2.39,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/14065780/kakav-v-prahu-expres-kras-330g",
+   "img": "https://mercatoronline.si/img/cache/products/5067/product_small_image/00829100.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 2.39
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Kakav",
+   "sku": "5306142",
+   "name": "Kakav, Benquick, 500 g",
+   "amount": 500,
+   "unit": "g",
+   "pack": "500 g",
+   "price": 4.89,
+   "unitText": "€/",
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/5306142/kakav-benquick-500-g",
+   "img": "https://mercatoronline.si/img/cache/products/4792/product_small_image/00154448.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 4.89
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Ovseni kosmiči",
+   "sku": "17661066",
+   "name": "Ovseni kosmiči Mlinarjev sin, Mlin Rotar, 1 kg",
+   "amount": 1,
+   "unit": "kg",
+   "pack": "1 kg",
+   "price": 2.09,
+   "unitText": "€/",
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/17661066/ovseni-kosmici-mlinarjev-sin-mlin-rotar-1-kg",
+   "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px7.png",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 2.09
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Ovseni kosmiči",
+   "sku": "19907183",
+   "name": "Ovseni kosmiči, O'Plant, 500 g",
+   "amount": 500,
+   "unit": "g",
+   "pack": "500 g",
+   "price": 1.25,
+   "regularPrice": 2.49,
+   "promoPrice": 1.25,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/19907183/ovseni-kosmici-o-plant-500-g",
+   "img": "https://mercatoronline.si/img/cache/products/10574/product_small_image/00856355.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 1.25
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Ovseni kosmiči",
+   "sku": "19907238",
+   "name": "Ovseni kosmiči, rahli, O'Plant, 500 g",
+   "amount": 500,
+   "unit": "g",
+   "pack": "500 g",
+   "price": 1.25,
+   "regularPrice": 2.49,
+   "promoPrice": 1.25,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/19907238/ovseni-kosmici-rahli-o-plant-500-g",
+   "img": "https://mercatoronline.si/img/cache/products/10574/product_small_image/00856360.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 1.25
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Zamrznjena zelenjava z brokolijem",
+   "sku": "19641614",
+   "name": "Brokoli, Ledo, zamrznjen, 400 g",
+   "amount": 400,
+   "unit": "g",
+   "pack": "400 g",
+   "price": 1.6,
+   "regularPrice": 3.19,
+   "promoPrice": 1.6,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/19641614/brokoli-ledo-zamrznjen-400-g",
+   "img": "https://mercatoronline.si/img/cache/products/5842/product_small_image/00094047.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 1.6
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Mleko 1,5 %",
+   "sku": "14607105",
+   "name": "Trajno pol posneto Alpsko mleko z vitamini in minerali, 1,5 % m.m., Ljubljanske mlekarne, 1 l",
+   "amount": 1,
+   "unit": "l",
+   "pack": "1 l",
+   "price": 1.59,
+   "unitText": "€/",
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/14607105/trajno-pol-posneto-alpsko-mleko-z-vitamini-in-minerali-1-5-m-m-ljubljanske-mlekarne-1-l",
+   "img": "https://mercatoronline.si/img/cache/products/4941/product_small_image/00405560.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 1.59
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Bučke",
+   "sku": "18169257",
+   "name": "Bio bučke, Bio Zone, pakirano, 500 g",
+   "amount": 500,
+   "unit": "g",
+   "pack": "500 g",
+   "price": 2.99,
+   "unitText": "€/",
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/18169257/bio-bucke-bio-zone-pakirano-500-g",
+   "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px23.png",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 2.99
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Maline",
+   "sku": "19594356",
+   "name": "Maline, Garden Good, zamrznjeno, 400 g",
+   "amount": 400,
+   "unit": "g",
+   "pack": "400 g",
+   "price": 3.19,
+   "unitText": "€/",
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/19594356/maline-garden-good-zamrznjeno-400-g",
+   "img": "https://mercatoronline.si/img/cache/products/10000/product_small_image/00033235.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 3.19
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Tuna v lastnem soku (odcejena masa)",
+   "sku": "5066536",
+   "name": "Tunina z zelenjavo v lastnem soku, Eva, 115 g",
+   "amount": 115,
+   "unit": "g",
+   "pack": "115 g",
+   "price": 0.99,
+   "regularPrice": 3.29,
+   "promoPrice": 0.99,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/5066536/tunina-z-zelenjavo-v-lastnem-soku-eva-115-g",
+   "img": "https://mercatoronline.si/img/cache/products/4719/product_small_image/00003101.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 0.99
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Tuna v lastnem soku (odcejena masa)",
+   "sku": "16806534",
+   "name": "Tuna v lastnem soku, Mercator, 3x80 g + 1 gratis",
+   "amount": 240,
+   "unit": "g",
+   "pack": "3 × 80 g",
+   "price": 3.19,
+   "unitText": "€/",
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/16806534/tuna-v-lastnem-soku-mercator-3x80-g-1-gratis",
+   "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00750530.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 3.19
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Tuna v lastnem soku (odcejena masa)",
+   "sku": "16806498",
+   "name": "Tuna v lastnem soku, Mercator, 80 g",
+   "amount": 80,
+   "unit": "g",
+   "pack": "80 g",
+   "price": 1.19,
+   "unitText": "€/",
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/16806498/tuna-v-lastnem-soku-mercator-80-g",
+   "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00750527.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 1.19
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Jajca",
+   "sku": "19565697",
+   "name": "Jajca mladih kokoši, Mercator, 15/1",
+   "amount": 15,
+   "unit": "kos",
+   "pack": "15 kos",
+   "price": 2.99,
+   "unitText": "€/",
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/19565697/jajca-mladih-kokosi-mercator-15-1",
+   "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00844641.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 2.99
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Jajca",
+   "sku": "18973010",
+   "name": "Jajca mladih kokoši, hlevska reja, Mercator, 15/1",
+   "amount": 15,
+   "unit": "kos",
+   "pack": "15 kos",
+   "price": 2.99,
+   "unitText": "€/",
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/18973010/jajca-mladih-kokosi-hlevska-reja-mercator-15-1",
+   "img": "https://mercatoronline.si/img/cache/products/4169/product_small_image/00611044.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 2.99
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Jajca",
+   "sku": "17308737",
+   "name": "Jajca M, Bio Zone, 6/1",
+   "amount": 6,
+   "unit": "kos",
+   "pack": "6 kos",
+   "price": 1.25,
+   "regularPrice": 2.49,
+   "promoPrice": 1.25,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/17308737/jajca-m-bio-zone-6-1",
+   "img": "https://mercatoronline.si/img/cache//markers/discount_marker_small/oznacevalec_80x_px23.png",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 1.25
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Univerzalno čistilo",
+   "sku": "18470295",
+   "name": "Eko univerzalno čistilo, zeleno jabolko, Nana, 735 ml",
+   "amount": 735,
+   "unit": "ml",
+   "pack": "735 ml",
+   "price": 1.23,
+   "regularPrice": 4.09,
+   "promoPrice": 1.23,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/18470295/eko-univerzalno-cistilo-zeleno-jabolko-nana-735-ml",
+   "img": "https://mercatoronline.si/img/cache/products/9347/product_small_image/00873028.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 1.23
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Univerzalno čistilo",
+   "sku": "19728211",
+   "name": "Univerzalno čistilo, Dual Water Lily Vanilla, Ajax, 1 l",
+   "amount": 1,
+   "unit": "l",
+   "pack": "1 l",
+   "price": 1.75,
+   "regularPrice": 3.49,
+   "promoPrice": 1.75,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/19728211/univerzalno-cistilo-dual-water-lily-vanilla-ajax-1-l",
+   "img": "https://mercatoronline.si/img/cache/products/4336/product_small_image/00270642.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 1.75
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Univerzalno čistilo",
+   "sku": "16153795",
+   "name": "Univerzalno čistilo Authentic mandelj, Ajax, 1 l",
+   "amount": 1,
+   "unit": "l",
+   "pack": "1 l",
+   "price": 2.1,
+   "regularPrice": 4.19,
+   "promoPrice": 2.1,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/16153795/univerzalno-cistilo-authentic-mandelj-ajax-1-l",
+   "img": "https://mercatoronline.si/img/cache/products/4336/product_small_image/00712264.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 2.1
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Univerzalno čistilo",
+   "sku": "18822474",
+   "name": "Univerzalno čistilo Hibiskus, Ajax, 1 l",
+   "amount": 1,
+   "unit": "l",
+   "pack": "1 l",
+   "price": 2.1,
+   "regularPrice": 4.19,
+   "promoPrice": 2.1,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/18822474/univerzalno-cistilo-hibiskus-ajax-1-l",
+   "img": "https://mercatoronline.si/img/cache/products/4336/product_small_image/00390827.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 2.1
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Univerzalno čistilo",
+   "sku": "19124793",
+   "name": "Univerzalno čistilo Gardenia & Coconut, Ajax, 1 l",
+   "amount": 1,
+   "unit": "l",
+   "pack": "1 l",
+   "price": 2.1,
+   "regularPrice": 4.19,
+   "promoPrice": 2.1,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/19124793/univerzalno-cistilo-gardenia-coconut-ajax-1-l",
+   "img": "https://mercatoronline.si/img/cache/products/4336/product_small_image/00767253.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 2.1
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Toaletni papir",
+   "sku": "19404285",
+   "name": "Toaletni papir, breskev, Perfex, 3-slojni, 16/1",
+   "amount": 16,
+   "unit": "kos",
+   "pack": "16 kos",
+   "price": 2.04,
+   "regularPrice": 6.79,
+   "promoPrice": 2.04,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/19404285/toaletni-papir-breskev-perfex-3-slojni-16-1",
+   "img": "https://mercatoronline.si/img/cache/products/10392/product_small_image/00512136.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 2.04
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Toaletni papir",
+   "sku": "19404263",
+   "name": "Toaletni papir, kamilica, Perfex, 3-slojni, 10/1",
+   "amount": 10,
+   "unit": "kos",
+   "pack": "10 kos",
+   "price": 1.38,
+   "regularPrice": 4.59,
+   "promoPrice": 1.38,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/19404263/toaletni-papir-kamilica-perfex-3-slojni-10-1",
+   "img": "https://mercatoronline.si/img/cache/products/10392/product_small_image/00512109.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 1.38
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Toaletni papir",
+   "sku": "928835",
+   "name": "Toaletni papir Jasmin, 3-slojni, Zewa, 10 rolic",
+   "amount": 10,
+   "unit": "kos",
+   "pack": "10 kos",
+   "price": 2.01,
+   "regularPrice": 6.69,
+   "promoPrice": 2.01,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/928835/toaletni-papir-jasmin-3-slojni-zewa-10-rolic",
+   "img": "https://mercatoronline.si/img/cache/products/4602/product_small_image/00534978.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 2.01
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Papirnate brisače",
+   "sku": "20141831",
+   "name": "Papirnate brisače, Daisy, 2-slojne, 4/1",
+   "amount": 4,
+   "unit": "kos",
+   "pack": "4 kos",
+   "price": 1.49,
+   "unitPrice": 0.37,
+   "unitText": "0,37 €/ kos",
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/20141831/papirnate-brisace-daisy-2-slojne-4-1",
+   "img": "https://mercatoronline.si/img/cache/products/5914/product_small_image/00746949.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 1.49
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Papirnate brisače",
+   "sku": "17137375",
+   "name": "Papirnate brisače, Daisy, 2-slojne, 2/1",
+   "amount": 2,
+   "unit": "kos",
+   "pack": "2 kos",
+   "price": 0.89,
+   "unitText": "€/",
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/17137375/papirnate-brisace-daisy-2-slojne-2-1",
+   "img": "https://mercatoronline.si/img/cache/products/5914/product_small_image/00380181.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 0.89
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Papirnate brisače",
+   "sku": "20008752",
+   "name": "Papirnate brisače, 2 slojne, Daisy, 50 listov, 2/1",
+   "amount": 2,
+   "unit": "kos",
+   "pack": "2 kos",
+   "price": 0.89,
+   "unitText": "€/",
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/20008752/papirnate-brisace-2-slojne-daisy-50-listov-2-1",
+   "img": "https://mercatoronline.si/img/cache/products/5914/product_small_image/00207640.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 0.89
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Papirnate brisače",
+   "sku": "20186206",
+   "name": "Papirnate brisače Classic, Natur, 3-slojni, 6/1",
+   "amount": 6,
+   "unit": "kos",
+   "pack": "6 kos",
+   "price": 2.89,
+   "unitText": "€/",
+   "kind": "redna",
+   "url": "https://mercatoronline.si/izdelek/20186206/papirnate-brisace-classic-natur-3-slojni-6-1",
+   "img": "https://mercatoronline.si/img/cache/products/7268/product_small_image/00056430.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 2.89
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Zobna pasta",
+   "sku": "17163492",
+   "name": "Otroška zobna pasta Vademecum Junior Spearmint, 75 ml",
+   "amount": 75,
+   "unit": "ml",
+   "pack": "75 ml",
+   "price": 0.99,
+   "regularPrice": 3.29,
+   "promoPrice": 0.99,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/17163492/otroska-zobna-pasta-vademecum-junior-spearmint-75-ml",
+   "img": "https://mercatoronline.si/img/cache/products/4888/product_small_image/00401248.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 0.99
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Zobna pasta",
+   "sku": "19985375",
+   "name": "Zobna pasta Triple Action, Colgate, 50 ml",
+   "amount": 50,
+   "unit": "ml",
+   "pack": "50 ml",
+   "price": 0.69,
+   "regularPrice": 1.99,
+   "promoPrice": 0.69,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/19985375/zobna-pasta-triple-action-colgate-50-ml",
+   "img": "https://mercatoronline.si/img/cache/products/4377/product_small_image/00139792.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 0.69
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Zobna pasta",
+   "sku": "19308212",
+   "name": "Zobna pasta Naturals Herbal fresh, Aquafresh, 75 ml",
+   "amount": 75,
+   "unit": "ml",
+   "pack": "75 ml",
+   "price": 1.11,
+   "regularPrice": 3.69,
+   "promoPrice": 1.11,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/19308212/zobna-pasta-naturals-herbal-fresh-aquafresh-75-ml",
+   "img": "https://mercatoronline.si/img/cache/products/4340/product_small_image/00289457.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 1.11
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Zobna pasta",
+   "sku": "5076258",
+   "name": "Otroška zobna pasta Signal Mini, 50 ml",
+   "amount": 50,
+   "unit": "ml",
+   "pack": "50 ml",
+   "price": 0.75,
+   "regularPrice": 2.49,
+   "promoPrice": 0.75,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/5076258/otroska-zobna-pasta-signal-mini-50-ml",
+   "img": "https://mercatoronline.si/img/cache/products/4557/product_small_image/00115798.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 0.75
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Zobna pasta",
+   "sku": "904399",
+   "name": "Zobna pasta Herbal, Aquafresh, 75 ml",
+   "amount": 75,
+   "unit": "ml",
+   "pack": "75 ml",
+   "price": 1.39,
+   "regularPrice": 2.79,
+   "promoPrice": 1.39,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/904399/zobna-pasta-herbal-aquafresh-75-ml",
+   "img": "https://mercatoronline.si/img/cache/products/4340/product_small_image/00519033.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 1.39
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Vrečke za smeti",
+   "sku": "173751",
+   "name": "Vrečke za smeti, Alufix, 35 l, 25 kosov",
+   "amount": 25,
+   "unit": "kos",
+   "pack": "25 kos",
+   "price": 1.65,
+   "regularPrice": 3.29,
+   "promoPrice": 1.65,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/173751/vrecke-za-smeti-alufix-35-l-25-kosov",
+   "img": "https://mercatoronline.si/img/cache/products/4337/product_small_image/00054186.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 1.65
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Vrečke za smeti",
+   "sku": "18289869",
+   "name": "Vrečke za smeti, Dax, 45 l, 15/1",
+   "amount": 15,
+   "unit": "kos",
+   "pack": "15 kos",
+   "price": 1.53,
+   "regularPrice": 2.19,
+   "promoPrice": 1.53,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/18289869/vrecke-za-smeti-dax-45-l-15-1",
+   "img": "https://mercatoronline.si/img/cache/products/7190/product_small_image/00674317.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 1.53
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Vrečke za smeti",
+   "sku": "18499381",
+   "name": "Dišeče vrečke za smeti, Dax, 40 l, 15/1",
+   "amount": 15,
+   "unit": "kos",
+   "pack": "15 kos",
+   "price": 1.6,
+   "regularPrice": 2.29,
+   "promoPrice": 1.6,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/18499381/disece-vrecke-za-smeti-dax-40-l-15-1",
+   "img": "https://mercatoronline.si/img/cache/products/7190/product_small_image/00027470.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 1.6
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Vrečke za smeti",
+   "sku": "18289858",
+   "name": "Vrečke za smeti, Dax, 70 l, 15/1",
+   "amount": 15,
+   "unit": "kos",
+   "pack": "15 kos",
+   "price": 1.67,
+   "regularPrice": 2.39,
+   "promoPrice": 1.67,
+   "unitText": "€/",
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/18289858/vrecke-za-smeti-dax-70-l-15-1",
+   "img": "https://mercatoronline.si/img/cache/products/7190/product_small_image/00674316.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 1.67
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Mercator",
+   "food": "Baterije AA",
+   "sku": "19990936",
+   "name": "Baterijski vložek Longlife, Varta, AA, 20/1",
+   "amount": 20,
+   "unit": "kos",
+   "pack": "20 kos",
+   "price": 9.99,
+   "regularPrice": 19.99,
+   "promoPrice": 9.99,
+   "unitText": "€/",
+   "lowest30": 9.99,
+   "kind": "akcija",
+   "url": "https://mercatoronline.si/izdelek/19990936/baterijski-vlozek-longlife-varta-aa-20-1",
+   "img": "https://mercatoronline.si/img/cache/products/4512/product_small_image/00160717.jpg",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 9.99
+    }
+   ],
+   "imgSource": "trgovina"
+  },
+  {
+   "store": "Tuš",
+   "food": "Zobna pasta",
+   "sku": "407720",
+   "name": "Zobna pasta Sensodyne, Repair & Protect, 75 ml",
+   "amount": 75,
+   "unit": "ml",
+   "pack": "75 ml",
+   "price": 5.49,
+   "regularPrice": 7.29,
+   "promoPrice": 5.49,
+   "kind": "akcija",
+   "url": "https://www.tus.si/izdelki/zobna-pasta-sensodyne-repair-protect-75-ml/",
+   "checkedAt": "2026-11-24T05:56:59.716Z",
+   "matchConfidence": "medium",
+   "fs": "2026-11-24",
+   "h": [
+    {
+     "d": "2026-11-24",
+     "p": 5.49
     }
    ]
   }
